@@ -34,46 +34,6 @@
   border-radius: 5px;
 }
 
-/* CSS cho danh sách mở/đóng */
-.dropdown-content {
-  display: none; /* Ẩn danh sách mặc định */
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #1126e7;
-  min-width: 200px;
-  z-index: 1;
-  border-radius: 5px;
-}
-
-.dropdown-content li {
-  display: block;
-}
-
-.dropdown-content li a {
-  display: block;
-  padding: 10px;
-  color: #1126e7;
-  text-decoration: none;
-  background-color: #1126e7;
-  transition: background-color 0.3s ease;
-}
-
-.dropdown-content li a:hover {
-  background-color: #1126e7;
-}
-
-/* CSS cho danh sách khi mở */
-.dropdown-content.show {
-  display: list-item; /* Hiển thị danh sách khi có lớp show */
-}
-/* Đặt mặc định cho body */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Arial", sans-serif;
-}
-
 /* Thiết kế cho banner */
 .banner {
   background-image: url("https://static.vecteezy.com/system/resources/previews/006/188/156/non_2x/seamless-pattern-doodle-many-icons-of-books-scattered-background-for-education-elearning-school-concept-pile-of-paper-books-open-book-book-on-computer-screen-ebooks-glasses-heart-vector.jpg"); /* Thay thế bằng URL ảnh của bạn */
@@ -149,4 +109,33 @@ body {
 
 .cta-button:hover {
   background-color: #ff4500;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content:left;
+  align-items: center;
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  display: list-item;
+  margin-right: 10px;
+}
+
+.footer-menu li a {
+  color: white;
+  text-decoration: none;
 }
