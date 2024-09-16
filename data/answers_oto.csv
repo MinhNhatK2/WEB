@@ -1,0 +1,1873 @@
+id_que,content,is_correct
+1,1- Phần mặt đường và lề đường.,false
+1,2- Phần đường xe chạy.,true
+1,3- Phần đường xe cơ giới.,false
+2,"1- Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy.",false
+2,"2- Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn.",true
+2,"3- Là đường cho xe ô tô chạy, dừng, đỗ an toàn.",false
+3,"1- Là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm đường bộ để các xe kể cả hàng hóa xếp trên xe đi qua được an toàn.",true
+3,"2- Là khoảng trống có kích thước giới hạn về chiều rộng của đường, cầu, bến phà, hầm trên đường bộ để các xe kể cả hàng hóa xếp trên xe đi qua được an toàn.",false
+3,"3- Là khoảng trống có kích thước giới hạn về chiều cao của cầu, bến phà, nằm trên đường bộ để các xe đi qua được an toàn.",false
+4,1- Là bộ phận của đường để ngăn cách không cho các loại xe vào những nơi không được phép.,false
+4,2- Là bộ phận của đường để phân tách phần đường xe chạy và hành lang an toàn giao thông.,false
+4,3- Là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ.,true
+5,1- Dải phân cách gồm loại cố định và loại di động.,true
+5,"2- Dải phân cách gồm tường chống ồn, hộ lan cứng và hộ lan mềm.",false
+5,3- Dải phân cách gồm giá long môn và biển báo hiệu đường bộ.,false
+6,1- Là người điều khiển xe cơ giới.,true
+6,2- Là người điều khiển xe thô sơ.,false
+6,3- Là người điều khiển xe có súc vật kéo.,false
+7,1- Đường không ưu tiên.,false
+7,2- Đường tỉnh lộ.,false
+7,3- Đường quốc lộ.,false
+7,4- Đường ưu tiên.,true
+8,1- Gồm xe ô tô; máy kéo; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy; xe cơ giới dùng cho người khuyết tật và xe máy chuyên dùng.,false
+8,"2- Gồm xe ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc được kéo bởi xe ô tô, máy kéo; xe mô tô hai bánh; xe mô tô ba bánh, xe gắn máy (kể cả xe máy điện) và các loại xe tương tự.",true
+9,"1- Gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe xích lô, xe lăn dùng cho người khuyết tật, xe súc vật kéo và các loại xe tương tự.",true
+9,"2- Gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xe gắn máy, xe cơ giới dùng cho người khuyết tật và xe máy chuyên dùng.",false
+9,"3- Gồm xe ô tô, máy kéo, rơ moóc hoặc sơ mi rơ moóc được kéo bởi xe ô tô, máy kéo.",false
+10,1- Phương tiện giao thông cơ giới đường bộ.,false
+10,2- Phương tiện giao thông thô sơ đường bộ và xe máy chuyên dùng.,false
+10,3- Cả ý 1 và ý 2.,true
+11,"1- Người điều khiển, người sử dụng phương tiện tham gia giao thông đường bộ.",false
+11,"2- Người điều khiển, dẫn dắt súc vật; người đi bộ trên đường bộ.",false
+11,3- Cả ý 1 và ý 2.,true
+12,"1- Người điều khiển xe cơ giới, người điều khiển xe thô sơ.",false
+12,2- Người điều khiển xe máy chuyên dùng tham gia giao thông đường bộ.,false
+12,3- Cả ý 1 và ý 2.,true
+13,"1- Là người điều khiển phương tiện tham gia giao thông tại nơi thi công, nơi ùn tắc giao thông, ở bến phà, tại cầu đường bộ đi chung với đường sắt.",false
+13,"2- Là cảnh sát giao thông, người được giao nhiệm vụ hướng dẫn giao thông tại nơi thi công, nơi ùn tắc giao thông, ở bến phà, tại cầu đường bộ đi chung với đường sắt.",true
+13,"3- Là người tham gia giao thông tại nơi thi công, nơi ùn tắc giao thông, ở bến phà, tại cầu đường bộ đi chung với đường sắt.",false
+14,"1- Là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian để cho người lên, xuống phương tiện, xếp dỡ hàng hóa hoặc thực hiện công việc khác.",false
+14,"2- Là trạng thái đứng yên tạm thời của phương tiện giao thông trong một khoảng thời gian cần thiết đủ đề cho người lên, xuống phương tiện, xếp dỡ hàng hóa hoặc thực hiện công việc khác.",true
+14,3- Là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian giữa 02 lần vận chuyển hàng hoá hoặc hành khách.,false
+15,"1- Là trạng thái đứng yên của phương tiện giao thông có giới hạn trong một khoảng thời gian cần thiết đủ để cho người lên, xuống phương tiện đó, xếp dỡ hàng hóa hoặc thực hiện công việc khác.",false
+15,2- Là trạng thái đứng yên của phương tiện giao thông không giới hạn thời gian.,true
+16,1- Đường dành riêng cho xe ôtô và một số loại xe chuyên dùng được phép đi vào theo quy định của Luật Giao thông đường bộ.,false
+16,2- Có dải phân cách phân chia đường cho xe chạy hai chiều riêng biệt mà dải phân cách này xe không đi được lên trên; không giao nhau cùng mức với một hoặc một số đường khác.,false
+16,"3- Được bố trí đầy đủ trang thiết bị phục vụ, bảo đảm giao thông liên tục, an toàn, rút ngắn thời gian hành trình và chỉ cho xe ra, vào ở những điểm nhất định.",false
+16,4- Tất cả các ý trên.,true
+17,1- Đỗ xe trên đường phố.,false
+17,2- Sử dụng xe đạp đi trên các tuyến quốc lộ có tốc độ cao.,false
+17,"3- Làm hỏng (có ý) cọc tiêu, gương cầu, dải phân cách.",true
+17,4- Sử dụng còi và quay đầu xe trong khu dân cư.,false
+18,1- Không nghiêm cấm.,false
+18,2- Bị nghiêm cấm.,true
+18,3- Bị nghiêm cấm tùy theo các tuyến đường.,false
+18,4- Bị nghiêm cấm tùy theo loại xe.,false
+19,1- Diễn ra trên đường phố không có người qua lại.,false
+19,2- Được người dân ủng hộ.,false
+19,3- Được cơ quan có thẩm quyền cấp phép.,true
+20,1- Bị nghiêm cấm.,true
+20,2- Không bị nghiêm cấm.,false
+20,"3- Không bị nghiêm cấm, néu có chất ma tuý ở mức nhẹ, có thể điều khiển phương tiện tham gia giao thông.",false
+21,1- Không được phép.,true
+21,2- Chỉ được lái ở tốc độ chậm và quãng đường ngắn.,false
+21,3- Chỉ được lái nếu trong cơ thể có nồng độ cồn tháp.,false
+22,1- Bị nghiêm cấm.,true
+22,2- Không bị nghiêm cấm.,false
+22,"3- Không bị nghiêm cấm, nếu nồng độ cồn trong máu ở mức nhẹ, có thể điều khiển phương tiện tham gia giao thông.",false
+23,1- Chỉ bị nhắc nhở.,false
+23,2- Bị xử phạt hành chính hoặc có thể bị xử lý hình sự tùy theo mức độ vi phạm.,true
+23,3- Không bị xử lý hình sự.,false
+24,"1- Người điều khiển: Xe ô tô, xe mô tô, xe đạp, xe gắn máy.",true
+24,2- Người ngồi phía sau người điều khiển xe cơ giới.,false
+24,3- Người đi bộ.,false
+24,4- Cả ý 1 và ý 2.,false
+25,1- Chỉ được thực hiện nếu đã hướng dẫn đầy đủ.,false
+25,2- Không được phép.,true
+25,3- Được phép tùy từng trường hợp.,false
+25,4- Chỉ được phép thực hiện với thành viên trong gia đình.,false
+26,1- Bị nghiêm cấm tùy từng trường hợp.,false
+26,2- Không bị nghiêm cấm.,false
+26,3- Bị nghiêm cấm.,true
+27,1- Chỉ lớn hơn tốc độ tối đa cho phép khi đường vắng.,false
+27,2- Chỉ lớn hơn tốc độ tối đa cho phép vào ban đêm.,false
+27,3- Không vượt quá tốc độ cho phép.,true
+28,1- Đi về phía bên trái.,false
+28,2- Đi về phía bên phải.,true
+28,3- Đi ở giữa.,false
+29,1- Đi ở làn bên phải trong cùng.,true
+29,2- Đi ở làn phía bên trái.,false
+29,3- Đi ở làn giữa.,false
+29,4- Đi ở bất cứ làn nào nhưng phải bám đèn cảnh báo nguy hiểm để báo hiệu cho các phương tiện khác.,false
+30,1- Không bị nghiêm cấm.,false
+30,2- Không bị nghiêm cấm khi rất vội.,false
+30,3- Bị nghiêm cấm.,true
+30,4- Không bị nghiêm cấm khi khẩn cấp.,false
+31,1- Từ 22 giờ đêm đến 5 giờ sáng.,false
+31,2- Từ 5 giờ sáng đến 22 giờ tối.,true
+31,3- Từ 23 giờ đêm đến 5 giờ sáng hôm sau.,false
+32,1- Bất cứ đèn nào miễn là mắt nhìn rõ phía trước.,false
+32,2- Chỉ bật đèn chiếu xa (đèn pha) khi không nhìn rõ đường.,false
+32,"3- Đèn chiếu xa (đèn pha) khi đường vắng, đèn pha chiếu gần (đèn cốt) khi có xe đi ngược chiều.",false
+32,4- Đèn chiếu gần (đèn cốt).,true
+33,1- Được phép.,false
+33,2- Không được phép.,true
+33,3- Được phép tùy từng trường hợp.,false
+34,1- Phải đảm bảo phụ tùng do đúng nhà sản xuất đó cung cấp.,false
+34,2- Phải được chấp thuận của cơ quan có thẩm quyền.,true
+34,3- Phải là xe đăng ký và hoạt động tại các khu vực có địa hình phức tạp.,false
+35,"1- Được phép sản xuất, sử dụng khi bị mất biển số.",false
+35,"2- Được phép mua bán, sử dụng khi bị mất biển số.",false
+35,"3- Nghiêm cấm sản xuất, mua bán, sử dụng trái phép.",true
+36,"1- Trên cầu hẹp có một làn xe. Nơi đường giao nhau, đường bộ giao nhau cùng mức với đường sắt; xe được quyền ưu tiên đang phát tín hiệu ưu tiên đi làm nhiệm vụ.",true
+36,2- Trên cầu có từ 02 làn xe trở lên; nơi đường bộ giao nhau không cùng mức với đường sắt; xe được quyền ưu tiên đang đi phía trước nhưng không phát tín hiệu ưu tiên.,false
+36,3- Trên đường có 2 làn đường được phân chia làn bằng vạch kẻ nét đứt.,false
+37,1- Được phép.,false
+37,2- Không được phép.,true
+37,3- Tùy từng trường hợp.,false
+38,1- Không được vượt.,false
+38,2- Được vượt khi đang đi trên cầu.,false
+38,3- Được phép vượt khi đi qua nơi giao nhau có ít phương tiện cùng tham gia giao thông.,false
+38,4- Được vượt khi đảm bảo an toàn.,true
+39,1- Không được vượt.,true
+39,2- Được vượt khi đang đi trên cầu.,false
+39,3- Được phép vượt khi đi qua nơi giao nhau có ít phương tiện cùng tham gia giao thông.,false
+39,4- Được vượt khi đảm bảo an toàn.,false
+40,"1- Ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, đường cao tốc, đường hẹp, đường dốc, tại nơi đường bộ giao nhau cùng mức với đường sắt.",true
+40,"2- Ở phía trước hoặc phía sau của phần đường dành cho người đi bộ qua đường, trên đường quốc lộ, tại nơi đường bộ giao nhau không cùng mức với đường sắt.",false
+40,3- Cả ý 1 và ý 2.,false
+41,1- Đi tiếp đến điểm giao cắt gần nhất hoặc nơi có biển báo cho phép quay đầu xe.,true
+41,2- Bấm đèn khẩn cấp và quay đầu xe từ từ bảo đảm an toàn.,false
+41,3- Bám còi liên tục khi quay đầu để cảnh báo các xe khác.,false
+41,4- Nhờ một người ra hiệu giao thông trên đường chậm lại trước khi quay đâu.,false
+42,1- Ở khu vực cho phép đỗ xe.,false
+42,2- Ở khu vực cấm dừng và trên phần đường dành cho người đi bộ qua đường.,false
+42,"3- Nơi đường bộ giao nhau, đường bộ giao nhau cùng mức với đường sắt, nơi tầm nhìn bị che khuất, trong hầm đường bộ, đường cao tốc.",false
+42,4- Cả ý 2 và ý 3.,true
+43,"1- Được dừng xe, đỗ xe trong trường hợp cần thiết.",false
+43,"2- Không được dừng xe, đỗ xe.",true
+43,"3- Được dừng xe, không được đỗ xe.",false
+44,1- Chỉ được thực hiện trên đường quốc lộ có hai làn xe một chiều.,false
+44,2- Chỉ được thực hiện trên đường cao tốc.,false
+44,3- Không được thực hiện vào ban ngày,false
+44,4- Không được phép.,true
+45,1- Được phép.,false
+45,"2- Nếu phương tiện được kéo, đầy có khối lượng nhỏ hơn phương tiện của mình.",false
+45,3- Tùy trường hợp.,false
+45,4- Không được phép.,true
+46,1- Được phép.,false
+46,2- Tùy trường hợp.,false
+46,3- Không được phép.,true
+47,"1- Buông cả hai tay; sử dụng xe để kéo, đẩy xe khác, vật khác; sử dụng chân chống của xe quệt xuống đường khi xe đang chạy.",true
+47,2- Buông một tay; sử dụng xe để chở người hoặc hàng hoá; để chân chạm xuống đất khi khởi hành.,false
+47,3- Đội mũ bảo hiểm: chạy xe đúng tốc độ quy định và chấp hành đúng quy tắc giao thông đường bộ.,false
+47,4- Chở người ngồi sau dưới 16 tuổi.,false
+48,"1- Được mang, vác tùy trường hợp cụ thể.",false
+48,"2- Không được mang, vác.",true
+48,"3- Được mang, vác nhưng phải đảm bảo an toàn.",false
+48,"4- Được mang, vác tùy theo sức khỏe của bản thân.",false
+49,1- Được phép.,false
+49,2- Được bám trong trường hợp phương tiện của mình bị hỏng.,false
+49,"3- Được kéo, đẩy trong trường hợp phương tiện khác bị hỏng.",false
+49,4- Không được phép.,true
+50,1- Được sử dụng.,false
+50,2- Chỉ người ngồi sau được sử dụng.,false
+50,3- Không được sử dụng.,true
+50,4- Được sử dụng nếu không có áo mưa.,false
+51,1- Chỉ được phép nếu cả hai đội mũ bảo hiểm.,false
+51,2- Không được phép.,true
+51,3- Chỉ được thực hiện trên đường thật vắng.,false
+51,4- Chỉ được phép khi người đi xe đạp đã quá mệt.,false
+52,1- Chỉ được kéo nếu đã nhìn thấy trạm xăng.,false
+52,2- Chỉ được thực hiện trên đường vắng phương tiện cùng tham gia giao thông.,false
+52,3- Không được phép.,true
+53,1- Không được vận chuyển.,true
+53,2- Chỉ được vận chuyển khi đã chằng buộc cần thận.,false
+53,3- Chỉ được vận chuyển vật cồng kềnh trên xe máy nếu khoảng cách về nhà ngắn hơn 2 km.,false
+54,1- 19 tuổi.,false
+54,2- 21 tuổi.,true
+54,3- 20 tuổi.,false
+55,1- 16 tuổi.,false
+55,2- 18 tuổi.,true
+55,3- 17 tuổi.,false
+56,1- 23 tuổi.,false
+56,2- 24 tuổi.,false
+56,3- 27 tuổi.,true
+56,4- 30 tuổi.,false
+57,1- 55 tuổi đối với nam và 50 tuổi đối với nữ.,true
+57,2- 55 tuổi đối với nam và nữ.,false
+57,3- 60 tuổi đối với nam và 55 tuổi đối với nữ.,false
+57,4- 45 tuổi với nam và 40 tuổi với nữ.,false
+58,1- 23 tuổi.,false
+58,2- 24 tuổi.,true
+58,3- 22 tuổi.,false
+58,4- 18 tuổi.,false
+59,1- Xe mô tô 2 bánh có dung tích xi-lanh từ 50cm3 trở lên.,false
+59,2- Xe gắn máy có dung tích xi-lanh dưới 50cm3.,true
+59,3- Xe ô tô tải dưới 3.500 kg; xe chở người đến 9 chỗ ngồi.,false
+59,4- Tất cả các ý nêu trên.,false
+60,1- Xe mô tô có dung tích xi-lanh 125 cm3.,false
+60,2- Xe mô tô có dung tích xi-lanh từ 175cm3 trở lên.,true
+60,3- Xe mô tô có dung tích xi-lanh 100cm3.,false
+61,1- Xe mô tô hai bánh có dung tích xi-lanh từ 50cm3 đến dưới 175 cm3.,false
+61,2- Xe mô tô ba bánh dùng cho người khuyết tật.,false
+61,3- Cả ý 1 và ý 2.,true
+62,1- Xe mô tô ba bánh.,false
+62,2- Xe mô tô hai bánh có dung tích xi-lanh từ 175cm3 trở lên và các loại xe quy định cho giấy phép lái xe hạng A1.,true
+62,3- Các loại máy kéo nhỏ có trọng tải đến 1.000 kg.,false
+63,1- Xe mô tô ba bánh.,true
+63,2- Xe mô tô hai bánh có dung tích xi-lanh từ 175cm3 trở lên.,false
+63,3- Các loại máy kéo nhỏ có trọng tải đến 1.000 kg.,false
+64,"1- Ô tô số tự động chở người đến 9 chỗ ngồi, kể cả chỗ ngồi cho người lái xe; ô tô tải, kể cả ô tô tải chuyên dùng số tự động có trọng tải thiết kế dưới 3.500 kg; ô tô dùng cho người khuyết tật. Không được hành nghề lái xe.",true
+64,"2- Ô tô số tự động chở người đến 9 chỗ ngồi, kể cả chỗ ngồi cho người lái xe; ô tô tải, kể cả ô tô tải chuyên dùng số tự động có trọng tải thiết kế dưới 3.500 kg; ô tô dùng cho người khuyết tật. Được hành nghề lái xe kinh doanh vận tải.",false
+64,"3- Ô tô chở người đến 9 chỗ ngồi, kể cả chỗ ngồi cho người lái xe; ô tô tải, kể cả ô tô tải chuyên dùng có trọng tải thiết kế dưới 3.500 kg; ô tô dùng cho người khuyết tật.",false
+65,"1- Ô tô chở người đến 9 chỗ ngồi, kể cả chỗ ngồi cho người lái xe; ô tô tải, kể cả ô tô tải chuyên dùng có trọng tải thiết kế dưới 3.500 kg; máy kéo kéo một rơ moóc có trọng tải thiết kế dưới 3.500 kg. Được hành nghề lái xe.",false
+65,"2- Ô tô chở người đến 9 chỗ ngồi, kể cả chỗ ngồi cho người lái xe; ô tô tải, kể cả ô tô tải chuyên dùng có trọng tải thiết kế dưới 3.500 kg; máy kéo kéo một rơ moóc có trọng tải thiết kế dưới 3.500 kg. Không hành nghề lái xe.",true
+65,"3- Ô tô số tự động chở người đến 9 chỗ ngồi, kể cả chỗ ngồi cho người lái xe; ô tô tải, kể cả ô tô tải chuyên dùng số tự động có trọng tải thiết kế trên 3.500 kg; ô tô dùng cho người khuyết tật.",false
+66,"1- Xe ô tô chở người trên 9 chỗ ngồi; xe ô tô tải, máy kéo có trọng tải trên 3.500 kg.",false
+66,"2- Xe ô tô chở người đến 9 chỗ ngồi; xe ô tô tải, máy kéo có trọng tải dưới 3.500 kg.",true
+66,"3- Xe ô tô chở người từ 10 đến 30 chỗ ngồi; xe ô tô tải, máy kéo có trọng tải trên 3.500 kg.",false
+67,"1- Xe ô tô chở người trên 9 chỗ ngồi; xe ô tô tải, máy kéo có trọng tải trên 3.500 kg.",false
+67,"2- Xe ô tô chở người từ 10 đến 30 chỗ ngồi; xe ô tô tải, máy kéo có trọng tải trên 3.500 kg.",false
+67,"3- Xe ô tô chở người đến 9 chỗ ngồi; xe ô tô tải, máy kéo có trọng tải trên 3.500 kg.",true
+68,"1- Ô tô chở người đến 30 chỗ ngồi, kể cả chỗ ngồi cho người lái xe; xe ô tô tải, máy kéo có trọng tải trên 3.500 kg.",true
+68,"2- Xe ô tô chở người trên 30 chỗ ngồi; xe ô tô tải, máy kéo có trọng tải trên 3.500 kg.",false
+68,"3- Xe kéo rơ moóc, ô tô đầu kéo kéo sơ mi rơ moóc và được điều khiển các loại xe quy định cho giấy phép lái xe hạng B1, B2, C và FB2.",false
+69,"1- Xe kéo rơ moóc, ô tô đầu kéo kéo sơ mi rơ moóc và được điều khiển các loại xe quy định cho giấy phép lái xe hạng B1, B2, C và FB2.",false
+69,"2- Ô tô chở người trên 30 chỗ ngồi; xe ô tô tải, máy kéo có trọng tải trên 3.500 kg.",true
+69,"3- Xe kéo rơ moóc và được điều khiển các loại xe: ô tô chở khách nối toa và các loại xe quy định cho giấy phép lái xe hạng B1, B2, C, D, FB2, FD.",false
+70,"1- Các loại xe được quy định tại giấy phép lái xe hạng C có kéo rơ moóc, ô tô đầu kéo kéo sơ mi rơ moóc, ô tô chở khách nối toa và được điều khiển các loại xe quy định cho giấy phép lái xe hạng B1, B2 và FB2.",false
+70,"2- Các loại xe được quy định tại giấy phép lái xe hạng C có kéo rơ moóc, ô tô đầu kéo kéo sơ mi rơ moóc và được điều khiển các loại xe quy định cho giấy phép lái xe hạng B1, B2, C và FB2.",true
+70,"3- Mô tô hai bánh, các loại xe được quy định tại giấy phép lái xe hạng C có kéo rơ moóc, ô tô đầu kéo kéo sơ mi rơ moóc và được điều khiển các loại xe quy định cho giấy phép lái xe hạng B1, B2, C và FB2.",false
+70,4- Tất cả các loại xe nêu trên.,false
+71,"1- Các loại xe được quy định tại giấy phép lái xe hạng E có kéo rơ moóc và được điều khiển các loại xe: ô tô chở khách nối toa và các loại xe quy định cho giấy phép lái xe hạng B1, B2, C, D, FB2, FD.",true
+71,"2- Các loại xe được quy định tại giấy phép lái xe hạng E có kéo rơ moóc, đầu kéo kéo sơ mi rơ moóc và được điều khiển các loại xe: ô tô chở khách nối toa và các loại xe quy định cho giấy phép lái xe hạng B1, B2, C, D, FB2, FD.",false
+71,3- Tất cả các loại xe nêu trên.,false
+72,1- Biển báo nguy hiểm.,false
+72,2- Biển báo cấm.,true
+72,3- Biển báo hiệu lệnh.,false
+72,4- Biển báo chỉ dẫn.,false
+73,1- Biển báo nguy hiểm.,true
+73,2- Biển báo cấm.,false
+73,3- Biển báo hiệu lệnh.,false
+73,4- Biển báo chỉ dẫn.,false
+74,1- Biển báo nguy hiểm.,false
+74,2- Biển báo cấm.,false
+74,3- Biển báo hiệu lệnh phải thi hành.,true
+74,4- Biển báo chỉ dẫn.,false
+75,1- Biển báo nguy hiểm.,false
+75,2- Biển báo cấm.,false
+75,3- Biển báo hiệu lệnh phải thi hành.,false
+75,4- Biển báo chỉ dẫn.,true
+76,1- Phải thực hành lái xe trên xe tập lái và có giáo viên bảo trợ tay lái.,false
+76,2- Phải mang theo phù hiệu “học viên tập lái xe”.,false
+76,"3- Phải mang theo giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường còn hiệu lực, giấy phép vận chuyển (néu loại xe đó cần phải có).",false
+76,4- Cả ý 1 và ý 2.,true
+77,"1- Phải mang theo phù hiệu “Giáo viên dạy lái xe”, giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường còn hiệu lực, giấy phép xe tập lái do cơ quan có thẩm quyền cấp còn hiệu lực.",true
+77,2- Phải mang theo phù hiệu “học viên tập lái xe” và kế hoạch học tập của khóa học.,false
+77,"3- Phải mang theo giấy chứng nhận Giáo viên dạy thực hành lái xe, biển lai thu phí bảo trì đường bộ.",false
+78,"1- Gắn 02 biển “TẬP LÁI” trước và sau xe, có hệ thống phanh phụ được lắp đặt bảo đảm hiệu quả phanh, được bố trí bên ghế ngồi của giáo viên dạy thực hành lái xe.",false
+78,"2- Xe tập lái loại tải thùng có mui che mưa, che nắng, ghế ngồi cho học viên, có giáy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông cơ giới đường bộ còn hiệu lực.",false
+78,3- Cả ý 1 và ý 2.,true
+79,"1- Tại các cơ sở đào tạo lái xe có đủ điều kiện và phải bảo đảm công khai, minh bạch.",false
+79,"2- Tại sân tập lái của cơ sở đào tạo lái xe và phải đảm bảo công khai, minh bạch.",false
+79,"3- Tại các trung tâm sát hạch lái xe có đủ điều kiện hoạt động và phải bảo đảm công khai, minh bạch.",true
+80,"1- Giấy chứng nhận tốt nghiệp khoá đào tạo của hạng xe đang điều khiển, đăng ký xe, giấy phép lưu hành xe.",false
+80,"2- Giấy phép lái xe phù hợp với loại xe đó; lệnh vận chuyển, đăng ký xe, giấy chứng nhận kiểm tra chất lượng an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới sau khi cải tạo; giấy phép vận chuyển (nếu loại xe đó cần phải có).",false
+80,"3- Giấy phép lái xe phù hợp với loại xe đó, đăng ký xe, giấy chứng nhận kiểm định kỹ thuật và bảo vệ môi trường, giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ xe cơ giới và giấy phép vận chuyển (nếu loại xe đó cần phải có), các giấy tờ phải còn giá trị sử dụng.",true
+81,1- 02 năm,false
+81,2- 03 năm,false
+81,3- 05 năm,true
+81,4- 04 năm,false
+82,1- Người tham gia giao thông ở các hướng phải dừng lại.,false
+82,2- Người tham gia giao thông ở các hướng được đi theo chiều gậy chỉ của cảnh sát giao thông.,false
+82,3- Người tham gia giao thông ở phía trước và phía sau người điều khiển được đi tất cả các hướng; người tham gia giao thông ở phía bên phải và phía bên trái người điều khiển phải dừng lại.,false
+82,4- Người tham gia giao thông ở phía trước và phía sau người điều khiển phải dừng lại; người tham giao thông ở phía bên phải và bên trái người điều khiển được đi tất cả các hướng.,true
+83,"1- Người tham gia giao thông ở hướng đối diện cảnh sát giao thông được đi, các hướng khác cần phải dừng lại.",false
+83,2- Người tham gia giao thông được rẽ phải theo chiều mũi tên màu xanh ở bục cảnh sát giao thông.,false
+83,3- Người tham gia giao thông ở các hướng đều phải dừng lại trừ các xe đã ở trong khu vực giao nhau.,true
+83,"4- Người ở hướng đối diện cảnh sát giao thông phải dừng lại, các hướng khác được đi trong đó có bạn.",false
+84,1- Hiệu lệnh của người điều khiển giao thông.,true
+84,2- Hiệu lệnh của đèn điều khiển giao thông.,false
+84,3- Hiệu lệnh của biển báo hiệu đường bộ.,false
+84,4- Theo quyết định của người tham gia giao thông nhưng phải bảo đảm an toàn.,false
+85,1- Biển báo hiệu cố định.,false
+85,2- Báo hiệu tạm thời.,true
+86,"1- Cho xe đi trên bát kỳ làn đường nào hoặc giữa 02 làn đường nếu không có xe phía trước; khi cần thiết phải chuyển làn đường, người lái xe phải quan sát xe phía trước để bảo đảm an toàn.",false
+86,2- Phải cho xe đi trong một làn đường và chỉ được chuyển làn đường ở những nơi cho phép; khi chuyển làn phải có tín hiệu báo trước và phải bảo đảm an toàn.,true
+86,"3- Phải cho xe đi trong một làn đường, khi cần thiết phải chuyển làn đường, người lái xe phải quan sát xe phía trước để bảo đảm an toàn.",false
+87,"1- Xe thô sơ phải đi trên làn đường bên trái ngoài cùng, xe cơ giới, xe máy chuyên dùng đi trên làn đường bên phải.",false
+87,"2- Xe thô sơ phải đi trên làn đường bên phải trong cùng; xe cơ giới, xe máy chuyên dùng đi trên làn đường bên trái.",true
+87,"3- Xe thô sơ đi trên làn đường phù hợp không gây cản trở giao thông, xe cơ giới, xe máy chuyên dùng đi trên làn đường bên phải.",false
+88,1- Phải báo hiệu bằng đèn hoặc còi.,false
+88,2- Chỉ được báo hiệu bằng còi.,false
+88,3- Phải báo hiệu bằng cả còi và đèn.,false
+88,4- Chỉ được báo hiệu bằng đèn.,true
+89,"1- Tăng tốc độ và ra hiệu cho xe sau vượt, không được gây trở ngại cho xe sau vượt.",false
+89,"2- Người điều khiển phương tiện phía trước phải giảm tốc độ, đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua, không được gây trở ngại cho xe sau vượt.",true
+89,3- Cho xe tránh về bên trái mình và ra hiệu cho xe sau vượt; nếu có chướng ngại vật phía trước hoặc thiếu điều kiện an toàn chưa cho vượt được phải ra hiệu cho xe sau biết; cắm gây trở ngại cho xe xin vượt.,false
+90,1- Ở nơi đường giao nhau và nơi có biển báo cho phép quay đầu xe.,true
+90,2- Ở nơi có đường rộng để cho các loại xe chạy một chiều.,false
+90,3- Ở bất kỳ nơi nào.,false
+91,1- Không được quay đầu xe.,true
+91,2- Lợi dụng chỗ rộng và phải có người làm tín hiệu sau xe để bảo đảm an toàn.,false
+91,3- Lợi dụng chỗ rộng có thể quay đầu được để quay đầu xe cho an toàn.,false
+92,"1- Quan sát gương, ra tín hiệu, quan sát an toàn và chuyển hướng.",false
+92,"2- Quan sát gương, giảm tốc độ, ra tín hiệu chuyển hướng, quan sát an toàn và chuyển hướng.",true
+92,"3- Quan sát gương, tăng tốc độ, ra tín hiệu và chuyển hướng.",false
+93,1- Quan sát phía trước và cho lùi xe ở tốc độ chậm.,false
+93,2- Lợi dụng nơi đường giao nhau đủ chiều rộng để lùi.,false
+93,"3- Phải quan sát phía sau, có tín hiệu cần thiết và chỉ khi nào thấy không nguy hiểm mới được lùi.",true
+94,1- Đang phanh.,false
+94,2- Đang bật đèn sương mù.,false
+94,3- Đang chuẩn bị lùi hoặc đang lùi.,true
+94,4- Đang bị hỏng động cơ.,false
+95,"1- Nơi đường hẹp chỉ đủ cho một xe chạy và có chỗ tránh xe thì xe nào ở gần chỗ tránh hơn phải vào vị trí tránh, nhường đường cho xe kia đi.",false
+95,2- Xe xuống dốc phải nhường đường cho xe đang lên dốc; xe nào có chướng ngại vật phía trước phải nhường đường cho xe không có chướng ngại vật đi trước.,false
+95,3- Xe lên dốc phải nhường đường cho xe xuống dốc; xe nào không có chướng ngại vật phía trước phải nhường đường cho xe có chướng ngại vật đi trước.,false
+95,4- Cả ý 1 và ý 2.,true
+96,1- Tiếp tục đi vì xe lên dốc phải nhường đường cho mình.,false
+96,2- Nhường đường cho xe lên dốc.,true
+96,3- Chỉ nhường đường khi xe lên dốc nháy đèn.,false
+97,1- Nhường đường cho xe đi ở bên phải mình tới.,false
+97,2- Nhường đường cho xe đi ở bên trái mình tới.,false
+97,3- Nhường đường cho xe đi trên đường ưu tiên hoặc đường chính từ bất kỳ hướng nào tới.,true
+98,1- Phải nhường đường cho xe đi đến từ bên phải.,true
+98,2- Xe báo hiệu xin đường trước xe đó được đi trước.,false
+98,3- Phải nhường đường cho xe đi đến từ bên trái.,false
+99,1- Phương tiện nào bên phải không vướng.,false
+99,2- Phương tiện nào ra tín hiệu xin đường trước.,false
+99,3- Phương tiện giao thông đường sắt.,true
+100,1- 5 mét.,true
+100,2- 3 mát.,false
+100,3- 4 mét.,false
+101,1- Phải có tín hiệu xin vào và phải nhường đường cho xe đang chạy trên đường; khi thấy an toàn mới cho xe nhập vào dòng xe ở làn đường sát mép ngoài; nếu có làn đường tăng tốc thì phải cho xe chạy trên làn đường đó trước khi vào làn đường của đường cao tốc.,true
+101,2- Phải có tín hiệu xin vào và phải nhanh chóng vượt xe đang chạy trên đường để nhập vào dòng xe ở làn đường sát mép ngoài; nếu có làn đường tăng tốc thì phải cho xe chạy qua làn đường đó để vào làn đường của đường cao tốc.,false
+102,"1- Không được dừng xe, đỗ xe hoặc chỉ được dừng xe, đỗ xe ở nơi đường rộng, nếu dừng, đỗ xe ở nơi đường hẹp phải sử dụng còi báo hiệu để người lái xe khác biết.",false
+102,"2- Chỉ được dừng xe, đỗ xe ở nơi quy định, trường hợp buộc phải dừng xe, đỗ xe không đúng nơi quy định thì người lái xe phải đưa xe ra khỏi phần đường xe chạy, nếu không thể được thì phải báo hiệu để người lái xe khác biết.",true
+102,"3- Chỉ được dừng xe, đỗ xe ở nơi đường rộng; trường hợp dừng xe, đỗ xe tại nơi đường. hẹp phải đặt các chướng ngại vật trên đường để yêu cầu người lái xe khác giảm tốc độ để bảo đảm an toàn.",false
+103,"1- Người đi bộ, xe thô sơ, xe gắn máy, xe mô tô và máy kéo; xe máy chuyên dùng có tốc độ thiệt kê nhỏ hơn 70km/h.",true
+103,2- Xe mô tô và xe máy chuyên dùng có tốc độ thiết kế lớn hơn 70km/h.,false
+103,"3- Người đi bộ, xe thô sơ, xe gắn máy và xe ô tô.",false
+104,"1- Xe cơ giới, xe máy chuyên dùng phải bật đèn; xe thô sơ phải bật đèn hoặc có vật phát sáng báo hiệu; chỉ được dừng xe, đỗ xe ở nơi quy định.",true
+104,"2- Xe cơ giới phải bật đèn ngay cả khi đường hầm sáng; phải cho xe chạy trên một làn đường và chỉ chuyển làn ở nơi được phép; được quay đầu xe, lùi xe khi cần thiết.",false
+104,"3- Xe máy chuyên dùng phải bật đèn ngay cả khi đường hầm sáng; phải cho xe chạy trên một làn đường và chỉ chuyển làn ở nơi được phép; được quay đầu xe, lùi xe khi cần thiết.",false
+105,"1- Phải được cơ quan quản lý đường bộ có thẩm quyền cấp phép và phải thực hiện các biển pháp bắt buộc để bảo vệ đường bộ, bảo đảm an toàn giao thông.",true
+105,2- Chủ phương tiện và lái xe chỉ cần thực hiện biển pháp để hạn chế việc gây hư hại đường bộ.,false
+105,3- Được tham gia giao thông trên đường rộng.,false
+105,4- Chỉ được tham gia giao thông vào ban đêm.,false
+106,1- Dùng dây cáp có độ dài 10 mét.,false
+106,2- Dùng dây cáp có độ dài 5 mét.,false
+106,3- Dùng thanh nối cứng.,true
+107,1- Phải có tổng trọng lượng lớn hơn tổng trọng lượng của rơ moóc hoặc phải có hệ thống hãm có hiệu lực cho rơ moóc.,true
+107,2- Phải có tổng trọng lượng tương đương tổng trọng lượng của rơ moóc hoặc phải có hệ thống hãm có hiệu lực cho xe kéo rơ moóc.,false
+107,3- Phải được lắp phanh phụ theo quy định để đảm bảo an toàn.,false
+108,1- Được kéo theo một xe ô tô hoặc xe máy chuyên dùng khác khi xe này không tự chạy được và phải đảm bảo an toàn; xe được kéo phải có người điều khiển và hệ thống lái của xe đó phải còn hiệu lực; trường hợp hệ thống hãm của xe được kéo không còn hiệu lực thì xe kéo nhau phải nối bằng thanh nối cứng.,true
+108,2- Được kéo theo một xe ô tô và xe máy chuyên dùng khác khi xe này không tự chạy được và phải đảm bảo an toàn; xe được kéo phải có người ngồi trên xe để kịp thời phát hiện các trường hợp mắt an toàn.,false
+108,"3- Được kéo theo một xe ô tô và xe máy chuyên dùng khác khi xe này không tự chạy được và hệ thống phanh bị hỏng, xe kéo nhau phải nối bằng dây cáp có độ dài phù hợp.",false
+109,1- Khi tham gia giao thông đường bộ.,true
+109,2- Chỉ khi đi trên đường chuyên dùng; đường cao tốc.,false
+109,3- Khi tham gia giao thông trên đường tỉnh lộ hoặc quốc lộ.,false
+110,1- Chở người bệnh đi cấp cứu; trẻ em dưới 14 tuổi.,false
+110,2- Áp giải người có hành vi vi phạm pháp luật.,false
+110,3- Cả ý 1 và ý 2.,true
+111,"1- Đi vào phần đường dành cho người đi bộ và phương tiện khác; sử dụng ô, điện thoại di động, thiết bị âm thanh (trừ thiết bị trợ thính), đi xe dàn hàng ngang.",true
+111,"2- Chở 02 người; trong đó, có người bệnh đi cấp cứu hoặc trẻ em dưới 14 tuổi hoặc áp giải người có hành vi vi phạm pháp luật.",false
+111,3- Điều khiển phương tiện tham gia giao thông trên đường tỉnh lộ hoặc quốc lộ.,false
+112,1- Được phép nhưng phải đảm bảo an toàn.,false
+112,2- Không được phép.,true
+112,"3- Được phép tùy từng hoàn cảnh, điều kiện cụ thể.",false
+113,"1- Khi có báo hiệu cảnh báo nguy hiểm hoặc có chướng ngại vật trên đường; khi chuyển hướng xe chạy hoặc tầm nhìn bị hạn chế; khi qua nơi đường giao nhau, nơi đường bộ giao nhau với đường sắt; đường vòng; đường có địa hình quanh co, đèo dốc.",false
+113,"2- Khi qua cầu, cống hẹp; khi lên gần đỉnh dốc, khi xuống dốc, khi qua trường học, khu đông dân cư, khu vực đang thi công trên đường bộ; hiện trường xảy ra tai nạn giao thông.",false
+113,"3- Khi điều khiển xe vượt xe khác trên đường quốc lộ, đường cao tốc.",false
+113,4- Cả ý 1 và ý 2.,true
+114,"1- Từ từ đi cắt qua đoàn người, đoàn xe.",false
+114,"2- Không được cắt ngang qua đoàn người, đoàn xe.",true
+114,3- Báo hiệu từ từ cho xe đi cắt qua để bảo đảm an toàn.,false
+115,"1- Nhường đường cho người đi bộ đang đi trên phần đường dành cho người đi bộ sang đường; nhường đường cho xe đi trên đường ưu tiên, đường chính từ bắt kỳ hướng nào tới; nhường đường cho xe ưu tiên, xe đi từ bên phải đên.",true
+115,"2- Nhường đường cho người đi bộ đang đứng chờ đi qua phần đường dành cho người đi bộ sang đường; nhường đường cho xe đi trên đường ngược chiều, đường nhánh từ bất kỳ hướng nào tới; nhường đường cho xe đi từ bên trái đến.",false
+115,3- Không phải nhường đường.,false
+116,1- Khi cho xe chạy thẳng.,false
+116,2- Trước khi thay đổi làn đường.,true
+116,3- Sau khi thay đổi làn đường.,false
+117,1- Xe bị vượt bát ngờ tăng tốc độ và có tình không nhường đường.,false
+117,2- Xe bị vượt giảm tốc độ và nhường đường.,false
+117,3- Phát hiện có xe đi ngược chiều.,false
+117,4- Cả ý 1 và ý 3.,true
+118,1- Tăng tốc độ kết hợp với nghe nhạc và ởi tiếp.,false
+118,"2- Quan sát, dừng xe tại nơi quy định; nghỉ cho đến khi hết buồn ngủ và đi tiếp.",true
+118,3- Sử dụng một ít rượu và bia để hết buồn ngủ và đi tiếp.,false
+119,"1- Quay xe, chạy trên lề đường bên phải và rẽ khỏi đường cao tốc.",false
+119,2- Lùi xe sát lề đường bên phải và rẽ khỏi đường cao tốc.,false
+119,3- Tiếp tục chạy đến lối ra tiếp theo.,true
+120,"1- Nếu đủ điều kiện an toàn, người lái xe phải giảm tốc độ, đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua, không được gây trở ngại đối với xe xin vượt.",true
+120,"2- Lái xe vào lề đường bên trái và giảm tốc độ để xe phía sau vượt qua, không được gây trở ngại đối với xe xin vượt.",false
+120,"3- Nếu đủ điều kiện an toàn, người lái xe phải tăng tốc độ, đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua.",false
+121,"1- Nhanh chóng đặt báo hiệu trên đường sắt cách tối thiểu 500 mét về hai phía để báo cho người điều khiển phương tiện đường sắt và tìm cách báo cho người quản lý đường sắt, nhà ga nơi gần nhất, đồng thời phải bằng mọi biển pháp nhanh chóng đưa ô tô hỏng ra khỏi phạm vi an toàn đường sắt.",true
+121,2- Nhanh chóng đặt biển cảnh báo nguy hiểm tại vị trí xe ô tô bị hỏng để đoàn tàu dừng lại.,false
+121,3- Liên hệ ngay với đơn vị cứu hộ để đưa ô tô hỏng ra khỏi phạm vi an toàn đường sắt.,false
+122,"1- Phải đội mũ bảo hiểm đạt chuẩn, có cài quai đúng quy cách, mặc quần áo gọn gàng; không sử dụng ô, điện thoại di động, thiết bị âm thanh (trừ thiết bị trợ thính).",true
+122,"2- Phải đội mũ bảo hiểm khi trời mưa gió hoặc trời quá nắng; có thể sử dụng ô, điện thoại di động, thiết bị âm thanh nhưng phải đảm bảo an toàn.",false
+122,3- Phải đội mũ bảo hiểm khi cảm thấy mát an toàn giao thông hoặc khi chuẩn bị di chuyển quãng đường xa.,false
+123,1- Là đoạn đường nằm trong khu công nghiệp có đông người và phương tiện tham gia giao thông và được xác định cụ thể bằng biển chỉ dẫn địa giới.,false
+123,"2- Là đoạn đường bộ nằm trong khu vực nội thành phố, nội thị xã, nội thị trấn và những đoạn đường có đông dân cư sinh sống sát dọc theo đường, có các hoạt động ảnh hưởng đến an toàn giao thông; được xác định bằng biển báo hiệu là đường khu đông dân cư.",true
+123,"3- Là đoạn đường nằm ngoài khu vực nội thành phố, nội thị xã có đông người và phương tiện tham gia giao thông và được xác định cụ thể bằng biển chỉ dẫn địa giới.",false
+124,1- 50 km/h.,false
+124,2- 40 km/h.,true
+124,3- 60 km/h.,false
+125,1- 60 km/h.,true
+125,2- 50 km/h.,false
+125,3- 40 km/h.,false
+126,1- 60 km/h.,false
+126,2- 50 km/h.,true
+126,3- 40 km/h.,false
+127,"1- Ô tô con, ô tô tải, ô tô chở người trên 30 chỗ.",true
+127,"2- Xe gắn máy, xe máy chuyên dùng.",false
+127,3- Cả ý 1 và ý 2.,false
+128,"1- Ô tô con, ô tô tải, ô tô chở người trên 30 chỗ.",true
+128,"2- Xe gắn máy, xe máy chuyên dùng.",false
+128,3- Cả ý 1 và ý 2.,false
+129,"1- Ô tô chở người trên 30 chỗ (trừ ô tô buýt), ô tô tải có trọng tải trên 3.5 tấn.",false
+129,"2- Xe ô tô con, xe ô tô chở người đến 30 chỗ (trừ ô tô buýt), ô tô tải có trọng tải đến 3,5 tấn.",true
+129,"3- Ô tô buýt, ô tô đầu kéo kéo sơ mi rơ moóc, ô tô chuyên dùng, xe mô tô.",false
+130,"1- Ô tô buýt, ô tô đầu kéo kéo sơ mi rơ moóc; ô tô chuyên dùng; xe mô tô.",false
+130,"2- Ô tô chở người trên 30 chỗ (trừ ô tô buýt), ô tô tải có trọng tải trên 3,5 tần (trừ ô tô xi téc).",true
+130,"3- Ô tô kéo rơ moóc, ô tô kéo xe khác, xe gắn máy.",false
+130,"4- Xe ô tô con, xe ô tô chở người đến 30 chỗ (trừ ô tô buýt), ô tô tải có trọng tải đến 3,5 tấn.",false
+131,"1- Ô tô buýt; ô tô đầu kéo kéo sơ mi rơ moóc; xe mô tô; ô tô chuyên dùng (trừ ô tô trộn vữa, ô tô trộn bê tông).",true
+131,"2- Ô tô kéo rơ moóc, ô tô kéo xe khác, xe gắn máy.",false
+131,"3- Ô tô chở người trên 30 chỗ (trừ ô tô buýt), ô tô tải có trọng tải trên 3,5 tần.",false
+131,"4- Xe ô tô con, xe ô tô chở người đến 30 chỗ (trừ ô tô buýt), ô tô tải có trọng tải đến 3,5 tấn.",false
+132,"1- Ô tô kéo rơ moóc, ô tô kéo xe khác, ô tô trộn vữa, ô tô trộn bê tông, ô tô xi téc.",true
+132,"2- Ô tô chở người trên 30 chỗ (trừ ô tô buýt), ô tô tải có trọng tải trên 3,5 tần.",false
+132,"3- Xe ô tô con, xe ô tô chở người đến 30 chỗ (trừ xe buýt), ô tô tải có trọng tải nhỏ hơn hoặc bằng 3,5 tấn.",false
+133,"1- Ô tô kéo rơ moóc, ô tô kéo xe khác, xe gắn máy.",false
+133,"2- Ô tô chở người trên 30 chỗ (trừ ô tô buýt), ô tô tải có trọng tải trên 3.5 tấn.",false
+133,"3- Xe ô tô con, xe ô tô chở người đến 30 chỗ (trừ xe buýt), ô tô tải có trọng tải nhỏ hơn hoặc bằng 3,5 tần.",true
+134,"1- Ô tô kéo rơ moóc, ô tô kéo xe khác, xe gắn máy.",false
+134,"2- Ô tô chở người trên 30 chỗ (trừ ô tô buýt), ô tô tải có trọng tải trên 3,5 tần (trừ ô tô xi téc).",true
+134,"3- Xe ô tô con, xe ô tô chở người đến 30 chỗ (trừ xe buýt), ô tô tải có trọng tải nhỏ hơn hoặc bằng 3,5 tấn.",false
+135,"1- Ô tô kéo rơ moóc, ô tô kéo xe khác, xe gắn máy.",false
+135,"2- Ô tô chở người trên 30 chỗ (trừ ô tô buýt), ô tô tải có trọng tải trên 3,5 tấn.",false
+135,"3- Ô tô buýt, ô tô đầu kéo kéo sơ mi rơ moóc, xe mô tô, ô tô chuyên dùng (trừ ô tô trộn vữa, ô tô trộn bê tông).",true
+136,"1- Ô tô kéo rơ moóc, ô tô kéo xe khác, xe gắn máy.",false
+136,"2- Ô tô chở người trên 30 chỗ (trừ ô tô buýt), ô tô tải có trọng tải trên 3,5 tấn.",false
+136,"3- Ô tô kéo rơ moóc, ô tô kéo xe khác, ô tô trộn vữa, ô tô trộn bê tông, ô tô xi téc.",true
+137,1- 35m.,false
+137,2- 55m.,true
+137,3- 70 m.,false
+138,1- 35 m.,false
+138,2- 55m.,false
+138,3- 70 m.,true
+139,1- 55m.,false
+139,2- 70m.,false
+139,3- 100 m.,true
+140,1- Chủ động giữ khoảng cách an toàn phù hợp với xe chạy liên trước xe của mình.,false
+140,"2- Đảm bảo khoảng cách an toàn theo mật độ phương tiện, tình hình giao thông thực tế.",false
+140,3- Cả ý 1 và ý 2.,true
+141,1- Gặp biển báo nguy hiểm trên đường.,true
+141,2- Gặp biển chỉ dẫn trên đường.,false
+141,3- Gặp biển báo hết mọi lệnh cấm.,false
+141,4- Gặp biển báo hết hạn chế tốc độ tối đa cho phép.,false
+142,1- Khi vượt xe khác.,false
+142,2- Khi vượt xe khác tại đoạn đường được phép vượt.,false
+142,3- Khi xe sau xin vượt và đảm bảo an toàn.,true
+142,4- Khi xe sau có tín hiệu vượt bên phải.,false
+143,1- Xe cứu hỏa.,false
+143,2- Xe cứu thương.,false
+143,3- Phương tiện giao thông đường sắt.,true
+143,"4- Ô tô, mô tô và xe máy chuyên dùng.",false
+144,1- Hiệu lệnh của nhân viên gác chắn.,false
+144,"2- Đèn đỏ sáng nháy, cờ đỏ, biển đỏ.",false
+144,"3- Còi, chuông kêu, chắn đã đóng.",false
+144,4- Tất cả các ý trên.,true
+145,1- Không được phép.,true
+145,2- Được phép nhưng phải đảm bảo an toàn.,false
+145,3- Được phép tùy từng hoàn cảnh và điều kiện cụ thể.,false
+146,1- Để làm đẹp.,false
+146,2- Để tránh mưa nắng.,false
+146,3- Để giảm thiểu chấn thương vùng đầu.,true
+146,4- Để các loại phương tiện khác dễ quan sát.,false
+147,1- Thay đổi tốc độ của xe trên đường bộ.,false
+147,2- Thay đổi tay số của xe trên đường bộ.,false
+147,"3- Lạng lách, đánh võng trên đường bộ.",true
+148,"1- Xe chữa cháy, xe quân sự, xe công an, xe cứu thương, xe hộ đê sau khi thực hiện nhiệm vụ khẩn cấp, không có tín hiệu còi, cờ, đèn theo quy định của pháp luật.",false
+148,"2- Xe chữa cháy, xe quân sự, xe công an, xe cứu thương, xe hộ đê đi làm nhiệm vụ khẩn cấp có tín hiệu còi, cờ, đèn theo quy định của pháp luật.",true
+148,"3- Xe ô tô, xe máy, đoàn xe đang diễu hành có tổ chức có báo tín hiệu xin vượt bằng còi và đèn.",false
+149,1- Tăng tốc độ qua đường giao nhau để đi trước xe đi trên đường ưu tiên.,false
+149,2- Giảm tốc độ qua đường giao nhau để đi trước xe đi trên đường ưu tiên.,false
+149,3- Nhường đường cho xe đi trên đường ưu tiên từ bất kỳ hướng nào tới.,true
+150,1- Giảm tốc độ cho xe vượt qua đường sắt.,false
+150,2- Nhanh chóng cho xe vượt qua đường sắt trước khi tàu hỏa tới.,false
+150,3- Giảm tốc độ cho xe vượt qua đường sắt trước khi tàu hỏa tới.,false
+150,4- Cho xe dừng ngay lại và giữ khoảng cách tối thiểu 5 mét tính từ ray gần nhất.,true
+151,"1- Đi đúng làn đường, đúng tốc độ quy định, không được vượt xe khác.",true
+151,2- Đi sang làn đường của xe ngược chiều để mở rộng tầm nhìn và vượt xe khác.,false
+151,"3- Cho xe đi sát bên phải làn đường, bật tín hiệu báo hiệu để vượt bên phải xe khác.",false
+152,"1- Giảm tốc độ, đi từ từ để vượt qua trước người đi bộ.",false
+152,"2- Giảm tốc độ, có thể dừng lại nếu cần thiết trước vạch dừng xe đê nhường đường cho người đi bộ qua đường.",true
+152,3- Tăng tốc độ để vượt qua trước người đi bộ.,false
+153,1- Phải lùi thật chậm.,false
+153,2- Có thể được lùi xe nhưng phải mở cửa xe.,false
+153,3- Không được lùi xe.,true
+153,4- Bấm còi 3 lần liên tiếp trước khi lùi.,false
+154,"1- Khi có người đi bộ, xe lăn của người khuyết tật qua đường; đến gần bến xe buýt, điểm dừng đỗ xe có khách đang lên, xuống xe.",false
+154,"2- Khi điều khiển phương tiện đi qua khu vực trạm kiểm soát tải trọng xe, trạm cảnh sát giao thông, trạm giao dịch thanh toán đối với các phương tiện sử dụng đường bộ.",false
+154,3- Cả ý 1 và ý 2.,true
+155,1- Người điều khiển phương tiện tham gia giao thông không hạn chế tốc độ và khoảng cách an toàn tối thiểu giữa hai xe.,false
+155,2- Người điều khiển phương tiện tham gia giao thông không hạn chế tốc độ và khoảng cách an toàn tối thiểu giữa hai xe vào ban đêm.,false
+155,"3- Người điều khiển phương tiện tham gia giao thông phải nghiêm chỉnh chấp hành quy định về tốc độ, khoảng cách an toàn tối thiểu giữa hai xe.",true
+156,"1- Tuân thủ tốc độ tối đa, tốc độ tối thiểu ghi trên biển báo hiệu đường bộ, sơn kẻ mặt đường trên các làn xe.",true
+156,"2- Tuân thủ tốc độ tối đa, tốc độ tối thiểu ghi trên biển báo hiệu đường bộ, sơn kẻ mặt đường trên các làn xe chỉ vào ban ngày.",false
+156,"3- Tuân thủ tốc độ tối đa, tốc độ tối thiểu ghi trên biển báo hiệu đường bộ, sơn kẻ mặt đường trên các làn xe chỉ vào ban đêm.",false
+157,1- Đỏ - Vàng - Xanh.,true
+157,2- Cam - Vàng - Xanh.,false
+157,3- Vàng - Xanh dương - Xanh lá.,false
+157,4- Đỏ - Cam - Xanh.,false
+158,"1- Phải cho xe dừng lại trước vạch dừng, trường hợp đã đi quá vạch dừng hoặc đã quá gần vạch dừng nếu dừng lại thấy nguy hiểm thì được đi tiếp.",false
+158,"2- Trong trường hợp tín hiệu vàng nhấp nháy là được đi nhưng phải giảm tốc độ, chú ý quan sát nhường đường cho người đi bộ qua đường.",false
+158,"3- Nhanh chóng tăng tốc độ, vượt qua nút giao và chú ý đảm bảo an toàn.",false
+158,4- Cả ý 1 và ý 2.,true
+159,1- Ra tín hiệu bằng tay rồi cho xe vượt qua.,false
+159,2- Tăng ga mạnh để gây sự chú ý rồi cho xe vượt qua.,false
+159,3- Bạn phải có tín hiệu bằng đèn hoặc còi.,true
+160,"1- Được dừng, đỗ.",false
+160,"2- Không được dừng, đỗ.",true
+160,"3- Được dừng, đỗ nhưng phải đảm bảo an toàn.",false
+161,"1- Bật đèn tín hiệu khẩn cấp, dừng xe ngay lập tức và đặt biển báo hiệu nguy hiểm để cảnh báo cho các xe khác.",false
+161,"2- Bật tín hiệu khẩn cáp, lập tức đưa xe vào làn đường xe chạy bên phải trong cùng, đặt biển báo hiệu nguy hiểm để cảnh báo cho các xe khác.",false
+161,"3- Bật đèn tín hiệu khẩn cấp, khi đủ điều kiện an toàn nhanh chóng đưa xe vào làn dừng đỗ khẩn cấp, đặt biển báo hiệu nguy hiểm để cảnh báo cho các xe khác.",true
+162,"1- 0,25 mét.",true
+162,"2- 0,3 mét.",false
+162,"3- 0,4 mét.",false
+162,"4- 0,5 mét.",false
+163,1- 5 mét.,false
+163,2- 10 mét.,false
+163,3- 15 mét.,false
+163,4- 20 mét.,true
+164,1- Được phép.,false
+164,2- Không được phép.,true
+164,"3- Chỉ được phép dừng, đỗ khi đường vắng.",false
+165,"1- Đường ướt, đường có sỏi cát trên nền đường.",false
+165,2- Đường hẹp có nhiều điểm giao cắt từ hai phía.,false
+165,"3- Đường đèo dốc, vòng liên tục.",false
+165,4- Tất cả các ý nêu trên.,true
+166,1- Tăng tốc độ để nhanh chóng vượt qua bến đỗ.,false
+166,2- Giảm tốc độ đến mức an toàn có thể và quan sát người qua đường và từ từ vượt qua xe buýt.,true
+166,3- Yêu cầu phải dừng lại phía sau xe buýt chờ xe rời bến mới đi tiếp.,false
+167,"1- Luôn có ý thức về tính tổ chức, kỷ luật, thực hiện nghiêm biểu đồ xe chạy được phân công; thực hiện đúng hành trình, lịch trình, đón trả khách đúng nơi quy định; giúp đỡ hành khách khi đi xe, đặc biệt là những người khuyết tật, người già, trẻ em và phụ nữ có thai, có con nhỏ.",true
+167,"2- Luôn có ý thức về tính tổ chức, kỷ luật, thực hiện linh hoạt biểu đồ xe chạy được phân công để tiết kiệm chi phí; thực hiện đúng hành trình, lịch trình khi có khách đi xe, đón trả khách ở những nơi thuận tiện cho hành khách đi xe.",false
+168,1- Vận chuyển hàng nguy hiểm nhưng có giấy phép.,false
+168,2- Vận chuyển động vật hoang dã nhưng thực hiện đủ các quy định có liên quan.,false
+168,"3- Vận chuyển hàng cấm lưu thông; vận chuyển trái phép hàng nguy hiểm, động vật hoang dã.",true
+169,1- Cạnh tranh nhau nhằm tăng lợi nhuận.,false
+169,2- Giảm giá để thu hút khách.,false
+169,"3- Đe dọa, xúc phạm, tranh giành, lôi kéo hành khách; bắt ép hành khách sử dụng dịch vụ ngoài ý muốn; xuống khách nhằm trốn tránh phát hiện xe chở quá số người quy định.",true
+169,4- Tất cả các ý trên.,false
+170,1- Không quá 4 giờ.,true
+170,2- Không quá 6 giờ.,false
+170,3- Không quá 8 giờ.,false
+170,4- Liên tục tùy thuộc vào sức khỏe và khả năng của người lái xe.,false
+171,1- Không quá 8 giờ.,false
+171,2- Không quá 10 giờ.,true
+171,3- Không quá 12 giờ.,false
+171,4- Không hạn chế tùy thuộc vào sức khỏe và khả năng của người lái xe.,false
+172,"1- Đón, trả khách đúng nơi quy định, không chở hành khách trên mui, trong khoang hành lý hoặc để hành khách đu bám bên ngoài xe.",false
+172,"2- Không chở hàng nguy hiểm, hàng có mùi hôi thối hoặc động vật, hàng hóa khác có ảnh hưởng đến sức khỏe của hành khách.",false
+172,"3- Chở hành khách trên mui; đề hàng hóa trong khoang chở khách, chở quá số người theo quy định.",false
+172,4- Cả ý 1 và ý 2.,true
+173,"1- Kiểm tra các điều kiện bảo đảm an toàn của xe trước khi khởi hành; kiểm tra việc sắp xếp, chằng buộc hành lý, hàng hóa bảo đảm an toàn.",false
+173,2- Đóng cửa lên xuống của xe trước và trong khi xe chạy.,false
+173,3- Đón trả khách tại vị trí do khách hàng yêu cầu.,false
+173,4- Cả ý 1 và ý 2.,true
+174,"1- Tự ý thay đổi vị trí đón, trả khách theo hợp đồng vận chuyển hoặc đón thêm người ngoài danh sách hành khách đã ký.",false
+174,"2- Từ chối vận chuyển trước khi phương tiện rời bến, rời vị trí đón trả khách theo hợp đồng vận chuyển những người đã có vé hoặc người trong danh sách hợp đồng có hành vi gây rối trật tự công cộng, gây cản trở công việc kinh doanh vận tải, ảnh hưởng đến sức khỏe, tài sản của người khác, gian lận vé hoặc hành khách đang bị dịch bệnh nguy hiểm.",true
+174,3- Cả ý 1 và ý 2.,false
+175,"1- Được vận chuyển theo đúng hợp đồng vận tải, cam kết của người kinh doanh về chất lượng vận tải; được miễn cước hành lý với trọng lượng không quá 20kg và với kích thước phù hợp với thiết kế của xe; được từ chối chuyến đi trước khi phương tiện khởi hành và được trả lại tiền vé theo quy định của Bộ Giao thông vận tải.",true
+175,"2- Được vận chuyển theo hợp đồng vận tải, cam kết của người kinh doanh về vận tải; được miễn cước hành lý với trọng lượng không quá 50 kg và với kích thước không quá cồng kềnh; được từ chối chuyền đi trước khi phương tiện khởi hành và được trả lại tiền vé.",false
+176,"1- Mua vé và trả cước, phí vận tải hành lý mang theo quá mức quy định: có mặt tại nơi xuất phát đúng thời gian thỏa thuận; chấp hành quy định về vận chuyển; thực hiện đúng hướng dẫn của lái xe, nhân viên phục vụ trên xe về các quy định bảo đảm trật tự, an toàn giao thông.",true
+176,"2- Được mang theo hành lý, hàng hóa mà pháp luật cấm lưu thông khi đã trả cước, phí vận tải.",false
+176,3- Cả ý 1 và ý 2.,false
+177,1- Yêu cầu người thuê vận tải cung cấp thông tin cần thiết về hàng hóa để ghi vào giấy vận chuyển và có quyền kiểm tra tính xác thực của các thông tin đó.,true
+177,2- Yêu cầu xếp hàng hóa vận chuyển trên xe vượt quá chiều cao quy định nhưng phải được chằng buộc chắc chắn.,false
+177,3- Yêu cầu xếp hàng hóa vượt tải trọng 10%.,false
+178,"1- Cung cấp phương tiện và thực hiện thời gian, địa điểm giao hàng hóa cho người nhận hàng theo điều kiện của người kinh doanh vận tải; chịu trách nhiệm về hậu quả mà người làm công, người đại diện gây ra do thực hiện yêu cầu của người kinh doanh vận tải phù hợp với quy định của pháp luật.",false
+178,"2- Bồi thường thiệt hại cho người thuê vận tải do mất mát, hư hỏng hàng hóa xảy ra trong quá trình vận tải từ lúc nhận hàng đến lúc giao hàng; bồi thường thiệt hại do người làm công, người đại diện gây ra trong khi thực hiện công việc được người kinh doanh vận tải giao; chịu trách nhiệm về hậu quả mà người làm công, người đại diện gây ra do thực hiện yêu cầu của người kinh doanh vận tải trái với quy định của pháp luật.",true
+178,3- Cả ý 1 và ý 2.,false
+179,"1- Từ chối xếp hàng lên phương tiện mà phương tiện đó không đúng thỏa thuận trong hợp đồng; yêu cầu người kinh doanh vận tải giao hàng đúng thời gian, địa điểm đã thỏa thuận trong hợp đồng; yêu cầu người kinh doanh vận tải bồi thường thiệt hại theo quy định của pháp luật.",true
+179,2- Từ chối xếp hàng hóa lên phương tiện khi thấy phương tiện đó không phù hợp với yêu cầu; yêu cầu người kinh doanh vận tải giao hàng trước thời hạn đã thỏa thuận trong hợp đồng; yêu cầu người kinh doanh vận tải bồi thường thiệt hại khi người kinh doanh vận tải gây thiệt hại.,false
+180,"1- Chuẩn bị đầy đủ các giấy tờ hợp pháp về hàng hóa trước khi giao hàng hóa cho người kinh doanh vận tải; đóng gói hàng hóa đúng quy cách, ghi ký hiệu, mã hiệu hàng hóa đầy đủ, rõ ràng; giao hàng hóa cho người kinh doanh vận tải đúng thời gian, địa điểm và nội dung khác ghi trong giấy gửi hàng.",true
+180,"2- Chuẩn bị đầy đủ các giấy tờ hợp pháp về phương tiện vận chuyển hàng hoá và giao cho người lái xe; xếp hàng hóa lên phương tiện vận chuyển đảm bảo an toàn; giao hàng hóa cho người nhận hàng đúng thời gian, địa điểm.",false
+180,3- Cả ý 1 và ý 2.,false
+181,1- Nhận và kiểm tra hàng hóa nhận được theo giấy vận chuyển hoặc chứng từ tương đương khác; yêu cầu người kinh doanh vận tải thanh toán chi phí phát sinh do giao hàng hóa chậm.,true
+181,"2- Yêu cầu hoặc thông báo cho người thuê vận tải để yêu cầu người lái xe bồi thường thiệt hại do mất mát, hư hỏng hàng hóa; nhận hàng hóa không theo giấy vận chuyển hoặc chứng từ tương đương khác.",false
+181,3- Cả ý 1 và ý 2.,false
+182,"1- Nhận hàng hóa đúng thời gian, địa điểm đã thỏa thuận.",false
+182,2- Xuất trình giấy vận chuyển và giấy tờ tùy thân cho người kinh doanh vận tải trước khi nhận hàng hóa; thanh toán chi phí phát sinh do nhận hàng chậm.,false
+182,3- Cả ý 1 và ý 2.,true
+183,1- Là hàng có kích thước vượt quá kích thước và trọng lượng của xe.,false
+183,2- Là hàng có kích thước hoặc trọng lượng vượt quá giới hạn quy định nhưng có thể tháo rời.,false
+183,3- Là hàng có kích thước hoặc trọng lượng vượt quá giới hạn quy định nhưng không thể tháo rời ra được.,true
+184,"1- Tùy theo loại động vật sống, người kinh doanh vận tải yêu cầu người thuê vận tải áp tải để chăm sóc trong quá trình vận tải.",false
+184,3- Cả ý 1 và ý 2.,true
+185,"1- Phải có giấy phép do cơ quan có thẩm quyền cấp, xe vận chuyển hàng nguy hiểm không được dừng, đỗ nơi đông người, những nơi dễ xảy ra nguy hiểm.",true
+185,"2- Phải được chuyên chở trên xe chuyên dùng để vận chuyển hàng nguy hiểm; xe vận chuyển hàng nguy hiểm phải chạy liên tục không được dừng, đỗ trong quá trình vận chuyển.",false
+185,3- Cả ý 1 và ý 2.,false
+186,"1- Người lái xe buýt phải chạy đúng tuyến, đúng lịch trình và dừng đỗ đúng nơi quy định; người lái xe chở hàng phải hoạt động đúng tuyên, phạm vi và thời gian quy định đối với từng loại xe.",true
+186,"2- Người lái xe buýt, xe chở hàng đón, trả khách, hàng hóa theo thỏa thuận giữa hành khách, chủ hàng và người lái xe.",false
+187,1- Hàng vận chuyển trên xe phải được xếp đặt gọn gàng và chằng buộc chắc chắn.,false
+187,"2- Khi vận chuyển hàng rời phải che đậy, không để rơi vãi.",false
+187,3- Cả ý 1 và ý 2.,true
+188,1- Hình 1.,false
+188,2- Hình 2.,true
+188,3- Hình 3.,false
+189,1- Hình 1.,true
+189,2- Hình 2.,false
+190,1- Hình 1.,true
+190,2- Hình 2.,false
+191,1- Hình 1.,false
+191,2- Hình 2.,false
+191,3- Hình 3.,true
+192,1- Hình 1.,false
+192,2- Hình 2.,true
+193,"1- Được khách hàng, xã hội tôn trọng; được đồng nghiệp quý mến, giúp đỡ; được doanh nghiệp tin dùng và đóng góp nhiều cho xã hội.",false
+193,"2- Thu hút được khách hàng, góp phần quan trọng trong xây dựng thương hiệu, kinh doanh có hiệu quả cao.",false
+193,3- Cả ý 1 và ý 2.,true
+194,"1- Thực hiện nghiêm chỉnh những nội dung hợp đồng giữa chủ phương tiện với chủ hàng trong việc vận chuyển và bảo quản hàng hóa trong quá trình vận chuyển; không chở hàng cấm, không xếp hàng quá trọng tải của xe, quá trọng tải cho phép của cầu, đường; khi vận chuyển hàng quá khổ, quá tải, hàng nguy hiểm, hàng siêu trường, siêu trọng phải có giấy phép.",true
+194,"2- Thực hiện nghiêm chỉnh những nội dung hợp đồng giữa chủ hàng với khách hàng trong việc vận chuyển và bảo quản hàng hóa trong quá trình vận chuyển; trong trường hợp cần thiết có thế xếp hàng quá trọng tải của xe, quá trọng tải cho phép của cầu theo yêu cầu của chủ hàng; khi vận chuyển hàng quá khổ, quá tải, hàng nguy hiểm, hàng siêu trường, siêu trọng phải được chủ hàng cho phép.",false
+195,"1- Phải yêu quý xe, quản lý và sử dụng xe tốt; bảo dưỡng xe đúng định kỳ; thực hành tiết kiệm vật tư, nhiên liệu; luôn tu dưỡng bản thân, có lối sống lành mạnh, tác phong làm việc công nghiệp.",false
+195,"2- Nắm vững các quy định của pháp luật, tự giác chấp hành pháp luật, lái xe an toàn; coi hành khách như người thân, là đối tác tin cậy; có ý thức tổ chức kỷ luật và xây dựng doanh nghiệp vững mạnh; có tinh thần hợp tác, tương trợ, giúp đỡ đồng nghiệp.",false
+195,3- Cả ý 1 và ý 2.,true
+196,1- Kiểm tra các điều kiện bảo đảm an toàn của xe sau khi khởi hành; có trách nhiệm lái xe thật nhanh khi chậm giờ của khách.,false
+196,"2- Kiểm tra các điều kiện bảo đảm an toàn của xe trước khi khởi hành; có thái độ văn minh, lịch sự, hướng dẫn hành khách ngồi đúng nơi quy định; kiểm tra việc sắp xếp, chằng buộc hành lý, bảo đảm an toàn.",false
+196,"3- Có biển pháp bảo vệ tính mạng, sức khỏe, tài sản của hành khách đi xe, giữ gìn trật tự, vệ sinh trong xe; đóng cửa lên xuống của xe trước và trong khi xe chạy.",false
+196,4- Cả ý 2 và ý 3.,true
+197,1- Là sự hiểu biết và chấp hành nghiêm chỉnh pháp luật về giao thông; là ý thức trách nhiệm với cộng đồng khi tham gia giao thông.,false
+197,"2- Là ứng xử có văn hóa, có tình yêu thương con người trong các tình huống không may xảy ra khi tham gia giao thông.",false
+197,3- Cả ý 1 và ý 2.,true
+198,1- Cho xe chạy thật nhanh qua vũng nước.,false
+198,2- Giảm tốc độ cho xe chạy chậm qua vũng nước.,true
+198,3- Giảm tốc độ cho xe chạy qua làn đường dành cho mô tô để tránh vũng nước.,false
+199,1- Là bình thường.,false
+199,2- Là thiếu văn hóa giao thông.,true
+199,3- Là có văn hóa giao thông.,false
+200,1- Thực hiện cầm máu trực tiếp.,false
+200,2- Thực hiện cầm máu không trực tiếp (chặn động mạch).,true
+201,"1- Có trách nhiệm với bản thân và với cộng đồng; tôn trọng, nhường nhịn người khác.",false
+201,"2- Tận tình giúp đỡ người tham gia giao thông gặp hoạn nạn; giúp đỡ người khuyết tật, trẻ em và người cao tuổi.",false
+201,3- Cả ý 1 và ý 2.,true
+202,"1- Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông, chỉ đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm.",false
+202,"2- Chấp hành quy định về tốc độ, đèn tín hiệu, biển báo hiệu, vạch kẻ đường khi lái xe; chắp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông; nhường đường cho người đi bộ, người già, trẻ em, người khuyết tật.",true
+202,3- Cả ý 1 và ý 2.,false
+203,"1- Điều khiển xe đi bên phải theo chiều đi của mình; đi đúng phần đường, làn đường quy định; đội mũ bảo hiểm đạt chuẩn, cài quai đúng quy cách.",true
+203,"2- Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông.",false
+203,3- Điều khiển xe và đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm.,false
+204,"1- Điều khiển xe đi bên phải theo chiều đi của mình; đi đúng phần đường, làn đường quy định; dừng, đỗ xe đúng nơi quy định; đã uống rượu, bia thì không lái xe.",true
+204,"2- Điều khiển xe đi trên phần đường, làn đường có ít phương tiện giao thông; dừng xe, đỗ xe ở nơi thuận tiện hoặc theo yêu cầu của hành khách, của người thân.",false
+204,"3- Dừng và đỗ xe ở nơi thuận tiện cho việc chuyên chở hành khách và giao nhận hàng hóa; sử dụng ít rượu, bia thì có thể lái xe.",false
+205,"1- Có giấy phép lái xe phù hợp với loại xe được phép điều khiển; xe cơ giới đảm bảo các quy định về chất lượng, an toàn kỹ thuật và bảo vệ môi trường.",false
+205,2- Có giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực; nộp phí sử dụng đường bộ theo quy định.,false
+205,3- Cả ý 1 và ý 2.,true
+206,1- Đặt các biển cảnh báo hoặc vật báo hiệu ở phía trước và phía sau hiện trường xảy ra tai nạn để cảnh báo; kiểm tra khả năng xảy ra hỏa hoạn do nhiên liệu bị rò rỉ; bảo vệ hiện trường vụ tai nạn và cấp cứu người bị thương.,true
+206,2- Đặt các biển cảnh báo hoặc vật báo hiệu ở phía trên nóc xe xảy ra tai nạn để cảnh báo; kiểm tra khả năng xảy ra mất an toàn do nước làm mát bị rò rỉ.,false
+206,3- Cả ý 1 và ý 2.,false
+207,1- Thực hiện sơ cứu ban đầu trong trường hợp khẩn cắp; thông báo vụ tai nạn đến cơ quan thi hành pháp luật.,true
+207,2- Nhanh chóng lái xe gây tai nạn hoặc đi nhờ xe khác ra khỏi hiện trường vụ tai nạn.,false
+207,3- Cả ý 1 và ý 2.,false
+208,"1- Đặt nạn nhân nằm ngửa, khai thông đường thở của nạn nhân.",false
+208,2- Thực hiện các biển pháp hô hấp nhân tạo.,false
+208,3- Cả ý 1 và ý 2.,true
+209,1- Không bị nghiêm cấm.,false
+209,2- Nghiêm cấm tùy từng trường hợp cụ thể.,false
+209,3- Bị nghiêm cấm.,true
+210,"1- Xâm phạm tính mạng, sức khoẻ, tài sản của người bị nạn và người gây tai nạn.",false
+210,2- Bỏ trốn sau khi gây ra tai nạn để trốn tránh trách nhiệm.,false
+210,3- Cả ý 1 và ý 2.,true
+211,"1- Xâm phạm tính mạng, sức khoẻ, tài sản của người bị nạn và người gây tai nạn.",true
+211,2- Sơ cứu người bị nạn khi cơ quan có thẩm quyền chưa cho phép.,false
+211,3- Sơ cứu người gây tai nạn khi cơ quan có thẩm quyền chưa cho phép.,false
+212,1- Cho xe lấn sang làn ngược chiều để nhanh chóng thoát khỏi nơi ùn tắc.,false
+212,2- Điều khiển xe lên vỉa hè để nhanh chóng thoát khỏi nơi ùn tắc.,false
+212,"3- Kiên nhẫn tuân thủ hướng dẫn của người điều khiển giao thông hoặc tín hiệu giao thông, di chuyển trên đúng phần đường bên phải theo chiều đi, nhường đường cho các phương tiện đi ngược chiều để nút tắt nhanh chóng được giải tỏa.",true
+213,1- Bấm còi liên tục thúc giục các phương tiện phía trước nhường đường.,false
+213,"2- Đi lên vỉa hè, tận dụng mọi khoảng trống để nhanh chóng thoát khỏi nơi ùn tắc.",false
+213,3- Lấn sang trái đường cố gắng vượt lên xe khác.,false
+213,4- Tất cả các ý nêu trên.,true
+214,"1- Giữ tay ga ở mức độ phù hợp, sử dụng phanh trước và phanh sau để giảm tốc độ.",true
+214,"2- Nhả hết tay ga, tắt động cơ, sử dụng phanh trước và phanh sau để giảm tốc độ.",false
+214,3- Sử dụng phanh trước để giảm tốc độ kết hợp với tắt chìa khóa điện của xe.,false
+215,"1- Đạp bàn đạp phanh chân hết hành trình, vào số và nhả phanh tay, kiểm tra lại xem có bị nhầm số không rồi mới cho xe lăn bánh.",true
+215,"2- Đạp bàn đạp để tăng ga với mức độ phù hợp, vào số và kiểm tra lại xem có bị nhầm số không rồi mới cho xe lăn bánh.",false
+216,"1- Dùng lực tay phải kéo cần phanh tay về phía sau hết hành trình; néu khóa hãm bị kẹt cứng phải đẩy mạnh phanh tay về phía trước, sau đó bóp khóa hãm.",false
+216,2- Dùng lực tay phải bóp khóa hãm đẩy cần phanh tay về phía trước hết hành trình; nếu khóa hãm bị kẹt cứng phải kéo cần phanh tay về phía sau đồng thời bóp khóa hãm.,true
+216,"3- Dùng lực tay phải đẩy cần phanh tay về phía trước hết hành trình; nếu khóa hãm bị kẹt cứng phải đẩy mạnh cần phanh tay về phía trước, sau đó bóp khóa hãm.",false
+217,"1- Kiểm tra an toàn xung quanh xe ô tô; nhả từ từ đến 1/2 hành trình bàn đạp ly hợp (côn) và giữ trong khoảng 3 giây; vào số 1; nhả hết phanh tay, báo hiệu bằng còi, đèn trước khi xuất phát; tăng ga đủ để xuất phát, sau đó vừa tăng ga vừa nhả hết ly hợp để cho xe ô tô chuyển động.",false
+217,"2- Kiểm tra an toàn xung quanh xe ô tô; đạp ly hợp (côn) hết hành trình; vào số 1; nhả hết phanh tay, báo hiệu bằng còi, đèn trước khi xuất phát; tăng ga đủ để xuất phát; nhả từ từ đến 1/2 hành trình bàn đạp ly hợp và giữ trong khoảng 3 giây, sau đó vừa tăng ga vừa nhả hết ly hợp (côn) đề cho xe ô tô chuyển động.",true
+218,"1- Quan sát biển báo hiệu để biết nơi được phép quay đầu; quan sát kỹ địa hình nơi chọn để quay đầu; lựa chọn quỹ đạo quay đầu xe cho thích hợp; quay đầu xe với tốc độ thấp; thường xuyên báo tín hiệu để người, các phương tiện xung quanh được biết; nếu quay đầu xe ở nơi nguy hiểm thì đưa đầu xe về phía nguy hiểm đưa đuôi xe về phía an toàn.",true
+218,"2- Quan sát biển báo hiệu để biết nơi được phép quay đầu; quan sát kỹ địa hình nơi chọn để quay đầu; lựa chọn quỹ đạo quay đầu xe; quay đầu xe với tốc độ tối đa, thường xuyên báo tín hiệu để người, các phương tiện xung quanh được biết; nếu quay đầu xe ở nơi nguy hiểm thì đưa đuôi xe về phía nguy hiểm và đầu xe về phía an toàn.",false
+219,1- Không nên đi cố vào đường hẹp; xe đi ở phía sườn núi nên dừng lại trước để nhường đường; khi dừng xe nhường đường phải đổ ngay ngắn.,false
+219,"2- Trong khi tránh nhau không nên đổi số; khi tránh nhau ban đêm, phải tắt đèn pha bật đèn cốt.",false
+219,"3- Khi tránh nhau ban đêm, phải thường xuyên bật đèn pha tắt đèn cốt.",false
+219,4- Cả ý 1 và ý 2.,true
+220,"1- Tăng lên số cao từ chân dốc, điều chỉnh ga cho xe nhanh lên dốc; đến gần đỉnh dốc phải tăng ga để xe nhanh chóng qua dốc; về số thấp, đi sát về phía bên phải đường, có tín hiệu (còi, đèn) để báo cho người lái xe đi ngược chiều biết.",false
+220,"2- Về số thấp. từ chân dốc, điều chỉnh ga cho xe từ từ lên dốc; đến gần đỉnh dốc phải đi chậm, đi sát về phía bên phải đường, có tín hiệu (còi, đèn) để báo cho người lái xe đi ngược chiều biết.",true
+221,"1- Tăng lên số cao, nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân đê không chê tốc độ.",false
+221,"2- Về số tháp, nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân để khống chế tốc độ.",true
+221,"3- Về số không (0), nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân đê không chê tốc độ.",false
+222,"1- Có tín hiệu rẽ phải, điều khiển xe sát vào lề đường bên phải; đạp phanh sớm và mạnh hơn lúc dừng xe trên đường bằng để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được; về số 1, đạp nửa ly hợp (côn) cho xe đến chỗ dừng; khi xe đã dừng, về số không (N), đạp phanh chân và kéo phanh tay.",true
+222,"2- Có tín hiệu rẽ phải, điều khiển xe sát vào lề đường bên trái; đạp hết hành trình ly hợp (côn) và nhả bàn đạp ga đề xe đi với tốc độ chậm đến mức dễ dàng dừng lại được tại chỗ dừng; khi xe đã dùng, đạp và giữ phanh chân.",false
+222,"3- Có tín hiệu rẽ trái, điều khiển xe sát vào lề đường bên phải; đạp phanh sớm và mạnh hơn lúc dừng xe trên đường bằng để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được; về số không (N) để xe đi đến chỗ dừng, khi xe đã dừng, kéo phanh tay.",false
+223,"1- Quan sát cẩn thận các chướng ngại vật và báo hiệu bằng còi, đèn; giảm tốc độ tới mức cần thiết, về số thấp và thực hiện quay vòng với tốc độ phù hợp với bán kính cong của đường vòng.",true
+223,"2- Quan sát cẩn thận các chướng ngại vật và báo hiệu bằng còi, đèn; tăng tốc để nhanh chóng qua đường vòng và giảm tốc độ sau khi qua đường vòng.",false
+224,1- Có tín hiệu rẽ phải; quan sát an toàn phía sau; điều khiển xe sang làn đường bên trái; giảm tốc độ và quan sát an toàn phía bên phải để điều khiển xe qua chỗ đường giao nhau.,false
+224,2- Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ phải; quan sát an toàn phía sau; điều khiển xe bám sát vào phía phải đường; giảm tốc độ và quan sát an toàn phía bên phải để điều khiển xe qua chỗ đường giao nhau.,true
+224,3- Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ phải; quan sát an toàn phía sau; điều khiển xe bám sát vào phía phải đường; tăng tốc độ và quan sát an toàn phía bên trái để điều khiển xe qua chỗ đường giao nhau.,false
+225,"1- Cách chỗ rẽ một khoảng cách an toàn giảm tốc độ, có tín hiệu rẽ trái xin đổi làn đường; quan sát an toàn xung quanh đặc biệt là bên trái; đổi sang làn đường bên trái; cho xe chạy chậm tới phía trong của tâm đường giao nhau mới rẽ trái để điều khiển xe qua chỗ đường giao nhau.",true
+225,"2- Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ trái, tăng tốc độ để xe nhanh chóng qua chỗ đường giao nhau; có tín hiệu xin đổi làn đường; quan sát an toàn xung quanh đặc biệt là bên trái; đổi làn đường sang phải để mở rộng vòng cua.",false
+226,"1- Gài số một (1) và từ từ cho hai bánh xe trước xuống rãnh, tăng ga cho hai bánh xe trước vượt lên khỏi rãnh, tăng số, tăng tốc độ để bánh xe sau vượt qua rãnh.",false
+226,"2- Tăng ga, tăng số để hai bánh xe trước và bánh xe sau vượt qua khỏi rãnh và chạy bình thường.",false
+226,"3- Gài số một (1) và từ từ cho hai bánh xe trước xuống rãnh, tăng ga cho hai bánh xe trước vượt lên khỏi rãnh, tiếp tục để bánh xe sau từ từ xuống rãnh rồi tăng dần ga cho xe ô tô lên khỏi rãnh.",true
+227,"1- Khi có chuông báo hoặc thanh chắn đã hạ xuống, người lái xe phải dừng xe tạm thời đúng khoảng cách an toàn, kéo phanh tay nếu đường dốc hoặc phải chờ lâu.",false
+227,"2- Khi không có chuông báo hoặc thanh chắn không hạ xuống, người lái xe phải quan sát nếu thấy đủ điều kiện an toàn thì về số tháp, tăng ga nhẹ và không thay đổi số trong quá trình vượt qua đường sắt để tránh động cơ chết máy cho xe vượt qua.",false
+227,3-Cả ý 1 và ý 2.,true
+228,"1- Khi chạy trên đường xấu, nhiều ổ gà nên chạy chậm để thùng xe không bị lắc mạnh, không gây hiện tượng lệch “ben”; khi chạy vào đường vòng, cần giảm tốc độ, không lấy lái gấp và không phanh gáp.",false
+228,"2- Khi chạy trên đường quốc lộ, đường bằng phẳng không cần hạ hết thùng xe xuống.",false
+228,"3- Khi đổ hàng phải chọn vị trí có nền đường cứng và phẳng, dừng hẳn xe, kéo chặt phanh tay; sau đó mới điều khiển cơ cấu nâng “ben” để đổ hàng, đổ xong hàng mới hạ thùng xuống.",false
+228,4- Cả ý 1 và ý 3.,true
+229,"1- Không được nhìn xuống buồng lái, cần phải tăng thứ tự từ thấp đến cao, phối hợp các động tác phải nhịp nhàng, chính xác.",true
+229,"2- Nhìn xuống buồng lái để biết chính xác vị trí các tay số, cần phải tăng thứ tự từ thấp đến cao, phối hợp các động tác phải nhịp nhàng, vù ga phải phù hợp với tốc độ.",false
+230,"1- Nhìn xuống buồng lái để biết chính xác vị trí các tay số, cần phải giảm thứ tự từ cao đến tháp, phối hợp các động tác phải nhịp nhàng, chính xác.",false
+230,"2- Không được nhìn xuống buồng lái, cần phải giảm thứ tự từ cao đến thấp, phối hợp các động tác phải nhịp nhàng chính xác, vù ga phải phù hợp với tốc độ.",true
+231,"1- Nhả bàn đạp ga, đạp ly hợp (côn) hết hành trình, đạp mạnh phanh chân để giảm tốc độ.",false
+231,"2- Về số thấp phù hợp, nhả bàn đạp ga, kết hợp đạp phanh chân với mức độ phù hợp, để giảm tốc độ.",true
+231,"3- Nhả bàn đạp ga, tăng lên số cao, đạp phanh chân với mức độ phù hợp để giảm tốc độ.",false
+232,"1- Tăng lên số cao, tăng ga và giảm ga liên tục để thay đổi tốc độ, giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",false
+232,"2- Đạp ly hợp (côn) hét hành trình, tăng ga và giảm ga liên tục để thay đổi tốc độ, giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",false
+232,"3- Quan sát, ước lượng độ ngập nước mà xe ôtô có thể vượt qua an toàn, về số thấp, giữ đều ga và giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",true
+233,1- Chuyển từ đèn chiếu xa sang đèn chiếu gần; không nhìn thẳng vào đèn của xe chạy ngược chiều mà nhìn chếch sang phía phải theo chiều chuyển động của xe mình.,true
+233,2- Chuyển từ đèn chiếu gần sang đèn chiếu xa; không nhìn thẳng vào đèn của xe chạy ngược chiều mà nhìn chếch sang phía phải theo chiều chuyển động của xe mình.,false
+233,3- Chuyển từ đèn chiếu xa sang đèn chiếu gân; nhìn thẳng vào đèn của xe chạy ngược chiều để tránh xe đảm bảo an toàn.,false
+234,"1- Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số tháp đi chậm, giữ đều ga, đánh lái ngoặt và phanh gấp khi cần thiết.",false
+234,"2- Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số tháp đi chậm (sử dụng số L hoặc 1, 2 đối với xe số tự động), gài cầu (nếu có), giữ đều ga, không lấy nhiều lái, không đánh lái ngoặt và phanh gấp.",true
+235,1- Phanh tay đang hãm hoặc thiếu dầu phanh.,true
+235,2- Nhiệt độ nước làm mát quá mức cho phép.,false
+235,3- Cửa xe đang mở.,false
+236,1- Phanh tay đang hãm.,false
+236,2- Thiếu dầu phanh.,false
+236,3- Nhiệt độ nước làm mát tăng quá mức cho phép.,false
+236,4- Dầu bôi trơn bị thiếu.,true
+237,1- Cửa xe đóng chưa chặt; hoặc có cửa xe chưa đóng.,true
+237,2- Bộ nạp ắc quy gặp sự cố kỹ thuật.,false
+237,3- Dầu bôi trơn bị thiếu.,false
+237,4- Cả ý 2 và 3.,false
+238,"1- Thiếu dầu phanh, phanh tay đang hãm.",false
+238,2- Hệ thống túi khí an toàn gặp sự cố.,false
+238,3- Lái xe và người ngồi ghế trước chưa cài dây an toàn.,true
+238,"4- Cửa đóng chưa chặt, có cửa chưa đóng.",false
+239,1- Báo hiệu thiếu dầu phanh.,false
+239,2- Áp suất lốp không đủ.,false
+239,3- Đang hãm phanh tay.,false
+239,4- Sắp hết nhiên liệu.,true
+240,1- Xăng và dầu diesel.,false
+240,2- Xăng sinh học và khí sinh học.,true
+240,3- Cả ý 1 và ý 2.,false
+241,1- Bảo dưỡng xe theo định kỳ và có kế hoạch lộ trình trước khi chạy xe.,false
+241,2- Kiểm tra áp suất lốp theo quy định và chạy xe với tốc độ phù hợp với tình trạng mặt đường và mật độ giao thông trên đường.,false
+241,3- Cả ý 1 và ý 2.,true
+242,"1- Quan sát tình hình giao thông phía trước và sau, mở hé cánh cửa, nếu đảm bảo an toàn thì mở cửa ở mức cần thiết để xuống xe ô tô.",true
+242,"2- Mở cánh cửa và quan sát tình hình giao thông phía trước, nếu đảm bảo an toàn thì mở cửa ở mức cần thiết để xuống xe ô tô.",false
+242,3- Mở cánh cửa hết hành trình và nhanh chóng ra khỏi xe ô tô.,false
+243,"1- Tạm dừng xe tại vị trí cách đường sắt tối thiểu 5 mét, hạ kính cửa, tắt các thiết bị âm thanh trên xe, quan sát, nếu không có tàu chạy qua, về số thấp, tăng ga nhẹ để tránh động cơ chết máy cho xe vượt qua.",true
+243,"2- Tại vị trí cách đường sắt tối thiểu 5 mét quan sát phía trước, nếu tàu còn cách xa, tăng số cao, tăng ga để cho xe nhanh chóng vượt qua đường sắt.",false
+244,1- Không đúng.,false
+244,2- Đúng.,true
+244,"3- Không cần thiết, vì nếu nhìn thấy tàu còn cách xa, người lái xe có thể tăng số cao, tăng ga để cho xe nhanh chóng vượt qua đường sắt.",false
+245,"1- Về số thấp, kết hợp phanh chân để giảm tốc độ.",true
+245,"2- Giữ nguyên tay số D, kết hợp phanh tay để giảm tốc độ.",false
+245,"3- Về số N (số 0), kết hợp phanh chân để giảm tốc độ.",false
+246,1- Vị trí N hoặc vị trí P hoặc số 0.,true
+246,2- Vị trí D hoặc số 1.,false
+246,3- Vị trí R.,false
+247,1- Không sử dụng chân trái; chân phải điều khiển bàn đạp phanh và bàn đạp ga.,true
+247,"2- Chân trái điều khiển bàn đạp phanh, chân phải điều khiển bàn đạp ga.",false
+247,3- Không sử dụng chân phải; chân trái điều khiển bàn đạp phanh và bàn đạp ga.,false
+248,"1- Tăng tốc độ, chạy gần xe trước, nhìn đèn hậu để định hướng.",false
+248,"2- Giảm tốc độ, chạy cách xa xe trước với khoảng cách an toàn, bật đèn sương mù và đèn chiếu gần.",true
+248,"3- Tăng tốc độ, bật đèn pha vượt qua xe chạy trước.",false
+249,"1- Giảm tốc độ, néu cần thiết có thể dừng xe lại.",true
+249,2- Bật đèn pha chiếu xa và giữ nguyên tốc độ.,false
+249,"3- Tăng tốc độ, bật đèn pha đối diện xe phía trước.",false
+250,1- Sử dụng phanh trước.,false
+250,2- Sử dụng phanh sau.,false
+250,3- Giảm hết ga; sử dụng đồng thời cả phanh sau và phanh trước.,true
+251,"1- Giảm tốc độ, về số thấp và giữ đều ga.",true
+251,2- Tăng tốc độ cho xe lướt qua nhanh.,false
+251,"3- Tăng tốc độ, đánh lái liên tục để tránh “ổ gà”.",false
+252,"1- Bật đèn chiếu gần và đèn vàng, điều khiển gạt nước, điều khiển ô tô đi với tốc độ chậm để có thể quan sát được; tìm chỗ an toàn dừng xe, bật đèn dừng khẩn cấp báo hiệu cho các xe khác biết.",true
+252,"2- Bật đèn chiếu xa và đèn vàng, điều khiển gạt nước, tăng tốc độ điều khiển ô tô qua khỏi khu vực mưa hoặc sương mù.",false
+252,"3- Tăng tốc độ, bật đèn pha vượt qua xe chạy phía trước.",false
+253,"1- Giảm tốc độ, tăng cường quan sát, không nên phanh gấp, không nên tăng ga hay đánh vô lăng đột ngột, bật đèn pha gần, mở chế độ gạt nước ở chế độ phù hợp để đảm bảo quan sát.",true
+253,2- Phanh gấp khi xe đi vào vũng nước và tăng ga ngay sau khi ra khỏi vũng nước.,false
+253,"3- Bật đèn chiếu xa, tăng tốc độ điều khiển ô tô qua khỏi khu vực mưa.",false
+254,"1- Quan sát bên trái, bên phải, phía sau xe, có tín hiệu cần thiết và lùi xe với tốc độ phù hợp.",true
+254,2- Quan sát phía trước xe và lùi xe với tốc độ nhanh.,false
+254,3- Quan sát bên trái và phía trước của xe và lùi xe với tốc độ nhanh.,false
+255,"1- Giảm tốc độ đến mức an toàn, quan sát, nhường đường cho người đi bộ; giữ khoảng cách an toàn với các xe phía trước.",false
+255,"2- Đi đúng làn đường quy định; chỉ được chuyển làn đường ở nơi cho phép, nhưng phải quan sát.",false
+255,3- Cả ý 1 và ý 2.,true
+256,"1- Quan sát, phát tín hiệu và lái xe nhập vào làn đường tăng tốc, nhường đường cho các xe đang chạy trên đường cao tốc, khi đủ điều kiện an toàn thì tăng tốc độ cho xe nhập vào làn đường cao tốc.",true
+256,"2- Phát tín hiệu, quan sát các xe đang chạy phía trước, nếu đảm bảo các điều kiện an toàn thì tăng tốc độ cho xe nhập ngay vào làn đường cao tốc.",false
+256,"3- Phát tín hiệu và lái xe nhập vào làn đường tăng tốc, quan sát các xe phía sau đang chạy trên đường cao tốc, khi đủ điều kiện an toàn thì giảm tốc độ, từ từ cho xe nhập vào làn đường cao tốc.",false
+257,"1- Quan sát phía trước để tìm biển báo chỉ dẫn “Lối ra đường cao tốc”, kiểm tra tình trạng giao thông phía sau và bên phải, nếu đảm bảo điều kiện an toàn thì phát tín hiệu và điều khiển xe chuyển dần sang làn đường giảm tốc và ra khỏi đường cao tốc.",true
+257,"2- Quan sát về phía trước để tìm biển báo chỉ dẫn “Lối ra đường cao tốc”, trường hợp vượt qua “Lối ra đường cao tốc” thì phát tín hiệu, di chuyển sang làn đường giảm tốc và lùi xe quay trở lại.",false
+258,"1- Xe gặp sự cố, tai nạn, hoặc trường hợp khẩn cấp không thể di chuyển bình thường.",true
+258,"2- Để nghỉ ngơi, đi vệ sinh, chụp ảnh, làm việc riêng ...",false
+258,3- Cả ý 1 và ý 2.,false
+259,"1- Bật đèn cảnh báo sự có, di chuyển phương tiện đến vị trí sát lề đường.",false
+259,"2- Sử dụng các thiết bị cảnh báo như chóp nón, biển báo, đèn chớp... đặt phía sau xe để cảnh báo các phương tiện.",false
+259,"3- Gọi số điện thoại khẩn cấp của đường cao tốc để được hỗ trợ nếu xe gặp sự cố, tai nạn, hoặc các trường hợp khẩn cấp không thể di chuyển bình thường.",false
+259,4- Tất cả các ý nêu trên.,true
+260,"1- Nhả bàn đạp ga, về số thấp (sử dụng số L hoặc 1, 2), đạp phanh chân với mức độ phù hợp để giảm tốc độ.",true
+260,"2- Nhả bàn đạp ga, về số không (N) đạp phanh chân và kéo phanh tay để giảm tốc độ.",false
+261,"1- Giảm tốc độ, nhường đường cho xe trên đường chính từ bắt kỳ hướng nào tới.",true
+261,"2- Nháy đèn, bám còi để xe đi trên đường chính biết và tăng tốc độ cho xe đi ra đường chính.",false
+261,"3- Quan sát xe đang đi trên đường chính, nếu là xe có kích thước lớn hơn thì nhường đường, xe có kích thước nhỏ hơn thì tăng tốc độ cho xe đi ra đường chính.",false
+262,1- Giảm tốc độ để đảm bảo an toàn với xe phía trước và sử dụng điện thoại để liên lạc.,false
+262,2- Giảm tốc độ để dừng xe ở nơi cho phép dừng xe sau đó sử dụng điện thoại để liên lạc.,true
+262,3- Tăng tốc độ để cách xa xe phía sau và sử dụng điện thoại để liên lạc.,false
+263,1- Sử dụng còi.,false
+263,2- Phanh đồng thời cả phanh trước và phanh sau.,false
+263,3- Chỉ sử dụng phanh trước.,true
+264,"1- Quan sát gương chiếu hậu hoặc xoay người quan sát phía trước và phía sau để phát hiện các phương tiện đang di chuyển tới gần, khi đủ điều kiện an toàn, dùng tay cách xa cửa hơn mở hé cửa, sau đó mở ở mức cần thiết để xuống xe.",true
+264,"2- Quan sát tình hình giao thông phía trước, không cần quan sát phía sau và bên mở cửa; mở cánh cửa hết hành trình và nhanh chóng ra khỏi xe ô tô.",false
+265,"1- Bật tín hiệu báo rẽ trước khi quay đầu, từ từ giảm tốc độ đến mức có thể dừng lại.",false
+265,2- Chỉ quay đầu xe tại những nơi được phép quay đầu.,false
+265,"3- Quan sát an toàn các phương tiện tới từ phía trước, phía sau, hai bên đông thời nhường đường cho xe từ bên phải và phía trước đi tới.",false
+265,4- Tất cả các ý nêu trên.,true
+266,1- Để điều khiển xe chạy về phía trước.,false
+266,2- Để điều tiết công suất động cơ qua đó điều khiển tốc độ của xe.,false
+266,3- Để điều khiển xe chạy lùi.,false
+266,4- Cả ý 1 và ý 2.,true
+267,1- Để quan sát an toàn phía bên trái khi chuẩn bị rẽ trái.,false
+267,2- Để quan sát an toàn phía bên phải khi chuẩn bị rẽ phải.,false
+267,3- Để quan sát an toàn phía sau cả bên trái và bên phải trước khi chuyển hướng.,true
+267,4- Để quan sát an toàn phía trước cả bên trái và bên phải trước khi chuyển hướng.,false
+268,"1- Tăng ga thật nhanh, giảm ga từ từ.",false
+268,"2- Tăng ga thật nhanh, giảm ga thật nhanh.",false
+268,"3- Tăng ga từ từ, giảm ga thật nhanh.",true
+268,"4- Tăng ga từ từ, giảm ga từ từ.",false
+269,"1- Đứng thẳng trên giá gác chân lái sau đó hơi gập đầu gối và khuỷu tay, đi chậm đê không nây quá mạnh.",true
+269,"2- Ngồi lùi lại phía sau, tăng ga vượt nhanh qua đoạn đường xóc.",false
+269,3- Ngồi lệch sang bên trái hoặc bên phải đề lầy thăng bằng qua đoạn đường gò ghè.,false
+270,1- Được phép thay đổi bằng cách dán đề can với màu sắc phù hợp.,false
+270,2- Không được phép thay đổi.,true
+270,3- Tùy từng loại phương tiện cơ giới đường bộ.,false
+271,"1- Kính chắn gió, kính cửa phải là loại kính an toàn, bảo đảm tầm nhìn cho người điều khiển; có đủ hệ thống hãm và hệ thống chuyển hướng có hiệu lực, tay lái của xe ô tô ở bên trái của xe, có còi với âm lượng đúng quy chuẩn kỹ thuật.",false
+271,"2- Có đủ đèn chiếu sáng gần và xa, đèn soi biển số, đèn báo hãm, đèn tín hiệu; có đủ bộ phận giảm thanh, giảm khói, các kết cấu phải đủ độ bền và bảo đảm tính năng vận hành ổn định.",false
+271,3- Cả ý 1 và ý 2.,true
+272,1- Không bắt buộc.,false
+272,2- Bắt buộc.,true
+272,3- Tùy từng trường hợp.,false
+273,1- Đèn chiếu sáng gần và xa.,false
+273,2- Đèn soi biển số; đèn báo hãm và đèn tín hiệu.,false
+273,3- Dàn đèn pha trên nóc xe.,false
+273,4- Cả ý 1 và ý 2.,true
+274,"1- Là loại kính an toàn, kính nhiều lớp, đúng quy cách, không rạn nứt, đảm bảo hình ảnh quan sát rõ ràng, không bị méo mó.",true
+274,"2- Là loại kính trong suốt, không rạn nứt, đảm bảo tầm nhìn cho người điều khiển về phía trước mặt và hai bên.",false
+275,"1- Đủ số lượng, đủ áp suất, đúng cỡ lốp của nhà sản xuất hoặc tài liệu kỹ thuật quy định; lốp bánh dẫn hướng hai bên cùng kiểu hoa lốp, chiều cao hoa lốp đồng đều; không sử dụng lốp đắp; lốp không mòn đến dầu chỉ báo độ mòn của nhà sản xuất, không nứt, vỡ, phồng rộp làm hở lớp sợi mành.",false
+275,"2- Vành, đĩa vành đúng kiểu loại, không rạn, nứt, cong vênh; bánh xe quay trơn, không bị bó kẹt hoặc cọ sát vào phần khác; moay ơ không bị rơ; lắp đặt chắc chắn, đủ các chi tiết kẹp chặt và phòng lỏng.",false
+275,3- Cả ý 1 và ý 2.,true
+276,"1- Không nhỏ hơn 90dB (A), không lớn hơn 115dB (A).",true
+276,"2- Không nhỏ hơn 80dB (A), không lớn hơn 105dB (A).",false
+276,"3- Không nhỏ hơn 70dB (A), không lớn hơn 90dB (A).",false
+277,"1- Bảo dưỡng ô tô thường xuyên làm cho ô tô luôn luôn có tính năng kỹ thuật tốt, giảm cường độ hao mòn của các chỉ tiết, kéo dài tuổi thọ của xe.",false
+277,"2- Ngăn ngừa và phát hiện kịp thời các hư hỏng và sai lệch kỹ thuật để khắc phục, giữ gìn được hình thức bên ngoài.",false
+277,3- Cả ý 1 và ý 2.,true
+278,"1- Hết nhiên liệu, lõi lọc nhiên liệu bị tắc, lọc khí bị tắc, nhiên liệu lẫn không khí, tạp chất.",true
+278,"2- Hết nhiên liệu, lõi lọc nhiên liệu bị tắc, lọc khí bị tắc, nhiên liệu lẫn không khí, không có tia lửa điện.",false
+278,"3- Hết nhiên liệu, lõi lọc nhiên liệu bị tắc, lọc khí bị tắc, nhiên liệu lẫn không khí và nước, không có tia lửa điện.",false
+279,"1- Đầy đủ số lượng, lắp đặt chắc chắn, hoạt động bình thường.",false
+279,"2- Lưỡi gạt không quá mòn, diện tích quét đảm bảo tầm nhìn của người lái.",false
+279,3- Cả ý 1 và ý 2.,true
+280,"1- Đủ số lượng, lắp đặt chắc chắn không bị rách, đứt, khóa cài đóng, mở nhẹ nhàng, không tự mở, không bị kẹt; kéo ra thu vào dễ dàng, cơ cấu hãm giữ chặt dây khi giật dây đột ngột.",true
+280,"2- Đủ số lượng, lắp đặt chắc chắn không bị rách, đứt, khóa cài đóng, mở nhẹ nhàng, không tự mở, không bị kẹt; kéo ra thu vào dễ dàng, cơ cấu hãm mở ra khi giật dây đột ngột.",false
+280,3- Cả ý 1 và ý 2.,false
+281,"1- Là loại động cơ: Để hoàn thành một chu trình công tác của động cơ, pít tông thực hiện 2 (hai) hành trình, trong đó có một lần sinh công.",false
+281,"2- Là loại động cơ: Để hoàn thành một chu trình công tác của động cơ, pít tông thực hiện 4 (bốn) hành trình, trong đó có một lần sinh công.",true
+282,"1- Cung cấp một lượng dầu bôi trơn đủ và sạch dưới áp suất nhật định đi bôi trơn cho các chi tiết của động cơ đề giảm ma sát, giảm mài mòn, làm kín, làm sạch, làm mát và chống gỉ.",true
+282,2- Cung cấp một lượng nhiên liệu đầy đủ và sạch để cho động cơ ô tô hoạt động.,false
+282,3- Cả ý 1 và ý 2.,false
+283,1- 15 năm.,false
+283,2- 20 năm.,false
+283,3- 25 năm.,true
+284,1- 5 năm.,false
+284,2- 20 năm.,true
+284,3- 25 năm.,false
+285,"1- Khi làm việc, nhiệt năng được biển đổi thành cơ năng làm trục khuỷu động cơ quay, truyền lực đến các bánh xe chủ động tạo ra chuyển động tịnh tiến cho xe ô tô.",true
+285,"2- Khi làm việc, cơ năng được biển đổi thành nhiệt năng và truyền đến các bánh xe chủ động tạo ra chuyển động tịnh tiến cho xe ô tô.",false
+285,3- Cả ý 1 và ý 2.,false
+286,1- Dùng để truyền mô men quay từ động cơ tới các bánh xe chủ động của xe ô tô.,true
+286,2- Dùng để thay đổi hướng chuyển động hoặc giữ cho xe ô tô chuyển động ổn định theo hướng xác định.,false
+286,"3- Dùng để làm giảm tốc độ, dừng chuyển động của xe ô tô.",false
+287,1- Dùng để truyền mô men xoắn giữa các trục không cùng nằm trên một đường thẳng và góc lệch trục luôn thay đổi trong quá trình xe ô tô chuyển động.,false
+287,2- Dùng để truyền hoặc ngắt truyền động từ động cơ đến hộp số của xe ô tô.,true
+288,"1- Truyền và tăng mô men xoắn giữa các trục vuông góc nhau, đảm bảo cho các bánh xe chủ động quay với tốc độ khác nhau khi sức cản chuyển động ở bánh xe hai bên không bằng nhau.",false
+288,"2- Truyền và thay đổi mô men xoắn giữa các trục không cùng nằm trên một đường thẳng và góc lệch trục luôn thay đổi trong quá trình ô tô chuyển động, chuyển số êm dịu, dễ điều khiển.",false
+288,"3- Truyền và thay đổi mô men từ động cơ đến bánh xe chủ động, cắt truyền động từ động cơ đến bánh xe chủ động, đảm bảo cho xe ô tô chuyển động lùi.",true
+289,1- Dùng để thay đổi mô men từ động cơ tới các bánh xe chủ động khi xe ô tô chuyển động theo hướng xác định.,false
+289,2- Dùng để thay đổi mô men giữa các trục vuông góc nhau khi xe ô tô chuyển động theo hướng xác định.,false
+289,3- Dùng để thay đổi hướng chuyển động hoặc giữ cho xe ô tô chuyển động ổn định theo hướng xác định.,true
+290,"1- Dùng để giảm tốc độ, dừng chuyển động của xe ô tô và giữ cho xe ô tô đứng yên trên dốc.",true
+290,2- Dùng để thay đổi hướng chuyển động hoặc giữ cho xe ô tô chuyển động ổn định theo hướng xác định.,false
+290,3- Dùng để truyền hoặc ngắt truyền động từ động cơ đến bánh xe chủ động của xe ô tô.,false
+291,1- Có tác dụng cảnh báo cho các xe phía sau biết xe đang giảm tốc để chủ động tránh hoặc giảm tốc để tránh va chạm.,false
+291,2- Có tác dụng định vị vào ban đêm với các xe từ phía sau tới để tránh va chạm.,false
+291,3- Cả ý 1 và ý 2.,true
+292,1- Nhiệt độ nước làm mát động cơ quá ngưỡng cho phép.,true
+292,2- Áp suất lốp không đủ.,false
+292,3- Đang hãm phanh tay.,false
+292,4- Cần kiểm tra động cơ.,false
+293,1- Báo hiệu hệ thống chống bó cứng khi phanh bị lỗi.,false
+293,2- Áp suất lốp không đủ.,false
+293,3- Đang hãm phanh tay.,true
+293,4- Cần kiểm tra động cơ.,false
+294,1- Báo hiệu thiếu dầu phanh.,false
+294,2- Áp suất lốp không đủ.,true
+294,3- Đang hãm phanh tay.,false
+294,4- Sắp hết nhiên liệu.,false
+295,1- Báo hiệu hệ thống chống bó cứng khi phanh bị lỗi.,true
+295,2- Áp suất lốp không đủ.,false
+295,3- Đang hãm phanh tay.,false
+295,4- Sắp hết nhiên liệu.,false
+296,1- Phải đạp hết hành trình bàn đạp chân phanh.,true
+296,2- Không cần đạp phanh.,false
+296,3- Tùy từng trường hợp.,false
+297,1- Giúp người lái xe kịp thời tạo xung lực tối đa lên hệ thống phanh trong khoảnh khắc đầu tiên của tình huống khẩn cấp.,false
+297,2- Ổn định chuyển động của xe ô tô khi đi vào đường vòng.,false
+297,3- Hỗ trợ người lái xe khởi hành ngang dốc.,false
+297,"4- Để tích trữ điện năng, cung cấp cho các phụ tải khi máy phát chưa làm việc.",true
+298,1- Để phát điện năng cung cấp cho các phụ tải làm việc và nạp điện cho ắc quy.,true
+298,2- Ổn định chuyển động của xe ô tô khi đi vào đường vòng.,false
+298,3- Hỗ trợ người lái xe khởi hành ngang dốc.,false
+298,4- Để tích trữ điện năng và cung cấp điện cho các phụ tải làm việc.,false
+299,1- Ổn định chuyển động của xe ô tô khi đi vào đường vòng.,false
+299,2- Giữ chặt người lái và hành khách trên ghế ngồi khi xe ô tô đột ngột dừng lại.,true
+299,3- Để tích trữ điện năng và cung cấp điện cho các phụ tải làm việc.,false
+300,1- Giữ chặt người lái và hành khách trên ghế ngồi khi xe ô tô đột ngột dừng lại.,false
+300,2- Giảm khả năng va đập của một số bộ phận cơ thể quan trọng với các vật thể trong xe.,false
+300,3- Hấp thụ một phần lực va đập lên người lái và hành khách.,false
+300,4- Cả ý 2 và ý 3.,true
+301,1- Nhiệt độ nước làm mát động cơ quá ngưỡng cho phép.,false
+301,2- Áp suất lốp không đủ.,false
+301,3- Đang hãm phanh tay.,false
+301,4- Hệ thống lái gặp trục trặc.,true
+302,1- Dùng để kích (hay nâng) xe ô tô.,true
+302,2- Vặn ốc lắp bánh xe.,false
+302,3- Ổn định chuyển động của xe ô tô khi đi vào đường vòng.,false
+302,4- Giữ chặt người lái và hành khách trên ghế ngồi khi xe ô tô đột ngột dừng lại.,false
+303,1- Thay lốp xe.,false
+303,2- Chữa cháy.,false
+303,3- Phá cửa kính xe ô tô trong các trường hợp khẩn cấp.,true
+303,4- Văn ốc để tháo lắp bánh xe.,false
+304,1- Thay lốp xe.,false
+304,2- Chữa cháy trong các trường hợp hỏa hoạn.,true
+304,3- Phá cửa kính xe ô tô trong các trường hợp khẩn cấp.,false
+304,4- Cầm máu cho người bị nạn.,false
+305,1- Biển 1.,true
+305,2- Biển 2.,false
+305,3- Biển 1 và 3.,false
+305,4- Cả ba biển.,false
+306,1- Cả ba biển.,false
+306,2- Biển 2 và 3.,false
+306,3- Biển 1 và 3.,false
+306,4- Biển 1 và 2.,true
+307,1- Biển 1.,false
+307,2- Biển 2 và 3.,true
+307,3- Biển 1 và 3.,false
+307,4- Cả ba biển,false
+308,1- Biển 1 và 2.,true
+308,2- Biển 1 và 3.,false
+308,3- Biển 2 và 3.,false
+309,1- Biển 1.,false
+309,2- Biển 2.,false
+309,3- Cả hai biển.,true
+310,1- Biển 1.,true
+310,2- Biển 2.,false
+310,3- Biển 3.,false
+311,1- Không biển nào.,false
+311,2- Biển 1 và 2.,false
+311,3- Biển 2 và 3.,true
+311,4- Cả ba biển.,false
+312,1- Biển 1 và 2.,false
+312,2- Biển 2.,false
+312,3- Biển 1 và 3.,true
+312,4- Biển 2 và 3.,false
+313,1- Biển 1.,false
+313,2- Biển 2.,true
+313,3- Biển 3.,false
+314,1- Biển 1.,false
+314,2- Biển 1 và 2.,false
+314,3- Biển 1 và 3.,false
+314,4- Biển 2 và 3.,true
+315,1- Biển 1.,false
+315,2- Biển 2.,false
+315,3- Cả hai biển.,true
+316,1- Biển 1.,false
+316,2- Biển 2.,true
+317,1- Biển 1.,false
+317,2- Biển 2.,true
+317,3- Không biển nào.,false
+317,4- Cả hai biển.,false
+318,1- Biển 1.,true
+318,2- Biển 2.,false
+318,3- Cả hai biển.,false
+319,1- Biển 1.,false
+319,2- Biển 2.,true
+319,3- Không biển nào.,false
+320,1- Biển 1.,false
+320,2- Biển 2.,false
+320,3- Cả hai biển.,true
+321,1- Biển 1 và 2.,true
+321,2- Biển 1 và 3.,false
+321,3- Biển 2 và 3.,false
+321,4- Cả ba biển.,false
+322,1- Biển 1 và 2.,true
+322,2- Biển 1 và 3.,false
+322,3- Biển 2 và 3.,false
+322,4- Cả ba biển.,false
+323,1- Biển 1 và 2.,true
+323,2- Biển 1 và 3.,false
+323,3- Biển 2 và 3.,false
+323,4- Không biển nào.,false
+324,1- Biển 1.,false
+324,2- Biển 2.,false
+324,3- Biển 3.,true
+324,4- Biển 1 và 3.,false
+325,1- Biển 1.,false
+325,2- Biển 2.,true
+325,3- Không biển nào.,false
+326,1- Biển 1.,false
+326,2- Biển 2.,true
+326,3- Không biển nào.,false
+327,1- Biển 1.,false
+327,2- Biển 2.,false
+327,3- Cả hai biển.,true
+328,1- Biển 1.,true
+328,2- Biển 2.,false
+328,3- Cả hai biển.,false
+329,1- Biển 1.,false
+329,2- Biển 2.,true
+329,3- Cả ba biển.,false
+330,1- Biển 1.,false
+330,2- Biển 2.,false
+330,3- Biển 1 và 2.,true
+331,1- Biển 1.,false
+331,2- Biển 1 và 3.,true
+331,3- Biển 2 và 3.,false
+331,4- Biển 3.,false
+332,1- Biển 1 và 2.,true
+332,2- Biển 2.,false
+332,3- Biển 2 và 3.,false
+332,4- Biển 3.,false
+333,1- Biển 1.,false
+333,2- Biển 2.,true
+333,3- Cả ba biển.,false
+334,1- Biển 1.,true
+334,2- Biển 2.,false
+334,3- Cả hai biển.,false
+335,1- Biển 1.,false
+335,2- Biển 2.,false
+335,3- Biển 3.,true
+336,1- Biển 1.,false
+336,2- Biển 2.,false
+336,3- Biển 3.,false
+336,4- Biển 1 và biển 2.,true
+337,1- Biển 1.,false
+337,2- Biển 2.,false
+338,1- Đường cấm súc vật vận tải hàng hóa.,false
+338,2- Đường cấm súc vật vận tải hành khách.,false
+338,3- Đường cấm súc vật vận tải hàng hóa hoặc hành khách dù kéo xe hay chở trên lưng đi qua.,true
+339,1- Tốc độ tối đa cho phép về ban đêm cho các phương tiện là 70 km/h.,true
+339,2- Tốc độ tối thiểu cho phép về ban đêm cho các phương tiện là 70 km/h.,false
+340,1- Được phép.,false
+340,2- Không được phép.,true
+341,1- Biển 1.,true
+341,2- Biển 2.,false
+341,3- Biển 3.,false
+342,1- Cho phép ô tô có tải trọng trục lớn hơn 7 tấn đi qua.,false
+342,2- Cho phép ô tô có tải trọng trên trục xe từ 7 tấn trở xuống đi qua.,true
+343,1- Cắm các loại xe có tải trọng toàn bộ trên 10 tấn đi qua.,true
+343,2- Hạn chế khối lượng hàng hóa chở trên xe.,false
+343,3- Hạn chế tải trọng trên trục xe.,false
+344,1- Biển 1.,false
+344,2- Biển 2.,false
+344,3- Cả hai biển.,true
+345,1- Được đi vào.,true
+345,2- Không được đi vào.,false
+346,1- Biển 1 và 2.,true
+346,2- Biển 2 và 3.,false
+346,3- Biển 1 và 3.,false
+346,4- Cả ba biển.,false
+347,1- Biển 1 và 2.,false
+347,2- Biển 1 và 3.,false
+347,3- Biển 2 và 3.,true
+347,4- Cả ba biển.,false
+348,1- Được phép.,false
+348,2- Không được phép.,true
+349,1- Có.,true
+349,2- Không.,false
+350,1- Cấm xe cơ giới (trừ xe ưu tiên theo luật định) đi thẳng.,false
+350,2- Cấm xe ô tô và mô tô (trừ xe ưu tiên theo luật định) đi về bên trái và bên phải.,true
+350,3- Hướng trái và phải không cấm xe cơ giới.,false
+351,1- Báo khoảng cách đến nơi cấm bóp còi.,false
+351,2- Chiều dài đoạn đường cấm bóp còi từ nơi đặt biển.,true
+351,3- Báo cấm dùng còi có độ vang xa 500 m.,false
+352,1- Được phép.,false
+352,2- Không được phép.,true
+353,1- Biển 1 và 2.,false
+353,2- Biển 1 và 3.,true
+353,3- Biển 2 và 3.,false
+354,1- Biển 1.,false
+354,2- Biển 2.,true
+354,3- Biển 3.,false
+355,1- Cấm các loại xe ở biển phụ đi vào.,true
+355,2- Cắm các loại xe cơ giới đi vào trừ loại xe ở biển phu.,false
+356,1- Biển 1.,true
+356,2- Biển 2.,false
+356,3- Cả hai biển.,false
+357,1- Biển 1.,false
+357,2- Biển 2.,true
+357,3- Cả hai biển.,false
+358,1- Cấm dừng xe về hướng bên trái.,false
+358,2- Cấm đỗ xe và cấm dừng xe theo hướng bên phải.,true
+358,3- Được phép đỗ xe và dừng xe theo hướng bên phải.,false
+359,1- Không được phép.,true
+359,2- Được phép.,false
+360,1- Không được phép.,true
+360,2- Được phép.,false
+361,1- Không được phép.,true
+361,2- Được phép.,false
+362,1- Cấm ô tô buýt.,false
+362,2- Cấm ô tô chở khách.,true
+362,3- Cấm ô tô con.,false
+363,1- Hạn chế chiều cao của xe và hàng.,false
+363,2- Hạn chế chiều ngang của xe và hàng.,true
+363,3- Hạn chế chiều dài của xe và hàng.,false
+364,1- Biển 1.,true
+364,2- Biển 2.,false
+364,3- Cả 2 biển.,false
+365,1- Biển 1.,true
+365,2- Biển 2.,false
+366,1- Biển 1.,false
+366,2- Biển 2.,true
+367,1- Biển 1.,false
+367,2- Biển 2.,true
+367,3- Biển 3.,false
+368,1- Tốc độ tối đa các xe cơ giới được phép chạy.,true
+368,2- Tốc độ tối thiểu các xe cơ giới được phép chạy.,false
+369,1- Biển 1.,false
+369,2- Biển 2.,true
+369,3- Cả biển 1 và biển 2.,false
+370,1- Báo hiệu tốc độ tối đa cho phép các xe cơ giới chạy.,false
+370,2- Báo hiệu tốc độ tối thiểu cho phép các xe cơ giới chạy.,true
+371,1- Biển 1.,true
+371,2- Biển 2.,false
+371,3- Biển 3.,false
+371,4- Biển 1 và 3.,false
+372,1- Biển 1.,false
+372,2- Biển 1 và 3.,false
+372,3- Biển 3.,true
+372,4- Cả ba biển.,false
+373,1- Biển 1.,true
+373,2- Biển 2.,false
+373,3- Biển 3.,false
+374,1- Biển 1.,false
+374,2- Biển 1 và 2.,false
+374,3- Biển 2 và 3.,false
+374,4- Cả ba biển.,true
+375,1- Biển 1.,true
+375,2- Biển 2 và 3.,false
+375,3- Biển,false
+376,1- Biển 1.,false
+376,2- Biển 2.,false
+376,3- Biển 3.,true
+376,4- Cả ba biển,false
+377,1- Biển 1 và 2.,false
+377,2- Biển 1 và 3.,true
+377,3- Biển 2 và 3.,false
+377,4- Cả ba biển,false
+378,1- Biển 1 và 2.,false
+378,2- Biển 1 và 3.,false
+378,3- Biển 2 và 3.,true
+378,4- Cả ba biển,false
+379,1- Biển 1.,true
+379,2- Biển 2.,false
+379,3- Biển 3.,false
+379,4- Biển 1 và 3.,false
+380,1- Biển 1.,false
+380,2- Biển 2.,true
+380,3- Biển 3.,false
+381,1- Để chỉ nơi đường sắt giao vuông góc với đường bộ không có rào chắn.,true
+381,"2- Đề báo trước sắp đến vị trí giao cắt đường bộ với đường sắt cùng mức, không vuông góc và không có người gác, không có rào chắn.",false
+381,3- Nơi đường sắt giao nhau với đường bộ.,false
+382,1- Biển 1.,false
+382,2- Biển 2.,false
+382,3- Biển 3.,false
+382,4- Biển 1 và 2.,true
+383,1- Nơi đường sắt giao nhau với đường bộ.,false
+383,2- Nơi đường sắt giao vuông góc với đường bộ.,false
+383,"3- Để báo trước sắp đến vị trí đường sắt giao không vuông góc với đường bộ, không có người gác và không có rào chắn.",true
+384,1- Biển 1.,false
+384,2- Biển 2.,false
+384,3- Biển 3,true
+385,1- Biển 1 và 2.,false
+385,2- Biển 1 và 3.,true
+385,3- Biển 2 và 3.,false
+385,4- Cả ba biển.,false
+386,1- Biển 1.,true
+386,2- Biển 2.,false
+386,3- Biển 3.,false
+386,4- Biển 2 và 3.,false
+387,1- Biển 1 và 3.,false
+387,2- Biển 2.,true
+387,3- Biển 3.,false
+388,1- Biển 1 và 2.,true
+388,2- Biển 1 và 3.,false
+388,3- Biển 2 và 3.,false
+388,4- Cả ba biển.,false
+389,1- Biển 1.,false
+389,2- Biển 1 và 3.,false
+389,3- Biển 2 và 3.,true
+389,4- Cả ba biển.,false
+390,1- Biển 1.,false
+390,2- Biển 2.,false
+390,3- Biển 3.,true
+390,4- Cả ba biển.,false
+391,1- Biển 1.,true
+391,2- Biển 2.,false
+391,3- Biển 3.,false
+392,1- Biển 1.,false
+392,2- Biển 2.,true
+392,3- Biển 3.,false
+393,1- Biển 1.,true
+393,2- Biển 2.,false
+394,1- Biển 1.,false
+394,2- Biển 2.,true
+394,3- Biển 3.,false
+395,1- Biển 1.,false
+395,2- Biển 2.,false
+395,3- Biển 3.,true
+395,4- Biển 2 và 3.,false
+396,1- Biển 1.,false
+396,2- Biển 2.,true
+397,1- Biển 1.,false
+397,2- Biển 2.,false
+397,3- Biển 3.,true
+398,1- Biển 1.,false
+398,2- Biển 2.,false
+398,3- Biển 3.,true
+399,1- Biển 1.,true
+399,2- Biển 2.,false
+399,3- Biển 3.,false
+400,1- Biển 1.,false
+400,2- Biển 2.,true
+400,3- Biển 3.,false
+401,1- Biển 1.,false
+401,2- Biển 2.,true
+401,3- Biển 3.,false
+402,1- Biển 1.,false
+402,2- Biển 2 và 3.,true
+402,3- Cả ba biển.,false
+403,1- Biển 1.,false
+403,2- Biển 2.,true
+403,3- Cả hai biển.,false
+404,1- Cả ba biển.,false
+404,2- Biển 2.,true
+404,3- Biển 2 và 3.,false
+405,1- Biển 1.,false
+405,2- Biển 2.,true
+405,3- Biển 3.,false
+406,1- Biển 1.,false
+406,2- Biển 2.,false
+406,3- Biển 3,true
+407,1- Biển 1.,true
+407,2- Biển 2.,false
+407,3- Biển 3.,false
+408,1- Biển 1.,false
+408,2- Biển 2.,false
+408,3- Biển 3.,true
+408,4- Biển 1 và Biển 2.,false
+409,1- Biển 1.,false
+409,2- Biển 2.,true
+409,3- Biển 3.,false
+410,1- Biển 1.,false
+410,2- Biển 2.,true
+410,3- Biển 3,false
+411,1- Biển 1.,false
+411,2- Biển 2.,true
+411,3- Biển 3.,false
+412,1- Biển 1.,true
+412,2- Biển 2.,false
+412,3- Biển 3.,false
+412,4- Không biển nào.,false
+413,1- Biển 1.,false
+413,2- Biển 2.,true
+413,3- Biển 3.,false
+414,1- Biển 1.,false
+414,2- Biển 2.,true
+414,3- Biển 3.,false
+414,4- Cả 3 biển.,false
+415,1- Biển 1.,false
+415,2- Biển 2.,true
+416,1- Biển 1.,false
+416,2- Biển 2.,true
+416,3- Biển 3.,false
+417,1- Biển 1.,false
+417,2- Biển 2.,true
+417,3- Biển 3.,false
+417,4- Cả 3 biển.,false
+418,1- Biển 1.,true
+418,2- Biển 2.,false
+418,3- Cả hai biển.,false
+419,1- Biển 1.,true
+419,2- Biển 2.,false
+420,1- Biển 1.,false
+420,2- Biển 2.,true
+421,1- Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên phải khi đường cong vòng sang trái.,true
+421,2- Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên trái khi đường cong vòng bên phải.,false
+422,1- Báo trước đoạn đường có gió ngang.,false
+422,2- Báo trước đoạn đường trơn trượt.,false
+422,3- Báo trước sắp đến bến phà.,true
+423,"1- Báo hiệu đường có ô gà, lồi lõm.",true
+423,2- Báo hiệu đường có gờ giảm tốc phía trước.,false
+424,"1- Báo hiệu đường có ô gà, lồi lõm.",false
+424,2- Báo hiệu đường có gờ giảm tốc phía trước.,true
+425,1- Để báo trước gần tới đoạn đường có hiện tượng đất đá từ trên ta luy dương sụt lở bất ngờ gây nguy hiểm cho xe cộ và người đi đường.,false
+425,"2- Để báo trước nơi có kết cấu mặt đường rời rạc, khi phương tiện đi qua, làm cho các viên đá, sỏi văng lên gây nguy hiểm và mắt an toàn cho người và phương tiện tham gia giao thông.",false
+425,"3- Để cảnh báo những đoạn nền đường yếu, đoạn đường đang theo dõi lún mà việc vận hành xe ở tốc độ cao có thể gây nguy hiểm.",true
+426,1- Để báo trước gần tới đoạn đường có hiện tượng đất đá từ trên ta luy dương sụt lở bất ngờ gây nguy hiểm cho xe cộ và người đi đường.,true
+426,"2- Để báo trước nơi có kết cấu mặt đường rời rạc, khi phương tiện đi qua, làm cho các viên đá, sỏi văng lên gây nguy hiểm và mát an toàn cho người và phương tiện tham gia giao thông.",false
+426,"3- Để cảnh báo những đoạn nền đường yếu, đoạn đường đang theo dõi lún mà việc vận hành xe ở tốc độ cao có thể gây nguy hiểm.",false
+427,1- Để báo trước gần tới đoạn đường có hiện tượng đất đá từ trên ta luy dương sụt lở bất ngờ gây nguy hiểm cho xe cộ và người đi đường.,false
+427,"2- Để báo trước nơi có kết cấu mặt đường rời rạc, khi phương tiện đi qua, làm cho các viên đá, sỏi văng lên gây nguy hiểm và mắt an toàn cho người và phương tiện tham gia giao thông.",true
+427,"3- Để cảnh báo những đoạn nền đường yếu, đoạn đường đang theo dõi lún mà việc vận hành xe ở tốc độ cao có thể gây nguy hiểm.",false
+428,"1- Đi chậm, quan sát và dừng lại nếu gặp gia súc trên đường.",true
+428,2- Bám còi to để gia súc tránh đường và nhanh chóng di chuyển qua đoạn đường có gia súc.,false
+429,1- Báo hiệu khu vực nguy hiểm thường xuyên có sét đánh.,false
+429,2- Báo hiệu khu vực có đường dây điện cắt ngang phía trên tuyến đường.,true
+430,1- Biển 1.,false
+430,2- Biển 2.,true
+430,3- Cả hai biển.,false
+431,1- Biển 1.,false
+431,2- Biển 2.,false
+431,3- Cả hai biển.,true
+432,1- Biển 1.,true
+432,2- Biển 2.,false
+433,1- Biển 1.,false
+433,2- Biển 2.,true
+434,1- Biển 1.,true
+434,2- Biển 2.,false
+435,1- Chỉ hướng đi phải theo.,false
+435,2- Biển báo hiệu cho người lái xe biết số lượng làn đường trên mặt đường và hướng đi trên mỗi làn đường phải theo.,true
+435,3- Chỉ hướng đường phải theo.,false
+436,1- Biển 1.,false
+436,2- Biển 2.,false
+436,3- Không biển nào.,true
+437,1- Biển 1.,true
+437,2- Biển 2.,false
+438,1- Biển 1.,false
+438,2- Biển 2.,true
+438,3- Cả hai biển.,false
+439,1- Biển 1.,true
+439,2- Biển 2.,false
+439,3- Biển 3.,false
+439,4- Cả ba biển.,false
+440,1- Biển 1.,false
+440,2- Biển 2.,false
+440,3- Biển 3.,false
+440,4- Biển 1 và 2.,true
+441,1- Biển 1.,false
+441,2- Biển 2.,false
+441,3- Biển 3.,true
+441,4- Cả ba biển.,false
+442,1- Biển 1.,false
+442,2- Biển 2.,false
+442,3- Biển 3.,false
+442,4- Biển 2 và 3.,true
+443,1- Biển 1.,false
+443,2- Biển 2.,true
+443,3- Biển 3.,false
+443,4- Cả ba biển.,false
+444,1- Biển 1.,false
+444,2- Biển 2.,false
+444,3- Biển 3.,true
+444,4- Không biển nào.,false
+445,1- Biển 1.,true
+445,2- Biển 2.,false
+445,3- Biển 3.,false
+445,4- Biển 1 và 3.,false
+446,1- Biển 1 và 2.,true
+446,2- Biển 1 và 3.,false
+446,3- Biển 2 và 3.,false
+446,4- Cả ba biển.,false
+447,1- Biển 1.,false
+447,2- Biển 2.,false
+447,3- Cả hai biển.,true
+448,1- Biển 1.,false
+448,2- Biển 2.,false
+448,3- Biển 3.,true
+448,4- Biển 1 và 2.,false
+449,1- Biển chỉ dẫn hết cấm đỗ xe theo giờ trong khu vực.,true
+449,2- Biển chỉ dẫn hết hiệu lực khu vực đỗ xe trên các tuyến đường đối ngoại.,false
+449,3- Biển chỉ dẫn khu vực đỗ xe trên các tuyến đường đối ngoại.,false
+450,1- Biển chỉ dẫn khu vực cấm đỗ xe trên các tuyến đường đối ngoại.,false
+450,2- Biển chỉ dẫn khu vực đỗ xe trên các tuyến đường đối ngoại.,false
+450,3- Biển hạn chế tốc độ tối đa trong khu vực.,true
+450,4- Biển chỉ dẫn hết hiệu lực khu vực cấm đỗ xe theo giờ trên các tuyến đường đối ngoại.,false
+451,1- Biển 1.,false
+451,2- Biển 2.,true
+451,3- Biển 3.,false
+452,1- Biển 1.,false
+452,2- Biển 2.,false
+452,3- Biển 3.,true
+453,1- Biển 1 và 2.,true
+453,2- Cả ba biển.,false
+453,3- Không biển nào.,false
+454,1- Biển 1.,true
+454,2- Biển 2.,false
+454,3- Cả hai biển.,false
+454,4- Không biển nào.,false
+455,1- Biển 1.,false
+455,2- Biển 2.,true
+455,3- Cả hai biển.,false
+455,4- Không biển nào,false
+456,1- Biển 1.,false
+456,2- Biển 2.,true
+456,3- Biển 3.,false
+457,1- Đỗ xe hoàn toàn trên hè phố.,false
+457,2- Đỗ xe hoàn toàn dưới lòng đường.,false
+457,3- Đỗ từ 1⁄2 thân xe trở lên trên hè phố.,true
+458,1- Dừng xe tại khu vực có trạm Cảnh sát giao thông.,false
+458,2- Tiếp tục lưu thông với tốc độ bình thường.,false
+458,3- Phải giảm tốc độ đến mức an toàn và không được vượt khi đi qua khu vực này.,true
+459,1- Bắt buộc.,true
+459,2- Không bắt buộc.,false
+460,1- Biển 1.,false
+460,2- Biển 2.,true
+460,3- Biển 3.,false
+461,1- Biển 2 và 3.,false
+461,2- Biển 1 và 2.,false
+461,3- Biển 1 và 3.,true
+461,4- Cả ba biển.,false
+462,1- Đi thẳng hoặc rẽ trái trên cầu vượt.,false
+462,2- Đi thẳng hoặc rẽ phải trên cầu vượt.,false
+462,3- Báo hiệu cầu vượt liên thông.,true
+463,1- Biển 1 và 2.,true
+463,2- Biển 1 và 3.,false
+463,3- Biển 2 và 3.,false
+464,1- Chỉ dẫn khoảng cách đến làn đường cứu nạn (làn thoát xe khẩn cấp).,true
+464,2- Báo hiệu đường cụt phía trước.,false
+464,3- Báo hiệu nút giao gần nhất phía trước.,false
+464,4- Báo hiệu trạm dừng nghỉ phía trước.,false
+465,1- Được phép chuyển sang làn khác.,true
+465,"2- Không được phép chuyển sang làn khác, chỉ được đi trong làn quy định theo biển.",false
+466,1- Có.,true
+466,2- Không.,false
+467,1- Có.,false
+467,2- Không.,true
+468,1- Biển 1.,false
+468,2- Biển 2.,true
+468,3- Biển 3.,false
+469,1- Chỉ dẫn sắp đến vị trí nhập làn xe.,false
+469,2- Chỉ dẫn vị trí nhập làn xe cách 250m.,true
+469,3- Chỉ dẫn vị trí nhập làn cách trạm thu phí 250m.,false
+470,1- Bắt đầu đường cao tốc.,false
+470,"2- Chỉ dẫn địa giới đường cao tốc, chiều dài đường cao tốc.",false
+470,"3- Tên và ký hiệu đường cao tốc, giá trị hạn chế tốc độ tối đa và tối thiểu.",false
+470,4- Cả ý 1 và ý 3.,true
+471,"1- Xăng dầu, ăn uống, thông tin, sửa chữa xe.",true
+471,"2- Xăng dầu, ăn uống, nhà nghỉ, sửa chữa xe.",false
+471,"3- Xăng dầu, ăn uống, cấp cứu, sửa chữa xe.",false
+472,1- Chỉ dẫn đến trạm kiểm tra tải trọng xe.,false
+472,2- Chỉ dẫn hướng rẽ vào nơi đặt trạm kiểm tra tải trọng xe.,false
+472,3- Chỉ dẫn khoảng cách đến trạm kiểm tra tải trọng xe cách 750m.,true
+473,1- Biển 1.,true
+473,2- Biển 2.,false
+473,3- Biển 3.,false
+474,1- Biển 1.,false
+474,2- Biển 2.,false
+475,1- Biển 1.,false
+475,2- Biển 2.,true
+475,3- Biển 3.,false
+476,1- Biển 1 và 2.,false
+476,2- Biển 1 và 3.,true
+476,3- Biển 2.,false
+476,4- Biển 3.,false
+477,1- Vạch 1.,false
+477,2- Vạch 2 và 3.,false
+477,3- Vạch 3.,true
+477,4- Vạch 1 và 2.,false
+478,1- Vạch 1.,false
+478,2- Vạch 2.,false
+478,3- Vạch 3.,false
+478,4- Vạch 1 và 2.,true
+479,1- Vạch 1.,false
+479,2- Vạch 2.,true
+479,3- Vạch 3.,false
+479,4- Cả 3 vạch.,false
+480,1- Vạch 1.,false
+480,2- Vạch 2.,false
+480,3- Vạch 3.,false
+480,4- Vạch 1 và 3.,true
+481,1- Phân chia hai chiều xe chạy ngược chiều nhau.,true
+481,2- Phân chia các làn xe chạy cùng chiều nhau.,false
+482,1- Phân chia hai chiều xe chạy ngược chiều nhau.,false
+482,2- Phân chia các làn xe chạy cùng chiều nhau.,true
+483,1- Vạch 1.,false
+483,2- Vạch 2.,false
+483,3- Vạch 3.,false
+483,4- Vạch 1 và vạch 3.,true
+484,1- Để xác định làn đường.,false
+484,2- Báo hiệu người lái xe chỉ được phép đi thẳng.,false
+484,3- Dùng để xác định khoảng cách giữa các phương tiện trên đường.,true
+485,1- Báo cho người điều khiển không được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông.,false
+485,2- Báo hiệu sắp đến chỗ có bố trí vạch đi bộ qua đường.,true
+485,3- Dùng để xác định khoảng cách giữa các phương tiện trên đường.,false
+486,1- Vị trí dừng xe của các phương tiện vận tải hành khách công cộng.,true
+486,2- Báo cho người điều khiển được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông.,false
+486,3- Dùng để xác định vị trí giữa các phương tiện trên đường.,false
+487,"1- Xe tải, xe khách, xe con, mô tô.",false
+487,"2- Xe tải, mô tô, xe khách, xe con.",true
+487,"3- Xe khách, xe tải, xe con, mô tô.",false
+487,"4- Mô tô, xe khách, xe tải, xe con.",false
+488,"1- Xe công an, xe con, xe tải, xe khách.",true
+488,"2- Xe công an, xe khách, xe con, xe tải.",false
+488,"3- Xe công an, xe tải, xe khách, xe con.",false
+488,"4- Xe con, xe công an, xe tải, xe khách.",false
+489,"1- Xe tải, xe công an, xe khách, xe con.",false
+489,"2- Xe công an, xe khách, xe con, xe tải.",false
+489,"3- Xe công an, xe con, xe tải, xe khách.",false
+489,"4- Xe công an, xe tải, xe khách, xe con.",true
+490,"1- Xe tải, xe con, mô tô.",false
+490,"2- Xe con, xe tải, mô tô.",false
+490,"3- Mô tô, xe con, xe tải.",true
+490,"4- Xe con, mô tô, xe tải.",false
+491,1- Xe con.,true
+491,2- Xe tải.,false
+492,1- Mô tô.,false
+492,2- Xe con.,true
+493,"1- Xe con (A), xe cứu thương, xe con (B).",true
+493,"2- Xe cứu thương, xe con (B), xe con (A).",false
+493,"3- Xe con (B), xe con (A), xe cứu thương.",false
+494,"1- Xe cứu thương, xe cứu hỏa, xe con.",false
+494,"2- Xe cứu hỏa, xe cứu thương, xe con.",true
+494,"3- Xe cứu thương, xe con, xe cứu hỏa.",false
+495,1- Mô tô.,false
+495,2- Xe cứu thương.,true
+496,1- Xe khách.,true
+496,2- Xe tải.,false
+496,3- Xe con.,false
+497,1- Xe con.,true
+497,2- Xe tải.,false
+498,1- Xe công an.,false
+498,2- Xe chữa cháy.,true
+499,1- Xe con và xe khách.,true
+499,2- Mô tô.,false
+500,"1- Xe khách, mô tô.",false
+500,"2- Xe con, xe tải.",true
+500,"3- Xe tải, mô tô.",false
+501,1- Xe công an.,false
+501,2- Xe quân sự.,true
+502,"1- Hướng 2, 3, 4.",false
+502,2- Chỉ hướng 1.,true
+502,3- Hướng 1 và 2.,false
+502,4- Hướng 3 và 4.,false
+503,"1- Xe khách, xe tải, mô tô.",true
+503,"2- Xe tải, xe con, mô tô.",false
+503,"3- Xe khách, xe con, mô tô.",false
+504,"1- Xe khách, xe tải, mô tô, xe con.",false
+504,"2- Xe con, xe khách, xe tải, mô tô.",false
+504,"3- Mô tô, xe tải, xe khách, xe con.",true
+504,"4- Mô tô, xe tải, xe con, xe khách.",false
+505,1- Xe tải.,true
+505,2- Xe con và mô tô.,false
+505,3- Cả ba xe.,false
+505,4- Xe con và xe tải.,false
+506,1- Xe tải.,false
+506,2- Xe con (B).,true
+506,3- Xe con (A).,false
+507,1- Cả ba hướng.,true
+507,2- Chỉ hướng 1 và 3.,false
+507,3- Chỉ hướng 1.,false
+508,1- Cả hai xe.,true
+508,2- Không xe nào vi phạm.,false
+508,3- Chỉ xe mô tô vi phạm.,false
+508,4- Chỉ xe tải vi phạm.,false
+509,1- Chỉ mô tô.,false
+509,2- Chỉ xe tải.,false
+509,3- Cả ba xe.,true
+509,4- Chỉ mô tô và xe tải.,false
+510,1- Đúng.,false
+510,2- Không đúng.,true
+511,1- Hướng 2 và 5.,false
+511,2- Chỉ hướng 1.,true
+512,1- Hướng 1 và 2.,false
+512,2- Hướng 3.,true
+512,3- Hướng 1 và 4.,false
+512,4- Hướng 2 và 3.,false
+513,1- Cả 2 xe đều đúng.,true
+513,2- Xe con.,false
+513,3- Xe khách.,false
+514,1- Hướng 2 và 3.,true
+514,"2- Hướng 1, 2 và 3.",false
+514,3- Hướng 1 và 3.,false
+515,1- Không.,false
+515,2- Vi phạm.,true
+516,1- Xe khách.,true
+516,2- Xe tải.,false
+517,1- Xe con.,false
+517,2- Xe mô tô.,true
+518,1- Không đúng.,true
+518,2- Đúng.,false
+519,1- Hướng 1.,false
+519,"2- Hướng 1, 3 và 4.",true
+519,"3- Hướng 2, 3 và 4.",false
+519,4- Cả bốn hướng.,false
+520,"1- Xe con (A), mô tô, xe con (B), xe đạp.",false
+520,"2- Xe con (B), xe đạp, mô tô, xe con (A).",false
+520,"3- Xe con (A), xe con (B), mô tô + xe đạp.",false
+520,"4- Mô tô + xe đạp, xe con (A), xe con (B).",true
+521,1- Chỉ hướng 1.,true
+521,"2- Hướng 1, 3 và 4.",false
+521,"3- Hướng 1, 2 và 3.",false
+521,4- Cả bốn hướng.,false
+522,1- Cả ba hướng.,false
+522,2- Hướng 2 và 3.,true
+523,1- Chỉ hướng 1.,false
+523,2- Hướng 1 và 4.,false
+523,3- Hướng 1 và 5.,true
+523,"4- Hướng 1, 4 và 5.",false
+524,1- Cả bốn hướng.,false
+524,2- Trừ hướng 2.,true
+524,"3- Hướng 2, 3 và 4.",false
+524,4- Trừ hướng 4.,false
+525,1- Mô tô.,true
+525,2- Xe con.,false
+526,1- Không vi phạm.,false
+526,2- Vi phạm.,true
+527,1- Xe khách.,false
+527,2- Mô tô.,false
+527,3- Xe con.,true
+527,4- Xe con và mô tô.,false
+528,1- Các xe ở phía tay phải và tay trái của người điều khiển được phép đi thẳng.,false
+528,2- Cho phép các xe ở mọi hướng được rẽ phải.,false
+528,"3- Tất cả các xe phải dừng lại trước ngã tư, trừ những xe đã ở trong ngã tư được phép tiếp tục đi.",true
+529,"1- Mô tô, xe con.",false
+529,"2- Xe con, xe tải.",false
+529,"3- Mô tô, xe tải.",true
+529,4- Cả ba xe.,false
+530,1- Đúng.,true
+530,2- Không đúng.,false
+531,1- Xe tải.,false
+531,2- Cả hai xe.,false
+531,3- Xe con.,true
+532,1- Xe chữa cháy.,false
+532,2- Xe tải.,true
+532,3- Cả hai xe.,false
+533,"1- Xe khách, xe tải, xe con.",false
+533,"2- Xe con và xe tải, xe khách.",false
+533,"3- Xe tải, xe khách, xe con.",true
+534,"1- Xe khách và xe tải, xe con.",true
+534,"2- Xe tải, xe khách, xe con.",false
+534,"3- Xe con, xe khách, xe tải.",false
+535,1- Cả bốn hướng.,false
+535,2- Chỉ hướng 1 và 2.,false
+535,3- Trừ hướng 4.,true
+536,"1- Xe công an, xe con, xe tải, xe khách.",true
+536,"2- Xe con, xe khách và xe công an, xe tải.",false
+536,"3- Xe công an, xe con, xe khách, xe tải.",false
+536,"4- Xe con, xe tải, xe khách, xe công an.",false
+537,1- Cả bốn hướng.,false
+537,"2- Hướng 1, 2 và 3.",false
+537,3- Hướng 1 và 4.,false
+537,"4- Hướng 1, 3 và 4.",true
+538,"1- Chỉ xe khách, mô tô.",false
+538,2- Tất cả các loại xe trên.,true
+538,3- Không xe nào chấp hành đúng quy tắc giao thông.,false
+539,1- Cả ba hướng.,false
+539,2- Hướng 1 và 2.,false
+539,3- Hướng 1 và 3.,true
+539,4- Hướng 2 và 3.,false
+540,"1- Xe công an, xe quân sự, xe con + mô tô.",false
+540,"2- Xe quân sự, xe công an, xe con + mô tô.",true
+540,"3- Xe mô tô + xe con, xe quân sự, xe công an.",false
+541,1-Xe A.,true
+541,2-Xe B.,false
+542,1- Không vi phạm.,false
+542,2- Vi phạm.,true
+543,"1- Xe con (E), mô tô (C).",true
+543,"2- Xe tải (A), mô tô (D).",false
+543,"3- Xe khách (B), mô tô (C).",false
+543,"4- Xe khách (B), mô tô (D).",false
+544,1- Nhường xe con rẽ trái trước.,true
+544,2- Đi thẳng không nhường.,false
+545,1- Chỉ hướng 2.,false
+545,2- Hướng 1 và 2.,true
+545,3- Tất cả các hướng trừ hướng 3.,false
+545,4- Tất cả các hướng trừ hướng 4.,false
+546,1- Xe con (A).,false
+546,2- Xe con (B).,true
+547,1- Rẽ trái ngay trước xe buýt.,false
+547,2- Rẽ trái trước xe tải.,false
+547,3- Nhường đường cho xe buýt và xe tải.,true
+548,"1- Xe con (B), mô tô (C).",false
+548,"2- Xe con (A), mô tô (C).",false
+548,"3- Xe con (E), mô tô (D).",true
+548,4- Tất cả các loại xe trên.,false
+549,1- Xe của bạn.,false
+549,2- Xe tải.,true
+550,1- Quay đầu theo hướng A.,true
+550,2- Quay đầu theo hướng B.,false
+550,3- Cấm quay đầu.,false
+551,"1- Xe con và xe tải, xe của bạn.",false
+551,"2- Xe của bạn, xe tải, xe con.",false
+551,"3- Xe của bạn và xe con, xe tải.",true
+551,"4- Xe của bạn, xe tải + xe con.",false
+552,1- Tăng tốc cho xe chạy vượt qua.,false
+552,"2- Bật tín hiệu báo hiệu bằng đèn hoặc còi, khi đủ điều kiện an toàn, tăng tốc cho xe chạy vượt qua.",true
+552,3- Đánh lái sang làn bên trái và tăng tốc cho xe chạy vượt qua.,false
+553,"1- Xe khách, mô tô.",false
+553,"2- Xe tải, mô tô.",false
+553,"3- Xe con, xe tải.",true
+554,1- Xe tải.,false
+554,2- Xe khách.,true
+554,3- Xe con.,false
+555,1- Được vượt.,false
+555,2- Cấm vượt.,true
+556,1- Cho phép.,false
+556,2- Không được vượt.,true
+557,1- Vị trí A và B.,false
+557,2- Vị trí A và C.,false
+557,3- Vị trí B và C.,true
+557,"4- Cả ba vị trí A, B, C.",false
+558,1- Được phép dừng ở vị trí A.,false
+558,2- Được phép dừng ở vị trí B.,false
+558,3- Được phép dừng ở vị trí A và B.,false
+558,4- Không được dừng.,true
+559,1- Xe mô tô.,false
+559,2- Xe ô tô con.,false
+559,3- Không xe nào vi phạm.,false
+559,4- Cả hai xe.,true
+560,1- Xe con.,false
+560,2- Xe tải.,true
+560,"3- Xe con, xe tải.",false
+561,"1- Xe tải, xe con.",false
+561,"2- Xe khách, xe con.",false
+561,"3- Xe khách, xe tải.",true
+562,"1- Xe con, xe tải, xe khách.",false
+562,"2- Xe tải, xe khách, xe mô tô.",true
+562,"3- Xe khách, xe mô tô, xe con.",false
+562,4- Cả bốn xe.,false
+563,"1- Xe khách, xe tải.",true
+563,"2- Xe khách, xe con.",false
+563,"3- Xe con, xe tải.",false
+563,"4- Xe khách, xe tải, xe con.",false
+564,1- Đánh lái sang trái cho xe vượt qua.,false
+564,"2- Quan sát phía trước, phía sau, khi đủ điều kiện an toàn, bật tín hiệu bằng đèn hoặc còi rồi cho xe chạy vượt qua.",true
+564,3- Cấm vượt.,false
+565,"1- Xe tải, mô tô.",false
+565,"2- Xe khách, mô tô.",true
+565,"3- Xe tải, xe con.",false
+565,"4- Mô tô, xe con.",false
+566,"1- Xe con (A), xe con (B), xe tải (D).",false
+566,"2- Xe tải (D), xe con (E), xe buýt (G).",false
+566,"3- Xe tải (D), xe con (B).",true
+566,"4- Xe con (B), xe con (C).",false
+567,"1- Xe của bạn, mô tô, xe con.",false
+567,"2- Xe con, xe của bạn, mô tô.",false
+567,"3- Mô tô, xe con, xe của bạn.",true
+568,"1- Xe của bạn, mô tô, xe con.",false
+568,"2- Xe con, xe của bạn, mô tô.",true
+568,"3- Mô tô, xe con, xe của bạn.",false
+569,1- Xe con.,true
+569,2- Xe của bạn.,false
+569,3- Cả hai xe.,false
+570,"1- Đi thẳng, rẽ trái.",true
+570,"2- Đi thẳng, rẽ phải.",false
+570,3- Rẽ trái.,false
+570,"4- Đi thẳng, rẽ phải, rẽ trái.",false
+571,1- Chuyển sang làn đường bên phải và rẽ phải.,false
+571,2- Dừng lại trước vạch dừng và rẽ phải khi đèn xanh.,false
+571,3- Dừng lại trước vạch dừng và đi thẳng hoặc rẽ trái khi đèn xanh.,true
+572,"1- Tăng tốc độ, rẽ phải trước xe tải và xe đạp.",false
+572,"2- Giảm tốc độ, rẽ phải sau xe tải và xe đạp.",true
+572,"3- Tăng tốc độ, rẽ phải trước xe đạp.",false
+573,"1- Tăng tốc độ, rẽ phải trước xe con màu xanh phía trước và người đi bộ.",false
+573,"2- Giảm tốc độ, để người đi bộ qua đường và rẽ phải trước xe con màu xanh.",false
+573,"3- Giảm tốc độ, để người đi bộ qua đường và rẽ phải sau xe con màu xanh.",true
+574,1- Nhường đường cho xe khách và đi trước xe đạp.,false
+574,2- Nhường đường cho xe đạp và đi trước xe khách.,false
+574,3- Nhường đường cho xe đạp và xe khách.,true
+575,1- Xe con.,false
+575,2- Xe tải.,true
+575,3- Xe của bạn.,false
+576,1- Xe đi ngược chiều.,false
+576,2- Xe của bạn.,true
+577,"1- Tăng tốc độ, chuyển sang làn đường bên trái để vượt.",false
+577,2- Không được vượt những người đi xe đạp.,true
+578,"1- Nếu phía sau không có xe xin vượt, chuyển sang làn đường bên trái.",false
+578,"2- Nếu phía sau có xe xin vượt, thì giảm tốc độ, ở lại làn đường, dừng lại khi cần thiết.",false
+578,3- Tăng tốc độ trên làn đường của mình và vượt xe con.,false
+578,4- Cả ý 1 và ý 2.,true
+579,1- Chuyển sang nửa đường bên trái để đi tiếp.,false
+579,"2- Bám còi, nháy đèn báo hiệu và đi tiếp.",false
+579,"3- Giảm tốc độ, dừng lại nhường đường.",true
+580,1- Phanh xe giảm tốc độ và đi sát lề đường bên phải.,true
+580,"2- Bấm còi, nháy đèn báo hiệu, giữ nguyên tốc độ và đi tiếp.",false
+580,3- Phanh xe giảm tốc độ và đi sát lề đường bên trái.,false
+581,1- Bật tín hiệu xin chuyển làn đường sang trái để vượt xe tải.,false
+581,2- Phanh xe giảm tốc độ chờ xe tải phía trước chuyển làn đường.,true
+581,3- Bấm còi báo hiệu và vượt qua xe tải trên làn đường của mình.,false
+582,1- Tăng tốc độ và đi thẳng qua ngã tư.,false
+582,2- Dừng xe trước vạch dừng.,false
+582,3- Giảm tốc độ và đi thẳng qua ngã tư.,true
+583,"1- Xe của bạn, mô tô, xe đạp.",false
+583,"2- Xe mô tô, xe đạp, xe của bạn.",false
+583,"3- Xe đạp, xe mô tô, xe của bạn.",true
+584,"1- Xe của bạn, xe tải, xe con.",false
+584,"2- Xe con, xe tải, xe của bạn.",false
+584,"3- Xe tải, xe của bạn, xe con.",false
+584,"4- Xe của bạn, xe con, xe tải.",true
+585,1- Xe của bạn.,true
+585,2- Xe con.,false
+586,1- Xe con.,false
+586,2- Xe của bạn.,true
+587,"1- Tăng tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau.",false
+587,"2- Giảm tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau.",false
+587,"3- Giảm tốc độ, để người đi bộ sang đường trước, sau đó cho xe đi qua vạch người đi bộ sang đường.",true
+588,1- Xe con.,false
+588,2- Xe của bạn.,true
+589,"1- Xe con, xe tải, xe của bạn.",false
+589,"2- Xe tải, xe con, xe của bạn.",true
+589,"3- Xe tải, xe của bạn, xe con.",false
+590,1- Tăng tốc độ cho xe lấn sang phần đường bên trái.,false
+590,2- Giảm tốc độ cho xe lấn sang phần đường bên trái.,false
+590,3- Giảm tốc độ cho xe đi sát phần đường bên phải.,true
+591,1- Xe tải.,true
+591,2- Xe của bạn.,false
+592,1- Xe con.,true
+592,2- Xe mô tô.,false
+592,3- Cả 2 xe đều đúng.,false
+593,"1- Xe tải, xe đạp, xe của bạn.",false
+593,"2- Xe của bạn, xe đạp, xe tải.",false
+593,"3- Xe của bạn, xe tải, xe đạp.",true
+594,1- Hướng 1.,true
+594,2- Hướng 2.,false
+594,3- Cả 02 hướng đều được.,false
+595,"1- Bật đèn chiếu xa, tăng tốc độ vượt xe cùng chiều.",false
+595,"2- Giữ nguyên đèn chiếu gần, giảm tốc độ, đi sau xe phía trước.",true
+595,"3- Giữ nguyên đèn chiếu gần, tăng tốc độ vượt xe cùng chiều.",false
+596,1- Quan sát nếu thấy không có tầu thì tăng tốc cho xe vượt qua đường sắt.,false
+596,2- Dừng lại trước rào chắn một khoảng cách an toàn.,true
+596,"3- Ra tín hiệu, yêu cầu người gác chắn tàu kéo chậm Barie đề xe bạn qua.",false
+597,1- Đúng.,false
+597,2- Sai.,true
+598,1- Được vượt.,false
+598,2- Không được vượt.,true
+599,1- Đúng.,true
+599,2- Không đúng.,false
+600,1- Vượt về phía bên phải để đi tiếp.,false
+600,2- Giảm tốc độ chờ xe container rẽ xong rồi tiếp tục đi.,true
+600,3- Vượt về phía bên trái để đi tiếp.,false

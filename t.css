@@ -1,0 +1,152 @@
+/* CSS cho navbar */
+.navbar {
+  background-color: #1126e7;
+  padding: 15px;
+  text-align: left;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.navbar ul li {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: #1444c9;
+  border-radius: 5px;
+}
+
+/* CSS cho danh sách mở/đóng */
+.dropdown-content {
+  display: none; /* Ẩn danh sách mặc định */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #1126e7;
+  min-width: 200px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content li {
+  display: block;
+}
+
+.dropdown-content li a {
+  display: block;
+  padding: 10px;
+  color: #1126e7;
+  text-decoration: none;
+  background-color: #1126e7;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content li a:hover {
+  background-color: #1126e7;
+}
+
+/* CSS cho danh sách khi mở */
+.dropdown-content.show {
+  display: list-item; /* Hiển thị danh sách khi có lớp show */
+}
+/* Đặt mặc định cho body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+/* Thiết kế cho banner */
+.banner {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/188/156/non_2x/seamless-pattern-doodle-many-icons-of-books-scattered-background-for-education-elearning-school-concept-pile-of-paper-books-open-book-book-on-computer-screen-ebooks-glasses-heart-vector.jpg"); /* Thay thế bằng URL ảnh của bạn */
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Nội dung banner sử dụng flexbox */
+.banner-content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 90%; /* Giới hạn chiều rộng của nội dung banner */
+  z-index: 1;
+  position: relative;
+}
+
+/* Thiết kế logo bên trái */
+.logo-left {
+  max-width: 150px; /* Kích thước logo */
+  margin-right: 20px; /* Khoảng cách giữa logo và nội dung */
+}
+
+/* Phần nội dung văn bản trong banner */
+.banner-text {
+  max-width: 800px; /* Giới hạn chiều rộng nội dung để gọn hơn */
+  left: 0px;
+}
+
+.banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-transform: none;
+  color: red;
+}
+
+.banner h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Nút CTA */
+.cta-button {
+  padding: 15px 30px;
+  background-color: #ff6347;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ff4500;
+}
