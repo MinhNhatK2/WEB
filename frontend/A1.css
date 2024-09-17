@@ -166,7 +166,7 @@
 
 .question-list h2 {
   text-align: center;
-  color: #0073e6;
+  color: black;
 }
 
 .question-list ul {
@@ -202,22 +202,25 @@
 
 /* Cố định kích thước phần hiển thị câu hỏi */
 .quiz-content {
+  border-radius: 10px;
   width: 70%; /* Chiếm 70% chiều rộng */
   height: 400px; /* Chiều cao cố định */
   margin: 0 auto; /* Canh giữa */
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #636060;
   overflow-y: auto; /* Thêm thanh cuộn nếu nội dung quá dài */
-  background-color: #f9f9f9;
+  background-color: #b0e0f3;
+  box-shadow: 0 4px 8px rgba(14, 2, 2, 0.836);
 }
 
 /* Cố định kích thước phần danh sách câu hỏi */
 .question-list {
+  border-radius: 10px;
   width: 25%;
   height: 400px; /* Cùng chiều cao với phần câu hỏi */
   overflow-y: auto; /* Thanh cuộn nếu câu hỏi quá nhiều */
   padding: 10px;
-  border-right: 1px solid #9e5757;
+  border-right: 1px solid #180e0e;
   background-color: #f1f1f1;
 }
 
@@ -262,7 +265,7 @@
   height: 30px; /* Chiều cao cố định */
   background-color: #007bff;
   color: white;
-  border: none;
+  border: 1px solid black;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -285,7 +288,7 @@
   height: 30px;
   background-color: #28a745;
   color: white;
-  border: none;
+  border: 1px solid black;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
