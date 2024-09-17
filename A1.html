@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://laixeancu.vn/wp-content/uploads/2021/07/logo-120.png"
+      type="image/png"
+    />
+    <title>Trắc nghiệm | Trung tâm GDNN - Lái xe An Cư</title>
+    <link rel="stylesheet" href="A1.css" />
+  </head>
+  <body>
+    <header class="banner">
+      <div class="banner-content">
+        <!-- Logo của trang web -->
+        <a href="https://laixeancu.vn" , target="_blank">
+          <img
+            src="https://laixeancu.vn/wp-content/uploads/2021/07/logo-120.png"
+            alt="Logo"
+            class="logo-left"
+          />
+        </a>
+        <div class="banner-text">
+          <h2>Trung tâm GDNN - Lái Xe</h2>
+          <h1>An Cư</h1>
+        </div>
+      </div>
+    </header>
+    <!-- Thanh điều hướng -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="homepage.html">Thi trắc nghiệm online</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+
+    <main class="quiz-container">
+      <!-- Cột bên trái chứa danh sách câu hỏi -->
+      <aside class="question-list">
+        <h2>Danh sách câu hỏi</h2>
+        <ul id="question-list">
+          <!-- Có thể thêm nhiều câu hỏi khác -->
+        </ul>
+      </aside>
+
+      <!-- Phần bên phải hiển thị chi tiết câu hỏi và đáp án -->
+      <section class="quiz-content">
+        <!-- Đồng hồ đếm ngược -->
+        <div class="timer">
+          <p>Thời gian: <span id="countdown">19:00</span></p>
+        </div>
+
+        <!-- Câu hỏi và đáp án -->
+        <div class="question-content">
+          <h3 id="question-text">Câu hỏi sẽ hiển thị tại đây</h3>
+          <img id="question-image" src="" alt="" style="display: none; max-width: 100%; height: auto;" />
+          <ul id="answer-list"></ul>
+        </div>
+        <!-- Nút chuyển câu -->
+        <div class="nav-buttons">
+          <button type="button" class="pre-button" id="pre-button">
+            Câu trước
+          </button>
+          <button type="button" class="next-button" id="next-button">
+            Câu sau
+          </button>
+        </div>
+        <!-- Nút nộp bài -->
+        <div class="submit-button">
+          <button type="submit">Nộp bài</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>Trung tâm GDNN - Lái Xe An Cư.</p>
+        <ul class="footer-menu">
+          <li><a href="https://laixeancu.vn" target="_blank">Trang chủ</a></li>
+          <li><a href="#">Dịch vụ</a></li>
+          <li><a href="#">Liên hệ</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="quizA1.js"></script>
+  </body>
+</html>

@@ -1,0 +1,294 @@
+/* CSS cho navbar */
+.navbar {
+  background-color: #1126e7;
+  padding: 15px;
+  text-align: left;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.navbar ul li {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: #1444c9;
+  border-radius: 5px;
+}
+
+/* Thiết kế cho banner */
+.banner {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/188/156/non_2x/seamless-pattern-doodle-many-icons-of-books-scattered-background-for-education-elearning-school-concept-pile-of-paper-books-open-book-book-on-computer-screen-ebooks-glasses-heart-vector.jpg"); /* Thay thế bằng URL ảnh của bạn */
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Nội dung banner sử dụng flexbox */
+.banner-content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 90%; /* Giới hạn chiều rộng của nội dung banner */
+  z-index: 1;
+  position: relative;
+}
+
+/* Thiết kế logo bên trái */
+.logo-left {
+  max-width: 150px; /* Kích thước logo */
+  margin-right: 20px; /* Khoảng cách giữa logo và nội dung */
+}
+
+/* Phần nội dung văn bản trong banner */
+.banner-text {
+  max-width: 800px; /* Giới hạn chiều rộng nội dung để gọn hơn */
+  left: 0px;
+}
+
+.banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-transform: none;
+  color: red;
+}
+
+.banner h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Nút CTA */
+.cta-button {
+  padding: 15px 30px;
+  background-color: #ff6347;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ff4500;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  display: list-item;
+  margin-right: 10px;
+}
+
+.footer-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .quiz-list {
+    grid-template-columns: 1fr; /* Với màn hình nhỏ, chỉ hiển thị 1 cột */
+  }
+}
+
+/* Container cho giao diện thi trắc nghiệm */
+.quiz-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+/* Cột bên trái chứa danh sách câu hỏi */
+.question-list {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(14, 2, 2, 0.836);
+  flex: 1;
+}
+
+.question-list h2 {
+  text-align: center;
+  color: #0073e6;
+}
+
+.question-list ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Chia thành 2 cột */
+  list-style-type: none;
+  padding: 0;
+}
+
+.question-list ul li {
+  margin-bottom: 10px;
+}
+
+.question-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #727477;
+  border: 1px solid #f9f9f9;
+  color: #f9f9f9;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.question-btn:hover {
+  background-color: #0073e6;
+  color: white;
+}
+
+/* Cố định kích thước phần hiển thị câu hỏi */
+.quiz-content {
+  width: 70%; /* Chiếm 70% chiều rộng */
+  height: 400px; /* Chiều cao cố định */
+  margin: 0 auto; /* Canh giữa */
+  padding: 20px;
+  border: 1px solid #ccc;
+  overflow-y: auto; /* Thêm thanh cuộn nếu nội dung quá dài */
+  background-color: #f9f9f9;
+}
+
+/* Cố định kích thước phần danh sách câu hỏi */
+.question-list {
+  width: 25%;
+  height: 400px; /* Cùng chiều cao với phần câu hỏi */
+  overflow-y: auto; /* Thanh cuộn nếu câu hỏi quá nhiều */
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Thiết lập flexbox để cột bên trái và phải hiển thị ngang hàng */
+.quiz-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Đồng hồ đếm ngược ở góc trên bên phải */
+.timer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Phần hiển thị nội dung câu hỏi cố định kích thước */
+.question-content {
+  width: 100%;
+  height: 300px; /* Chiều cao cố định cho phần câu hỏi */
+  padding: 5px;
+  box-sizing: border-box;
+  overflow-y: auto; /* Thêm thanh cuộn nếu cần */
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+/* Điều chỉnh nút "Câu trước", "Câu sau" và căn chỉnh */
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Đặt kích thước cố định cho các nút */
+.nav-buttons button {
+  width: 120px; /* Độ rộng cố định cho nút */
+  height: 30px; /* Chiều cao cố định */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Nút "Nộp bài" được đặt riêng */
+.submit-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Đặt kích thước cố định cho nút "Nộp bài" */
+.submit-button button {
+  width: 120px; /* Độ rộng cố định cho nút */
+  height: 30px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button button:hover {
+  background-color: #218838;
+}

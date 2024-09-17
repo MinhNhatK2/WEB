@@ -9,8 +9,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "csv-parser": "^3.0.0",
+    "document": "^0.4.7",
     "express": "^4.21.0",
+    "mysql": "^2.18.1",
     "mysql2": "^3.11.3",
     "sequelize": "^6.37.3",
     "sequelize-cli": "^6.6.2"
