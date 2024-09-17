@@ -1,6 +1,6 @@
 const fs = require("fs");
 const csv = require("csv-parser");
-const { question_moto } = require("./models");
+const { question_moto } = require("../models");
 // Đường dẫn tới file CSV
 const csvFilePath = "./data/question_moto_final.csv";
 
