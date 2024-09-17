@@ -157,7 +157,7 @@
 
 /* Cột bên trái chứa danh sách câu hỏi */
 .question-list {
-  background-color: white;
+  background-color: rgb(206, 96, 96);
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(14, 2, 2, 0.836);
@@ -171,8 +171,10 @@
 
 .question-list ul {
   display: grid;
+  border-radius: 10px;
   grid-template-columns: repeat(5, 1fr); /* Chia thành 2 cột */
   list-style-type: none;
+  border: 2px;
   padding: 0;
 }
 
@@ -180,22 +182,22 @@
   margin-bottom: 10px;
 }
 
-.question-btn {
+.question-list ul li button {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #727477;
-  border: 1px solid #f9f9f9;
-  color: #f9f9f9;
+  background-color: #e8eef0;
+  border: 1px solid #0f0f0f;
+  color: #131212;
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-.question-btn:hover {
-  background-color: #0073e6;
-  color: white;
+.question-list ul li button:hover {
+  background-color: #0c5485;
+  color: rgb(218, 204, 204);
 }
 
 /* Cố định kích thước phần hiển thị câu hỏi */
@@ -215,7 +217,7 @@
   height: 400px; /* Cùng chiều cao với phần câu hỏi */
   overflow-y: auto; /* Thanh cuộn nếu câu hỏi quá nhiều */
   padding: 10px;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #9e5757;
   background-color: #f1f1f1;
 }
 

@@ -4,7 +4,12 @@ let questions = [];
 // Hàm gọi API để lấy danh sách câu hỏi từ server
 function loadQuestions() {
   fetch("http://localhost:3000/questions")
-    .then((response) => response.json())
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      return response.json();
+    })
     .then((data) => {
       questions = data;
       displayQuestion(currentQuestionIndex);
@@ -24,9 +29,8 @@ function displayQuestion(index) {
   questionText.textContent = question.question_text;
   answerList.innerHTML = "";
 
-  // Nếu có ảnh minh họa, hiển thị ảnh, nếu không thì ẩn ảnh
   if (question.image_url) {
-    questionImage.src = question.image_url;
+    questionImage.src = question.image_url; // Hiển thị ảnh minh họa nếu có
     questionImage.style.display = "block";
   } else {
     questionImage.style.display = "none";
@@ -39,6 +43,9 @@ function displayQuestion(index) {
   });
 }
 
+// Khai báo biến global để lưu trạng thái của câu hỏi được chọn
+let selectedQuestionIndex = -1;
+
 // Hiển thị danh sách câu hỏi
 function populateQuestionList() {
   const questionList = document.getElementById("question-list");
@@ -46,11 +53,34 @@ function populateQuestionList() {
 
   questions.forEach((q, index) => {
     const li = document.createElement("li");
-    li.textContent = `${index + 1}`;
-    li.onclick = () => {
-      currentQuestionIndex = index;
-      displayQuestion(currentQuestionIndex);
+    const button = document.createElement("button");
+    button.textContent = `${index + 1}`;
+    li.appendChild(button);
+
+    // Xác định câu hỏi được chọn
+    if (index === selectedQuestionIndex) {
+      li.classList.add("selected");
+    }
+
+    button.onclick = () => {
+      selectedQuestionIndex = index;
+      displayQuestion(selectedQuestionIndex);
+
+      // Xóa lớp 'selected' của tất cả các nút câu hỏi khác
+      questionList.querySelectorAll("button").forEach((item) => {
+        item.classList.remove("selected");
+        item.style.fontWeight = "normal"; // Đặt lại kiểu văn bản về bình thường
+        item.style.color = ""; // Đặt lại màu chữ về mặc định
+        item.style.backgroundColor = "";
+      });
+
+      // Thêm lớp 'selected' cho nút câu hỏi được chọn
+      button.classList.add("selected");
+      button.style.fontWeight = "bold"; // Đổi kiểu văn bản thành in đậm
+      button.style.color = "black"; // Đổi màu chữ của nút khi được chọn
+      button.style.backgroundColor = "#0c5485";
     };
+
     questionList.appendChild(li);
   });
 }
