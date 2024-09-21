@@ -4,7 +4,7 @@ let userAnswers = {}; // Lưu trữ lựa chọn đáp án của người dùng
 
 // Hàm gọi API để lấy danh sách câu hỏi từ server
 function loadQuestions() {
-  fetch("http://localhost:3000/questions")
+  fetch("http://localhost:3000/A1_API")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Network response was not ok");
@@ -206,13 +206,6 @@ function evaluateTestResult() {
     return "Trượt"; // Thi trượt trong các trường hợp còn lại
   }
 }
-
-// Gọi hàm này sau khi người dùng nộp bài
-document.getElementById("submit-quiz").onclick = () => {
-  submitQuiz();
-  const testResult = evaluateTestResult();
-  alert(`Kết quả thi: ${testResult}`);
-};
 
 window.onload = () => {
   loadQuestions(); // Tải câu hỏi từ API

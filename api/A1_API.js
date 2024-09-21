@@ -22,7 +22,7 @@ db.connect((err) => {
 });
 
 // API để lấy câu hỏi từ database
-app.get("/questions", (req, res) => {
+app.get("/A1_API", (req, res) => {
   const sql = `
     SELECT q.*, ans.id as ans_id, ans.content as answer, ans.is_correct 
     FROM (
