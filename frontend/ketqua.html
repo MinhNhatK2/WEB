@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kết quả kiểm tra | Trung tâm GDNN - Lái Xe An Cư</title>
+    <link rel="stylesheet" href="A1.css" />
+    <!-- Giữ giao diện giống A1.html -->
+  </head>
+  <body>
+    <header class="banner">
+      <div class="banner-content">
+        <a href="https://laixeancu.vn" target="_blank">
+          <img
+            src="https://laixeancu.vn/wp-content/uploads/2021/07/logo-120.png"
+            alt="Logo"
+            class="logo-left"
+          />
+        </a>
+        <div class="banner-text">
+          <h2>Trung tâm GDNN - Lái Xe</h2>
+          <h1>An Cư</h1>
+        </div>
+      </div>
+    </header>
+
+    <!-- Thanh điều hướng -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="../index.html">Thi trắc nghiệm online</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+
+    <main class="quiz-container">
+      <!-- Cột bên trái chứa danh sách câu hỏi -->
+      <aside class="question-list">
+        <h2>Danh sách câu hỏi</h2>
+        <ul id="question-list">
+          <!-- Danh sách câu hỏi sẽ được thêm động -->
+        </ul>
+      </aside>
+
+      <!-- Phần bên phải hiển thị chi tiết câu hỏi và đáp án -->
+      <section class="quiz-content">
+        <div class="question-content">
+          <h3 id="question-text">Câu hỏi sẽ hiển thị tại đây</h3>
+          <img id="question-image" style="display: none" alt="Question Image" />
+          <ul id="answer-list"></ul>
+        </div>
+        <!-- Thêm phần hiển thị số điểm và kết quả đạt/trượt -->
+        <div class="result-summary">
+          <h3>Số điểm của bạn: <span id="score"></span></h3>
+          <h3>Kết quả: <span id="result-status"></span></h3>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>Trung tâm GDNN - Lái Xe An Cư.</p>
+        <ul class="footer-menu">
+          <li><a href="https://laixeancu.vn" target="_blank">Trang chủ</a></li>
+          <li><a href="#">Dịch vụ</a></li>
+          <li><a href="#">Liên hệ</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      // Lấy dữ liệu từ sessionStorage
+      const score = sessionStorage.getItem("quizScore");
+      const totalQuestions = sessionStorage.getItem("quizTotalQuestions");
+      const testResult = sessionStorage.getItem("quizResult"); // Lấy kết quả Đạt/Trượt
+      const userAnswers = JSON.parse(sessionStorage.getItem("userAnswers"));
+      const correctAnswers = JSON.parse(
+        sessionStorage.getItem("correctAnswers")
+      );
+      const questions = JSON.parse(sessionStorage.getItem("questionsData"));
+
+      let currentQuestionIndex = 0;
+
+      // Hiển thị danh sách câu hỏi
+      const questionList = document.getElementById("question-list");
+      questions.forEach((q, index) => {
+        const li = document.createElement("li");
+        const button = document.createElement("button");
+        button.textContent = `${index + 1}`;
+        li.appendChild(button);
+
+        // Khi nhấn vào câu hỏi, hiển thị chi tiết câu hỏi đó và highlight
+        button.onclick = () => {
+          highlightSelectedQuestion(index); // Gọi hàm để highlight câu đang chọn
+          currentQuestionIndex = index;
+          displayQuestion(index);
+        };
+
+        questionList.appendChild(li);
+      });
+
+      // Hàm để highlight câu hỏi hiện tại
+      function highlightSelectedQuestion(index) {
+        const buttons = document.querySelectorAll("#question-list button");
+
+        buttons.forEach((btn, idx) => {
+          if (idx === index) {
+            btn.classList.add("selected"); // Thêm class selected để tô màu
+          } else {
+            btn.classList.remove("selected"); // Bỏ class selected ở những câu khác
+          }
+        });
+      }
+
+      // Hiển thị chi tiết câu hỏi và đáp án
+      function displayQuestion(index) {
+        const question = questions[index];
+        const userAnswer = userAnswers[question.id];
+        const correctAnswer = correctAnswers.find(
+          (ans) => ans.questionId === question.id
+        ).correctAnswer;
+
+        const questionText = document.getElementById("question-text");
+        const answerList = document.getElementById("answer-list");
+        const questionImage = document.getElementById("question-image");
+
+        questionText.textContent = question.question_text;
+        answerList.innerHTML = "";
+
+        if (question.image_url) {
+          questionImage.src = question.image_url;
+          questionImage.style.display = "block";
+        } else {
+          questionImage.style.display = "none";
+        }
+
+        question.answers.forEach((answer) => {
+          const li = document.createElement("li");
+          const label = document.createElement("label");
+          const input = document.createElement("input");
+
+          input.type = "radio";
+          input.disabled = true; // Không cho chọn lại đáp án sau khi nộp bài
+          input.value = answer.answer_id;
+
+          label.appendChild(input);
+          label.appendChild(document.createTextNode(answer.answer_text));
+          li.appendChild(label);
+
+          if (answer.answer_id === correctAnswer) {
+            li.style.color = "green"; // Đáp án đúng tô xanh
+            if (userAnswer === correctAnswer) {
+              input.checked = true;
+            }
+          } else if (answer.answer_id === userAnswer) {
+            li.style.color = "red"; // Đáp án sai tô đỏ
+            input.checked = true;
+          }
+
+          answerList.appendChild(li);
+        });
+      }
+
+      // Hiển thị câu hỏi đầu tiên khi tải trang và highlight nó
+      window.onload = () => {
+        displayQuestion(currentQuestionIndex);
+        highlightSelectedQuestion(currentQuestionIndex); // Highlight câu đầu tiên
+        // Hiển thị số điểm và kết quả
+        document.getElementById(
+          "score"
+        ).textContent = `${score}/${totalQuestions}`;
+        document.getElementById("result-status").textContent = testResult;
+      };
+    </script>
+  </body>
+</html>

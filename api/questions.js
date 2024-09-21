@@ -24,55 +24,21 @@ db.connect((err) => {
 // API để lấy câu hỏi từ database
 app.get("/questions", (req, res) => {
   const sql = `
-    select q.*, ans.id as ans_id, ans.content as answer, ans.is_correct from(
-(
-    SELECT * 
-    FROM question_motos
-    WHERE type = 0
-    ORDER BY RAND()
-    LIMIT 1
-)
-UNION ALL
-(
-    SELECT * 
-    FROM question_motos
-    WHERE type = 1
-    ORDER BY RAND()
-    LIMIT 8
-)
-UNION ALL
-(
-    SELECT * 
-    FROM question_motos
-    WHERE type = 2
-    ORDER BY RAND()
-    LIMIT 1
-)
-UNION ALL
-(
-    SELECT * 
-    FROM question_motos
-    WHERE type = 3
-    ORDER BY RAND()
-    LIMIT 1
-)
-UNION ALL
-(
-    SELECT * 
-    FROM question_motos
-    WHERE type = 4
-    ORDER BY RAND()
-    LIMIT 7
-)
-UNION ALL
-(
-    SELECT * 
-    FROM question_motos
-    WHERE type = 5
-    ORDER BY RAND()
-    LIMIT 7
-)) as q
-left join answer_motos ans on q.id = ans.id_que;
+    SELECT q.*, ans.id as ans_id, ans.content as answer, ans.is_correct 
+    FROM (
+      (SELECT * FROM question_motos WHERE type = 0 ORDER BY RAND() LIMIT 1)
+      UNION ALL
+      (SELECT * FROM question_motos WHERE type = 1 ORDER BY RAND() LIMIT 8)
+      UNION ALL
+      (SELECT * FROM question_motos WHERE type = 2 ORDER BY RAND() LIMIT 1)
+      UNION ALL
+      (SELECT * FROM question_motos WHERE type = 3 ORDER BY RAND() LIMIT 1)
+      UNION ALL
+      (SELECT * FROM question_motos WHERE type = 4 ORDER BY RAND() LIMIT 7)
+      UNION ALL
+      (SELECT * FROM question_motos WHERE type = 5 ORDER BY RAND() LIMIT 7)
+    ) as q
+    LEFT JOIN answer_motos ans ON q.id = ans.id_que;
   `;
 
   db.query(sql, (err, results) => {
@@ -84,6 +50,7 @@ left join answer_motos ans on q.id = ans.id_que;
     results.forEach((row) => {
       if (!questions[row.id]) {
         questions[row.id] = {
+          id: row.id,
           question_text: row.content,
           image_url: row.url,
           answers: [],

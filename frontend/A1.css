@@ -200,6 +200,26 @@
   color: rgb(218, 204, 204);
 }
 
+/* Đồng hồ đếm ngược trong danh sách câu hỏi */
+.question-list .timer {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+/* Đồng hồ đếm ngược ở góc trên bên phải */
+.timer {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
 /* Cố định kích thước phần hiển thị câu hỏi */
 .quiz-content {
   border-radius: 10px;
@@ -229,15 +249,6 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-}
-
-/* Đồng hồ đếm ngược ở góc trên bên phải */
-.timer {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 18px;
-  color: #333;
 }
 
 /* Phần hiển thị nội dung câu hỏi cố định kích thước */
@@ -296,4 +307,35 @@
 
 .submit-button button:hover {
   background-color: #218838;
+}
+
+#answer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#answer-list li {
+  margin-bottom: 10px;
+}
+
+#answer-list label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+#answer-list input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Thêm lớp highlight để làm nổi bật câu hỏi đang được chọn */
+.question-list button.selected {
+  background-color: #007bff; /* Màu nền xanh */
+  color: white; /* Màu chữ trắng */
+}
+
+/* Màu cho các câu hỏi đã được trả lời */
+.question-list button.answered {
+  background-color: #28a745; /* Màu xanh lá cho câu đã trả lời */
+  color: white; /* Màu chữ trắng */
 }

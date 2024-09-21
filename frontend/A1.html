@@ -15,7 +15,7 @@
     <header class="banner">
       <div class="banner-content">
         <!-- Logo của trang web -->
-        <a href="https://laixeancu.vn" , target="_blank">
+        <a href="https://laixeancu.vn" target="_blank">
           <img
             src="https://laixeancu.vn/wp-content/uploads/2021/07/logo-120.png"
             alt="Logo"
@@ -39,19 +39,18 @@
     <main class="quiz-container">
       <!-- Cột bên trái chứa danh sách câu hỏi -->
       <aside class="question-list">
+        <!-- Timer countdown -->
+        <div class="timer">
+          Thời gian còn lại: <span id="countdown">19:00</span>
+        </div>
         <h2>Danh sách câu hỏi</h2>
         <ul id="question-list">
-          <!-- Có thể thêm nhiều câu hỏi khác -->
+          <!-- Danh sách câu hỏi sẽ được thêm động -->
         </ul>
       </aside>
 
       <!-- Phần bên phải hiển thị chi tiết câu hỏi và đáp án -->
       <section class="quiz-content">
-        <!-- Đồng hồ đếm ngược -->
-        <div class="timer">
-          <p>Thời gian: <span id="countdown">19:00</span></p>
-        </div>
-
         <!-- Câu hỏi và đáp án -->
         <div class="question-content">
           <h3 id="question-text">Câu hỏi sẽ hiển thị tại đây</h3>
@@ -69,7 +68,7 @@
         </div>
         <!-- Nút nộp bài -->
         <div class="submit-button">
-          <button type="submit">Nộp bài</button>
+          <button type="button" id="submit-quiz">Nộp bài</button>
         </div>
       </section>
     </main>

@@ -1,5 +1,6 @@
 let currentQuestionIndex = 0;
 let questions = [];
+let userAnswers = {}; // Lưu trữ lựa chọn đáp án của người dùng
 
 // Hàm gọi API để lấy danh sách câu hỏi từ server
 function loadQuestions() {
@@ -36,17 +37,53 @@ function displayQuestion(index) {
     questionImage.style.display = "none";
   }
 
-  question.answers.forEach((answer, i) => {
+  // Tạo các radio button cho đáp án
+  question.answers.forEach((answer) => {
     const li = document.createElement("li");
-    li.textContent = answer.answer_text;
+    const label = document.createElement("label");
+    const input = document.createElement("input");
+
+    input.type = "radio";
+    input.name = "answer";
+    input.value = answer.answer_id;
+
+    // Kiểm tra nếu người dùng đã chọn đáp án này trước đó
+    if (userAnswers[question.id] === answer.answer_id) {
+      input.checked = true;
+    }
+
+    label.appendChild(input);
+    label.appendChild(document.createTextNode(answer.answer_text));
+    li.appendChild(label);
     answerList.appendChild(li);
   });
+
+  highlightSelectedQuestion(index); // Highlight câu hỏi hiện tại
+  saveUserAnswer(index); // Lưu đáp án khi hiển thị câu hỏi và đánh dấu câu hỏi đã làm
 }
 
-// Khai báo biến global để lưu trạng thái của câu hỏi được chọn
-let selectedQuestionIndex = -1;
+// Lưu đáp án của người dùng
+function saveUserAnswer(index) {
+  const question = questions[index];
+  const selectedOption = document.querySelector('input[name="answer"]:checked');
 
-// Hiển thị danh sách câu hỏi
+  if (selectedOption) {
+    userAnswers[question.id] = parseInt(selectedOption.value);
+    markQuestionAsAnswered(index); // Đánh dấu câu hỏi đã làm
+  }
+}
+
+// Đánh dấu câu hỏi đã làm và đổi màu
+function markQuestionAsAnswered(index) {
+  const questionButtons = document.querySelectorAll("#question-list button");
+  const button = questionButtons[index];
+
+  // Kiểm tra xem người dùng đã trả lời câu hỏi hay chưa
+  if (userAnswers[questions[index].id]) {
+    button.classList.add("answered"); // Thêm class "answered" để đổi màu
+  }
+}
+
 function populateQuestionList() {
   const questionList = document.getElementById("question-list");
   questionList.innerHTML = "";
@@ -57,49 +94,130 @@ function populateQuestionList() {
     button.textContent = `${index + 1}`;
     li.appendChild(button);
 
-    // Xác định câu hỏi được chọn
-    if (index === selectedQuestionIndex) {
-      li.classList.add("selected");
-    }
-
     button.onclick = () => {
-      selectedQuestionIndex = index;
-      displayQuestion(selectedQuestionIndex);
-
-      // Xóa lớp 'selected' của tất cả các nút câu hỏi khác
-      questionList.querySelectorAll("button").forEach((item) => {
-        item.classList.remove("selected");
-        item.style.fontWeight = "normal"; // Đặt lại kiểu văn bản về bình thường
-        item.style.color = ""; // Đặt lại màu chữ về mặc định
-        item.style.backgroundColor = "";
-      });
-
-      // Thêm lớp 'selected' cho nút câu hỏi được chọn
-      button.classList.add("selected");
-      button.style.fontWeight = "bold"; // Đổi kiểu văn bản thành in đậm
-      button.style.color = "black"; // Đổi màu chữ của nút khi được chọn
-      button.style.backgroundColor = "#0c5485";
+      saveUserAnswer(currentQuestionIndex); // Lưu đáp án trước khi chuyển câu hỏi
+      currentQuestionIndex = index;
+      displayQuestion(currentQuestionIndex);
     };
 
     questionList.appendChild(li);
+
+    // Kiểm tra và đánh dấu các câu hỏi đã trả lời
+    markQuestionAsAnswered(index);
+  });
+
+  highlightSelectedQuestion(currentQuestionIndex); // Highlight câu hiện tại
+}
+
+// Highlight ô câu hỏi hiện tại
+function highlightSelectedQuestion(index) {
+  const buttons = document.querySelectorAll("#question-list button");
+  buttons.forEach((btn, idx) => {
+    if (idx === index) {
+      btn.style.backgroundColor = "#007bff"; // Highlight màu xanh
+      btn.style.color = "white";
+    } else {
+      btn.style.backgroundColor = ""; // Màu nền mặc định
+      btn.style.color = "";
+    }
   });
 }
 
-// Hàm xử lý nút "Câu trước"
-document.getElementById("pre-button").onclick = () => {
-  if (currentQuestionIndex > 0) {
-    currentQuestionIndex--;
-    displayQuestion(currentQuestionIndex);
-  }
+// Hàm chấm điểm sau khi nộp bài
+function gradeQuiz() {
+  let score = 0;
+
+  questions.forEach((question) => {
+    const correctAnswer = question.answers.find((answer) => answer.is_correct); // Tìm đáp án đúng
+    const userAnswer = userAnswers[question.id]; // Lấy đáp án mà người dùng chọn
+
+    if (userAnswer === correctAnswer.answer_id) {
+      score++; // Tăng điểm nếu đáp án đúng
+    }
+  });
+
+  return score;
+}
+
+function submitQuiz() {
+  saveUserAnswer(currentQuestionIndex); // Lưu đáp án cuối cùng
+
+  const score = gradeQuiz(); // Chấm điểm
+  const testResult = evaluateTestResult(); // Kiểm tra kết quả Đạt/Trượt
+
+  // Lưu kết quả và danh sách câu hỏi vào sessionStorage để chuyển sang trang kết quả
+  sessionStorage.setItem("quizScore", score);
+  sessionStorage.setItem("quizTotalQuestions", questions.length);
+  sessionStorage.setItem("quizResult", testResult);
+  sessionStorage.setItem("userAnswers", JSON.stringify(userAnswers));
+  sessionStorage.setItem(
+    "correctAnswers",
+    JSON.stringify(
+      questions.map((q) => ({
+        questionId: q.id,
+        correctAnswer: q.answers.find((a) => a.is_correct).answer_id,
+      }))
+    )
+  );
+  sessionStorage.setItem("questionsData", JSON.stringify(questions)); // Lưu danh sách câu hỏi
+
+  // Chuyển hướng sang trang kết quả
+  window.location.href = "ketqua.html";
+}
+
+// Gắn sự kiện vào nút "Nộp bài"
+document.getElementById("submit-quiz").onclick = () => {
+  submitQuiz();
 };
 
-// Hàm xử lý nút "Câu sau"
-document.getElementById("next-button").onclick = () => {
-  if (currentQuestionIndex < questions.length - 1) {
-    currentQuestionIndex++;
-    displayQuestion(currentQuestionIndex);
+// Đồng hồ đếm ngược
+function startTimer() {
+  const countdownElement = document.getElementById("countdown");
+  let timeRemaining = 19 * 60; // 19 phút
+
+  const timer = setInterval(() => {
+    if (timeRemaining <= 0) {
+      clearInterval(timer);
+      alert("Hết giờ! Nộp bài ngay!");
+      submitQuiz();
+      return;
+    }
+
+    const minutes = Math.floor(timeRemaining / 60);
+    const seconds = timeRemaining % 60;
+    countdownElement.textContent = `${minutes}:${
+      seconds < 10 ? "0" + seconds : seconds
+    }`;
+    timeRemaining--;
+  }, 1000);
+}
+
+function evaluateTestResult() {
+  const score = gradeQuiz();
+  const totalQuestions = questions.length;
+
+  const correctType0 = questions.filter((question) =>
+    question.answers.some((answer) => answer.is_correct && question.type === 0)
+  ).length;
+
+  if (score >= 21 && correctType0 === 1 && totalQuestions === 21) {
+    return "Đạt"; // Thi đạt nếu đúng trên 21 câu và không sai câu type 0
+  } else {
+    return "Trượt"; // Thi trượt trong các trường hợp còn lại
   }
+}
+
+// Gọi hàm này sau khi người dùng nộp bài
+document.getElementById("submit-quiz").onclick = () => {
+  submitQuiz();
+  const testResult = evaluateTestResult();
+  alert(`Kết quả thi: ${testResult}`);
 };
 
-// Load câu hỏi khi trang được tải
-loadQuestions();
+window.onload = () => {
+  loadQuestions(); // Tải câu hỏi từ API
+  startTimer(); // Bắt đầu đếm ngược thời gian
+
+  // Sau khi tải câu hỏi, kiểm tra và đánh dấu các câu hỏi đã trả lời
+  populateQuestionList();
+};
