@@ -7,10 +7,10 @@ app.use(cors());
 
 // Kết nối tới MySQL
 const db = mysql.createConnection({
-  host: "sql306.infinityfree.com",
-  user: "if0_37396455",
-  password: "minh123abc",
-  database: "if0_37396455_my_database",
+  host: "bxeqgpqu1vzvjashgvw9-mysql.services.clever-cloud.com",
+  user: "u423fbfqvaffxpmf",
+  password: "MqYZYmbAv5MjhRhyynHZ",
+  database: "bxeqgpqu1vzvjashgvw9",
 });
 
 db.connect((err) => {
