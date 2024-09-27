@@ -7,10 +7,10 @@ app.use(cors());
 
 // Kết nối tới MySQL
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "123456",
-  database: "my_database",
+  host: "sql306.infinityfree.com",
+  user: "if0_37396455",
+  password: "minh123abc",
+  database: "if0_37396455_my_database",
 });
 
 db.connect((err) => {
