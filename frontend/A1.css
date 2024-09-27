@@ -88,7 +88,7 @@
 }
 
 .banner h2 {
-  font-size: 2.5em;
+  font-size: 3em;
   margin-bottom: 20px;
   color: white;
 }
@@ -166,6 +166,7 @@
 }
 
 .question-list h2 {
+  font-size: 2em;
   text-align: center;
   color: black;
 }
@@ -185,6 +186,7 @@
 
 .question-list ul li button {
   display: block;
+  font-size: 1em;
   width: 100%;
   padding: 10px;
   background-color: #e8eef0;
@@ -206,18 +208,18 @@
   margin-bottom: 20px;
   text-align: center;
   font-size: 1.2rem;
-  color: #333;
+  color: #ffffff;
   padding: 10px;
-  background-color: #e9ecef;
+  background-color: #061e6e;
   border-radius: 5px;
 }
 
 /* Đồng hồ đếm ngược ở góc trên bên phải */
 .timer {
   position: absolute;
-  top: 50px;
-  right: 20px;
-  font-size: 18px;
+  top: 245px;
+  right: 68px;
+  font-size: 1em;
   color: #333;
 }
 
@@ -225,7 +227,7 @@
 .quiz-content {
   border-radius: 10px;
   width: 70%; /* Chiếm 70% chiều rộng */
-  height: 400px; /* Chiều cao cố định */
+  height: 710px; /* Chiều cao cố định */
   margin: 0 auto; /* Canh giữa */
   padding: 20px;
   border: 1px solid #636060;
@@ -238,7 +240,7 @@
 .question-list {
   border-radius: 10px;
   width: 25%;
-  height: 400px; /* Cùng chiều cao với phần câu hỏi */
+  height: 510px; /* Cùng chiều cao với phần câu hỏi */
   overflow-y: auto; /* Thanh cuộn nếu câu hỏi quá nhiều */
   padding: 10px;
   border-right: 1px solid #180e0e;
@@ -255,8 +257,9 @@
 /* Phần hiển thị nội dung câu hỏi cố định kích thước */
 .question-content {
   width: 100%;
-  height: 300px; /* Chiều cao cố định cho phần câu hỏi */
+  height: 610px; /* Chiều cao cố định cho phần câu hỏi */
   padding: 5px;
+  font-size: larger;
   box-sizing: border-box;
   overflow-y: auto; /* Thêm thanh cuộn nếu cần */
   background-color: #f9f9f9;
@@ -279,6 +282,7 @@
   color: white;
   border: 1px solid black;
   border-radius: 5px;
+  font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -303,6 +307,7 @@
   border: 1px solid black;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 1em;
   transition: background-color 0.3s;
 }
 

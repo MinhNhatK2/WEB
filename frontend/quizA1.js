@@ -165,6 +165,22 @@ function submitQuiz() {
   window.location.href = "ketqua.html";
 }
 
+// Gắn sự kiện cho nút "Câu trước"
+document.getElementById("pre-button").onclick = () => {
+  if (currentQuestionIndex > 0) {
+    currentQuestionIndex--;
+    displayQuestion(currentQuestionIndex);
+  }
+};
+
+// Gắn sự kiện cho nút "Câu sau"
+document.getElementById("next-button").onclick = () => {
+  if (currentQuestionIndex < questions.length - 1) {
+    currentQuestionIndex++;
+    displayQuestion(currentQuestionIndex);
+  }
+};
+
 // Gắn sự kiện vào nút "Nộp bài"
 document.getElementById("submit-quiz").onclick = () => {
   submitQuiz();

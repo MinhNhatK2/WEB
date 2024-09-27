@@ -115,13 +115,14 @@
   background-color: #333;
   color: white;
   padding: 20px 0;
-  text-align: center;
+  text-align: left;
+  left: 50px;
 }
 
 .footer-content {
   display: flex;
   justify-content: left;
-  align-items: center;
+  align-items: start;
 }
 
 .footer-menu {
@@ -152,7 +153,7 @@ main {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(7, 7, 7, 0.1);
+  box-shadow: 0 5px 10px black;
   margin-bottom: 20px;
 }
 
@@ -183,12 +184,12 @@ main {
 }
 
 .quiz-item h3 {
-  color: #383737;
+  color: black;
   font-size: 1.5rem;
 }
 
 .quiz-item p {
-  color: #363535;
+  color: #1b1919;
 }
 
 .quiz-item .btn {
@@ -197,7 +198,7 @@ main {
   padding: 10px 20px;
   background-color: #0073e6;
   color: white;
-  text-decoration: none;
+  text-decoration: solid;
   border-radius: 5px;
   transition: background-color 0.3s;
 }
