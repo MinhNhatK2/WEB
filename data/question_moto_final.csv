@@ -37,13 +37,13 @@ id,type,content,URL
 36,1,Người đủ 16 tuổi được điều khiển các loại xe nào dưới đây?,
 37,0, Người có giấy phép lái xe mô tô hạng A1 không được phép điều khiển loại xe nào dưới đây?,
 38,1,Người có giấy phép lái xe mô tô hạng A1 được phép điều khiển loại xe nào dưới đây?,
-39,1,"Biển báo hiệu có dạng hình tròn, viền đỏ, nền trắng, trên nền có hình vẽ hoặc chữ số, chữ viết màu đen là loại biến gì dưới đây?",D:/New folder/data_img_moto/Câu 39.jpg
-40,1,"Biển báo hiệu có dạng tam giác đều, viền đỏ, nền màu vàng, trên có hình vẽ màu đen là loại biển gì dưới đây?",D:/New folder/data_img_moto/Câu 40.jpg
-41,1,Biển báo hiệu hình tròn có nền xanh lam có hình vẽ màu trắng loại biển gì dưới đây?,D:/New folder/data_img_moto/Câu 41.jpg
-42,1,Biển báo hiệu hình chữ nhật hoặc hình vuông hoặc hình mũi tên nền xanh lam là loại biển gì dưới đây?,D:/New folder/data_img_moto/Câu 42.jpg
+39,1,"Biển báo hiệu có dạng hình tròn, viền đỏ, nền trắng, trên nền có hình vẽ hoặc chữ số, chữ viết màu đen là loại biến gì dưới đây?",http://127.0.0.1:8081/C%C3%A2u%2039.jpg
+40,1,"Biển báo hiệu có dạng tam giác đều, viền đỏ, nền màu vàng, trên có hình vẽ màu đen là loại biển gì dưới đây?",http://127.0.0.1:8081/C%C3%A2u%2040.jpg
+41,1,Biển báo hiệu hình tròn có nền xanh lam có hình vẽ màu trắng loại biển gì dưới đây?,http://127.0.0.1:8081/C%C3%A2u%2041.jpg
+42,1,Biển báo hiệu hình chữ nhật hoặc hình vuông hoặc hình mũi tên nền xanh lam là loại biển gì dưới đây?,http://127.0.0.1:8081/C%C3%A2u%2042.jpg
 43,1,"Khi sử dụng giấy phép lái xe đã khai báo mắt để điều khiển phương tiện cơ giới đường bộ, ngoài việc bị thu hồi giấy phép lái xe, chịu trách nhiệm trước pháp luật, người lái xe không được cấp giấy phép lái xe trong thời gian bao nhiêu năm?",
-44,1,Khi gặp hiệu lệnh như dưới đây của cảnh sát giao thông thì người tham gia giao thông phải đi như thế nào là đúng quy tắc giao thông?,D:/New folder/data_img_moto/Câu 44.jpg
-45,1,Khi gặp hiệu lệnh như dưới đây của cảnh sát giao thông thì người tham gia giao thông phải đi như thế nào là đúng quy tắc giao thông?,D:/New folder/data_img_moto/Câu 45.jpg
+44,1,Khi gặp hiệu lệnh như dưới đây của cảnh sát giao thông thì người tham gia giao thông phải đi như thế nào là đúng quy tắc giao thông?,http://127.0.0.1:8081/C%C3%A2u%2044.jpg
+45,1,Khi gặp hiệu lệnh như dưới đây của cảnh sát giao thông thì người tham gia giao thông phải đi như thế nào là đúng quy tắc giao thông?,http://127.0.0.1:8081/C%C3%A2u%2045.jpg
 46,1,Tại nơi có biển báo hiệu có định lại có báo hiệu tạm thời thì người tham gia giao thông phải chấp hành hiệu lệnh của báo hiệu nào?,
 47,1,"Trên đường có nhiều làn đường cho xe đi cùng chiều được phân biệt bằng vạch kẻ phân làn đường, người điều khiển phương tiện phải cho xe đi như thế nào?",
 48,1,"Trên đường một chiều có vạch kẻ phân làn đường, xe thô sơ và xe cơ giới phải đi như thế nào là đúng quy tắc giao thông?",
@@ -99,103 +99,103 @@ id,type,content,URL
 98,3,"Gương chiếu hậu của xe mô tô hai bánh, có tác dụng gì trong các trường hợp dưới đây?",
 99,3,"Để đảm bảo an toàn khi tham gia giao thông, người lái xe lái xe mô tô hai bánh cần điều khiển tay ga như thế nào trong các trường hợp dưới đây?",
 100,3,Kỹ thuật cơ bản để giữ thăng bằng khi điều khiển xe mô tô đi trên đường gồ ghề như thế nào trong các trường hợp dưới đây?,
-101,4,Biển nào dưới đây xe gắn máy được phép đi vào?,D:/New folder/data_img_moto/Câu 101.jpg
-102,4,Biển nào báo hiệu cấm xe mô tô hai bánh đi vào?,D:/New folder/data_img_moto/Câu 102.jpg
-103,4,Khi gặp biển nào thì xe mô tô hai bánh được đi vào?,D:/New folder/data_img_moto/Câu 103.jpg
-104,4,Biển nào cấm quay đầu xe?,D:/New folder/data_img_moto/Câu 104.jpg
-105,4,Biển nào cấm xe rẽ trái?,D:/New folder/data_img_moto/Câu 105.jpg
-106,4,Khi gặp biển nào xe được rẽ trái?,D:/New folder/data_img_moto/Câu 106.jpg
-107,4,Biển nào cấm các phương tiện giao thông đường bộ rẽ phải?,D:/New folder/data_img_moto/Câu 107.jpg
-108,4,Biển nào cấm các phương tiện giao thông đường bộ rẽ trái?,D:/New folder/data_img_moto/Câu 108.jpg
-109,4,Biển nào cho phép xe rẽ trái?,D:/New folder/data_img_moto/Câu 109.jpg
-110,4,Biển nào xe quay đâu không bị cấm?,D:/New folder/data_img_moto/Câu 110.jpg
-111,4,Biển nào xe được phép quay đầu nhưng không được rẽ trái?,D:/New folder/data_img_moto/Câu 111.jpg
-112,4,Biển nào là biển “Cấm đi ngược chiều”?,D:/New folder/data_img_moto/Câu 112.jpg
-113,4,Biên nào dưới đây các phương tiện không được phép đi vào?,D:/New folder/data_img_moto/Câu 113.jpg
-114,4,Khi gặp biển nào xe ưu tiên theo luật định vẫn phải dừng lại?,D:/New folder/data_img_moto/Câu 114.jpg
-115,4,"Biển nào cấm tất cả các loại xe cơ giới và thô sơ đi lại trên đường, trừ xe ưu tiên theo luật định (nếu đường vẫn cho xe chạy được)?",D:/New folder/data_img_moto/Câu 115.jpg
-116,4,Gặp biển nào xe xích lô được phép đi vào?,D:/New folder/data_img_moto/Câu 116.jpg
-117,4,"Gặp biển nào xe lam, xe xích lô máy được phép đi vào?",D:/New folder/data_img_moto/Câu 117.jpg
-118,4,Biển báo này có ý nghĩa như thế nào?,D:/New folder/data_img_moto/Câu 118.jpg
-119,4,"Chiều dài đoạn đường 500m từ nơi đặt biển này, người lái xe có được phép bấm còi không?",D:/New folder/data_img_moto/Câu 119.jpg
-120,4,Biển nào xe mô tô hai bánh được đi vào?,D:/New folder/data_img_moto/Câu 120.jpg
-121,4,Biển nào xe mô tô hai bánh không được đi vào?,D:/New folder/data_img_moto/Câu 121.jpg
-122,4,"Biển báo nào báo hiệu bắt đầu đoạn đường vào phạm vi khu dân cư, các phương tiện tham gia giao thông phải tuân theo các quy định đi đường được áp dụng ở khu đông dân cư?",D:/New folder/data_img_moto/Câu 122.jpg
-123,4,Gặp biển nào người lái xe phải nhường đường cho người đi bộ?,D:/New folder/data_img_moto/Câu 123.jpg
-124,4,"Biển nào chỉ đường dành cho người đi bộ, các loại xe không được đi vào khi gặp biển này?",D:/New folder/data_img_moto/Câu 124.jpg
-125,4,Biển nào báo hiệu “Đường dành cho xe thô sơ”?,D:/New folder/data_img_moto/Câu 125.jpg
-126,4,Biển nào báo hiệu sắp đến chỗ giao nhau nguy hiểm?,D:/New folder/data_img_moto/Câu 126.jpg
-127,4,Biên nào báo hiệu “Giao nhau với đường sắt có rào chắn”?,D:/New folder/data_img_moto/Câu 127.jpg
-128,4,Biển nào báo hiệu “Giao nhau có tín hiệu đèn”?,D:/New folder/data_img_moto/Câu 128.jpg
-129,4,Biển nào báo hiệu nguy hiểm giao nhau với đường sắt?,D:/New folder/data_img_moto/Câu 129.jpg
-130,4,Biển nào báo hiệu đường sắt giao nhau với đường bộ không có rào chắn?,D:/New folder/data_img_moto/Câu 130.jpg
-131,4,Biển nào báo hiệu sắp đến chỗ giao nhau giữa đường bộ và đường sắt?,D:/New folder/data_img_moto/Câu 131.jpg
-132,4,"Biển nào báo hiệu, chỉ dẫn xe đi trên đường này được quyền ưu tiên qua nơi giao nhau?",D:/New folder/data_img_moto/Câu 132.jpg
-133,4,Biển nào báo hiệu “Giao nhau với đường không ưu tiên”?,D:/New folder/data_img_moto/Câu 133.jpg
-134,4,Biên nào báo hiệu “Giao nhau với đường ưu tiên”?,D:/New folder/data_img_moto/Câu 134.jpg
-135,4,Biển nào báo hiệu “Đường bị thu hẹp”?,D:/New folder/data_img_moto/Câu 135.jpg
-136,4,"Khi gặp biển nào, người lái xe phải giảm tốc độ, chú ý xe đi ngược chiều, xe đi ở phía đường bị hẹp phải nhường đường cho xe đi ngược chiều?",D:/New folder/data_img_moto/Câu 136.jpg
-137,4,Biển nào báo hiệu “Đường giao nhau” của các tuyến đường cùng cấp?,D:/New folder/data_img_moto/Câu 137.jpg
-138,4,Biển nào báo hiệu “Đường đôi”?,D:/New folder/data_img_moto/Câu 138.jpg
-139,4,Biên nào báo hiệu “Đường đôi”?,D:/New folder/data_img_moto/Câu 139.jpg
-140,4,Biển nào báo hiệu “Giao nhau với đường hai chiều”?,D:/New folder/data_img_moto/Câu 140.jpg
-141,4,Biển nào báo hiệu “Đường hai chiều”?,D:/New folder/data_img_moto/Câu 141.jpg
-142,4,Biển nào báo hiệu “Giao nhau với đường hai chiều”?,D:/New folder/data_img_moto/Câu 142.jpg
-143,4,Biển nào báo hiệu “Chú ý chướng ngại vật”? Biển 1 Biển 2 Biển 3,D:/New folder/data_img_moto/Câu 143.jpg
-144,4,Gặp biển nào người tham gia giao thông phải đi chậm và thận trọng đề phòng khả năng xuất hiện và di chuyển bất ngờ của trẻ em trên mặt đường?,D:/New folder/data_img_moto/Câu 144.jpg
-145,4,Biển nào chỉ dẫn nơi bắt đầu đoạn đường dành cho người,D:/New folder/data_img_moto/Câu 145.jpg
-146,4,Biển báo này có ý nghĩa gì?,D:/New folder/data_img_moto/Câu 146.jpg
-147,4,"Biển nào (đặt trước ngã ba, ngã tư) cho phép xe được rẽ sang hướng khác?",D:/New folder/data_img_moto/Câu 147.jpg
-148,4,Biển nào báo hiệu “Hướng đi thẳng phải theo” ?,D:/New folder/data_img_moto/Câu 148.jpg
-149,4,Biển nào báo hiệu “Đường một chiều”?,D:/New folder/data_img_moto/Câu 149.jpg
-150,4,Trong các biển dưới đây biển nào là biển “Hết tốc độ tối đa cho phép”?,D:/New folder/data_img_moto/Câu 150.jpg
-151,4,Hiệu lực của biển “Tốc độ tối đa cho phép” hết tác dụng khi gặp biển nào dưới đây?,D:/New folder/data_img_moto/Câu 151.jpg
-152,4,Trong các biển dưới đây biển nào là biển “Hết tốc độ tối thiểu” 2?,D:/New folder/data_img_moto/Câu 152.jpg
-153,4,Biển nào dưới đây báo hiệu hết cấm vượt?,D:/New folder/data_img_moto/Câu 153.jpg
-154,4,Trong các biển dưới đây biển nào là biển “Hết mọi lệnh cấm”?,D:/New folder/data_img_moto/Câu 154.jpg
-155,4,Biển nào chỉ dẫn cho người đi bộ sử dụng cầu vượt qua đường?,D:/New folder/data_img_moto/Câu 155.jpg
-156,4,Biển nào chỉ dẫn cho người đi bộ sử dụng hầm chui qua đường?,D:/New folder/data_img_moto/Câu 156.jpg
-157,4,Biển nào báo hiệu “Nơi đỗ xe dành cho người khuyết tật”?,D:/New folder/data_img_moto/Câu 157.jpg
-158,4,"Gặp biển báo này, người tham gia giao thông phải xử lý như thế nào?",D:/New folder/data_img_moto/Câu 158.jpg
-159,4,Biển số 1 có ý nghĩa gì?,D:/New folder/data_img_moto/Câu 159.jpg
-160,4,Vạch kẻ đường nào dưới đây là vạch phân chia các làn xe cùng chiều?,D:/New folder/data_img_moto/Câu 160.jpg
-161,4,"Vạch kẻ đường nào dưới đây là vạch phân chia hai chiều xe chạy (vạch tim đường), xe không được lấn làn, không được đè lên vạch?",D:/New folder/data_img_moto/Câu 161.jpg
-162,4,Vạch kẻ đường nào dưới đây là vạch phân chia hai chiều xe chạy (vạch tim đường)?,D:/New folder/data_img_moto/Câu 162.jpg
-163,4,Các vạch dưới đây có tác dụng gì?,D:/New folder/data_img_moto/Câu 163.jpg
-164,4,Khi gặp vạch kẻ đường nào các xe được phép đè vạch?,D:/New folder/data_img_moto/Câu 164.jpg
-165,4,Vạch dưới đây có ý nghĩa gì?,D:/New folder/data_img_moto/Câu 165.jpg
-166,5,Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?,D:/New folder/data_img_moto/Câu 166.jpg
-167,5,Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?,D:/New folder/data_img_moto/Câu 167.jpg
-168,5,Trường hợp này xe nào được quyền đi trước?,D:/New folder/data_img_moto/Câu 168.jpg
-169,5,Xe nào được quyền đi trước trong trường hợp này?,D:/New folder/data_img_moto/Câu 169.jpg
-170,5,"Theo tín hiệu đèn, xe nào được phép đi?",D:/New folder/data_img_moto/Câu 170.jpg
-171,5,"Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",D:/New folder/data_img_moto/Câu 171.jpg
-172,5,Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?,D:/New folder/data_img_moto/Câu 172.jpg
-173,5,Trong trường hợp này xe nào đỗ vi phạm quy tắc giao thông?,D:/New folder/data_img_moto/Câu 173.jpg
-174,5,"Theo hướng mũi tên, những hướng nào xe gắn máy đi được?",D:/New folder/data_img_moto/Câu 174.jpg
-175,5,Xe nào đỗ vi phạm quy tắc giao thông?,D:/New folder/data_img_moto/Câu 175.jpg
-176,5,Xe nào đỗ vi phạm quy tắc giao thông?,D:/New folder/data_img_moto/Câu 176.jpg
-177,5,Xe tải kéo mô tô ba bánh như hình này có đúng quy tắc giao thông không?,D:/New folder/data_img_moto/Câu 177.jpg
-178,5,Xe nào được quyền đi trước trong trường hợp này?,D:/New folder/data_img_moto/Câu 178.jpg
-179,5,Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?,D:/New folder/data_img_moto/Câu 179.jpg
-180,5,Xe nào được quyền đi trước trong trường hợp này?,D:/New folder/data_img_moto/Câu 180.jpg
-181,5,Xe nào vi phạm quy tắc giao thông?,D:/New folder/data_img_moto/Câu 181.jpg
-182,5,Các xe đi như thế nào là đúng quy tắc giao thông?,D:/New folder/data_img_moto/Câu 182.jpg
-183,5,"Theo hướng mũi tên, xe nào được phép đi?",D:/New folder/data_img_moto/Câu 183.jpg
-184,5,"Trong hình dưới đây, xe nào chấp hành đúng quy tắc giao thông?",D:/New folder/data_img_moto/Câu 184.jpg
-185,5,"Theo hướng mũi tên, những hướng nào xe mô tô được phép đi?",D:/New folder/data_img_moto/Câu 185.jpg
-186,5,"Trong trường hợp này, thứ tự xe đi như thế nào là đúng quy tắc giao thông?",D:/New folder/data_img_moto/Câu 186.jpg
-187,5,"Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",D:/New folder/data_img_moto/Câu 187.jpg
-188,5,"Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",D:/New folder/data_img_moto/Câu 188.jpg
-189,5,Bạn có được phép vượt xe mô tô phía trước không?,D:/New folder/data_img_moto/Câu 189.jpg
-190,5,"Theo tín hiệu đèn của xe cơ giới, xe nào vi phạm quy tắc giao thông?",D:/New folder/data_img_moto/Câu 190.jpg
-191,5,"Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",D:/New folder/data_img_moto/Câu 191.jpg
-192,5,"Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",D:/New folder/data_img_moto/Câu 192.jpg
-193,5,"Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",D:/New folder/data_img_moto/Câu 193.jpg
-194,5,"Các xe đi theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông?",D:/New folder/data_img_moto/Câu 194.jpg
-195,5,Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?,D:/New folder/data_img_moto/Câu 195.jpg
-196,5,Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?,D:/New folder/data_img_moto/Câu 196.jpg
-197,5,Bạn xử lý như thế nào trong trường hợp này?,D:/New folder/data_img_moto/Câu 197.jpg
-198,5,Xe nào dừng đúng theo quy tắc giao thông?,D:/New folder/data_img_moto/Câu 198.jpg
-199,5,"Xe của bạn đang di chuyển gần đến khu vực giao cắt với đường sắt, khi rào chắn đang dịch chuyển, bạn điều khiển xe như thế nào là đúng quy tắc giao thông?",D:/New folder/data_img_moto/Câu 199.jpg
-200,5,"Trong tình huống dưới đây, xe đầu kéo kéo rơ moóc (xe container) đang rẽ phải, xe con màu Xanh và xe máy phía Sau xe contain đi như thế nào để đảm bảo an toàn?",D:/New folder/data_img_moto/Câu 200.jpg
+101,4,Biển nào dưới đây xe gắn máy được phép đi vào?,http://127.0.0.1:8081/C%C3%A2u%20101.jpg
+102,4,Biển nào báo hiệu cấm xe mô tô hai bánh đi vào?,http://127.0.0.1:8081/C%C3%A2u%20102.jpg
+103,4,Khi gặp biển nào thì xe mô tô hai bánh được đi vào?,http://127.0.0.1:8081/C%C3%A2u%20103.jpg
+104,4,Biển nào cấm quay đầu xe?,http://127.0.0.1:8081/C%C3%A2u%20104.jpg
+105,4,Biển nào cấm xe rẽ trái?,http://127.0.0.1:8081/C%C3%A2u%20105.jpg
+106,4,Khi gặp biển nào xe được rẽ trái?,http://127.0.0.1:8081/C%C3%A2u%20106.jpg
+107,4,Biển nào cấm các phương tiện giao thông đường bộ rẽ phải?,http://127.0.0.1:8081/C%C3%A2u%20107.jpg
+108,4,Biển nào cấm các phương tiện giao thông đường bộ rẽ trái?,http://127.0.0.1:8081/C%C3%A2u%20108.jpg
+109,4,Biển nào cho phép xe rẽ trái?,http://127.0.0.1:8081/C%C3%A2u%20109.jpg
+110,4,Biển nào xe quay đâu không bị cấm?,http://127.0.0.1:8081/C%C3%A2u%20110.jpg
+111,4,Biển nào xe được phép quay đầu nhưng không được rẽ trái?,http://127.0.0.1:8081/C%C3%A2u%20111.jpg
+112,4,Biển nào là biển “Cấm đi ngược chiều”?,http://127.0.0.1:8081/C%C3%A2u%20112.jpg
+113,4,Biên nào dưới đây các phương tiện không được phép đi vào?,http://127.0.0.1:8081/C%C3%A2u%20113.jpg
+114,4,Khi gặp biển nào xe ưu tiên theo luật định vẫn phải dừng lại?,http://127.0.0.1:8081/C%C3%A2u%20114.jpg
+115,4,"Biển nào cấm tất cả các loại xe cơ giới và thô sơ đi lại trên đường, trừ xe ưu tiên theo luật định (nếu đường vẫn cho xe chạy được)?",http://127.0.0.1:8081/C%C3%A2u%20115.jpg
+116,4,Gặp biển nào xe xích lô được phép đi vào?,http://127.0.0.1:8081/C%C3%A2u%20116.jpg
+117,4,"Gặp biển nào xe lam, xe xích lô máy được phép đi vào?",http://127.0.0.1:8081/C%C3%A2u%20117.jpg
+118,4,Biển báo này có ý nghĩa như thế nào?,http://127.0.0.1:8081/C%C3%A2u%20118.jpg
+119,4,"Chiều dài đoạn đường 500m từ nơi đặt biển này, người lái xe có được phép bấm còi không?",http://127.0.0.1:8081/C%C3%A2u%20119.jpg
+120,4,Biển nào xe mô tô hai bánh được đi vào?,http://127.0.0.1:8081/C%C3%A2u%20120.jpg
+121,4,Biển nào xe mô tô hai bánh không được đi vào?,http://127.0.0.1:8081/C%C3%A2u%20121.jpg
+122,4,"Biển báo nào báo hiệu bắt đầu đoạn đường vào phạm vi khu dân cư, các phương tiện tham gia giao thông phải tuân theo các quy định đi đường được áp dụng ở khu đông dân cư?",http://127.0.0.1:8081/C%C3%A2u%20122.jpg
+123,4,Gặp biển nào người lái xe phải nhường đường cho người đi bộ?,http://127.0.0.1:8081/C%C3%A2u%20123.jpg
+124,4,"Biển nào chỉ đường dành cho người đi bộ, các loại xe không được đi vào khi gặp biển này?",http://127.0.0.1:8081/C%C3%A2u%20124.jpg
+125,4,Biển nào báo hiệu “Đường dành cho xe thô sơ”?,http://127.0.0.1:8081/C%C3%A2u%20125.jpg
+126,4,Biển nào báo hiệu sắp đến chỗ giao nhau nguy hiểm?,http://127.0.0.1:8081/C%C3%A2u%20126.jpg
+127,4,Biên nào báo hiệu “Giao nhau với đường sắt có rào chắn”?,http://127.0.0.1:8081/C%C3%A2u%20127.jpg
+128,4,Biển nào báo hiệu “Giao nhau có tín hiệu đèn”?,http://127.0.0.1:8081/C%C3%A2u%20128.jpg
+129,4,Biển nào báo hiệu nguy hiểm giao nhau với đường sắt?,http://127.0.0.1:8081/C%C3%A2u%20129.jpg
+130,4,Biển nào báo hiệu đường sắt giao nhau với đường bộ không có rào chắn?,http://127.0.0.1:8081/C%C3%A2u%20130.jpg
+131,4,Biển nào báo hiệu sắp đến chỗ giao nhau giữa đường bộ và đường sắt?,http://127.0.0.1:8081/C%C3%A2u%20131.jpg
+132,4,"Biển nào báo hiệu, chỉ dẫn xe đi trên đường này được quyền ưu tiên qua nơi giao nhau?",http://127.0.0.1:8081/C%C3%A2u%20132.jpg
+133,4,Biển nào báo hiệu “Giao nhau với đường không ưu tiên”?,http://127.0.0.1:8081/C%C3%A2u%20133.jpg
+134,4,Biên nào báo hiệu “Giao nhau với đường ưu tiên”?,http://127.0.0.1:8081/C%C3%A2u%20134.jpg
+135,4,Biển nào báo hiệu “Đường bị thu hẹp”?,http://127.0.0.1:8081/C%C3%A2u%20135.jpg
+136,4,"Khi gặp biển nào, người lái xe phải giảm tốc độ, chú ý xe đi ngược chiều, xe đi ở phía đường bị hẹp phải nhường đường cho xe đi ngược chiều?",http://127.0.0.1:8081/C%C3%A2u%20136.jpg
+137,4,Biển nào báo hiệu “Đường giao nhau” của các tuyến đường cùng cấp?,http://127.0.0.1:8081/C%C3%A2u%20137.jpg
+138,4,Biển nào báo hiệu “Đường đôi”?,http://127.0.0.1:8081/C%C3%A2u%20138.jpg
+139,4,Biên nào báo hiệu “Đường đôi”?,http://127.0.0.1:8081/C%C3%A2u%20139.jpg
+140,4,Biển nào báo hiệu “Giao nhau với đường hai chiều”?,http://127.0.0.1:8081/C%C3%A2u%20140.jpg
+141,4,Biển nào báo hiệu “Đường hai chiều”?,http://127.0.0.1:8081/C%C3%A2u%20141.jpg
+142,4,Biển nào báo hiệu “Giao nhau với đường hai chiều”?,http://127.0.0.1:8081/C%C3%A2u%20142.jpg
+143,4,Biển nào báo hiệu “Chú ý chướng ngại vật”? Biển 1 Biển 2 Biển 3,http://127.0.0.1:8081/C%C3%A2u%20143.jpg
+144,4,Gặp biển nào người tham gia giao thông phải đi chậm và thận trọng đề phòng khả năng xuất hiện và di chuyển bất ngờ của trẻ em trên mặt đường?,http://127.0.0.1:8081/C%C3%A2u%20144.jpg
+145,4,Biển nào chỉ dẫn nơi bắt đầu đoạn đường dành cho người,http://127.0.0.1:8081/C%C3%A2u%20145.jpg
+146,4,Biển báo này có ý nghĩa gì?,http://127.0.0.1:8081/C%C3%A2u%20146.jpg
+147,4,"Biển nào (đặt trước ngã ba, ngã tư) cho phép xe được rẽ sang hướng khác?",http://127.0.0.1:8081/C%C3%A2u%20147.jpg
+148,4,Biển nào báo hiệu “Hướng đi thẳng phải theo” ?,http://127.0.0.1:8081/C%C3%A2u%20148.jpg
+149,4,Biển nào báo hiệu “Đường một chiều”?,http://127.0.0.1:8081/C%C3%A2u%20149.jpg
+150,4,Trong các biển dưới đây biển nào là biển “Hết tốc độ tối đa cho phép”?,http://127.0.0.1:8081/C%C3%A2u%20150.jpg
+151,4,Hiệu lực của biển “Tốc độ tối đa cho phép” hết tác dụng khi gặp biển nào dưới đây?,http://127.0.0.1:8081/C%C3%A2u%20151.jpg
+152,4,Trong các biển dưới đây biển nào là biển “Hết tốc độ tối thiểu” 2?,http://127.0.0.1:8081/C%C3%A2u%20152.jpg
+153,4,Biển nào dưới đây báo hiệu hết cấm vượt?,http://127.0.0.1:8081/C%C3%A2u%20153.jpg
+154,4,Trong các biển dưới đây biển nào là biển “Hết mọi lệnh cấm”?,http://127.0.0.1:8081/C%C3%A2u%20154.jpg
+155,4,Biển nào chỉ dẫn cho người đi bộ sử dụng cầu vượt qua đường?,http://127.0.0.1:8081/C%C3%A2u%20155.jpg
+156,4,Biển nào chỉ dẫn cho người đi bộ sử dụng hầm chui qua đường?,http://127.0.0.1:8081/C%C3%A2u%20156.jpg
+157,4,Biển nào báo hiệu “Nơi đỗ xe dành cho người khuyết tật”?,http://127.0.0.1:8081/C%C3%A2u%20157.jpg
+158,4,"Gặp biển báo này, người tham gia giao thông phải xử lý như thế nào?",http://127.0.0.1:8081/C%C3%A2u%20158.jpg
+159,4,Biển số 1 có ý nghĩa gì?,http://127.0.0.1:8081/C%C3%A2u%20159.jpg
+160,4,Vạch kẻ đường nào dưới đây là vạch phân chia các làn xe cùng chiều?,http://127.0.0.1:8081/C%C3%A2u%20160.jpg
+161,4,"Vạch kẻ đường nào dưới đây là vạch phân chia hai chiều xe chạy (vạch tim đường), xe không được lấn làn, không được đè lên vạch?",http://127.0.0.1:8081/C%C3%A2u%20161.jpg
+162,4,Vạch kẻ đường nào dưới đây là vạch phân chia hai chiều xe chạy (vạch tim đường)?,http://127.0.0.1:8081/C%C3%A2u%20162.jpg
+163,4,Các vạch dưới đây có tác dụng gì?,http://127.0.0.1:8081/C%C3%A2u%20163.jpg
+164,4,Khi gặp vạch kẻ đường nào các xe được phép đè vạch?,http://127.0.0.1:8081/C%C3%A2u%20164.jpg
+165,4,Vạch dưới đây có ý nghĩa gì?,http://127.0.0.1:8081/C%C3%A2u%20165.jpg
+166,5,Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?,http://127.0.0.1:8081/C%C3%A2u%20166.jpg
+167,5,Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?,http://127.0.0.1:8081/C%C3%A2u%20167.jpg
+168,5,Trường hợp này xe nào được quyền đi trước?,http://127.0.0.1:8081/C%C3%A2u%20168.jpg
+169,5,Xe nào được quyền đi trước trong trường hợp này?,http://127.0.0.1:8081/C%C3%A2u%20169.jpg
+170,5,"Theo tín hiệu đèn, xe nào được phép đi?",http://127.0.0.1:8081/C%C3%A2u%20170.jpg
+171,5,"Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",http://127.0.0.1:8081/C%C3%A2u%20171.jpg
+172,5,Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?,http://127.0.0.1:8081/C%C3%A2u%20172.jpg
+173,5,Trong trường hợp này xe nào đỗ vi phạm quy tắc giao thông?,http://127.0.0.1:8081/C%C3%A2u%20173.jpg
+174,5,"Theo hướng mũi tên, những hướng nào xe gắn máy đi được?",http://127.0.0.1:8081/C%C3%A2u%20174.jpg
+175,5,Xe nào đỗ vi phạm quy tắc giao thông?,http://127.0.0.1:8081/C%C3%A2u%20175.jpg
+176,5,Xe nào đỗ vi phạm quy tắc giao thông?,http://127.0.0.1:8081/C%C3%A2u%20176.jpg
+177,5,Xe tải kéo mô tô ba bánh như hình này có đúng quy tắc giao thông không?,http://127.0.0.1:8081/C%C3%A2u%20177.jpg
+178,5,Xe nào được quyền đi trước trong trường hợp này?,http://127.0.0.1:8081/C%C3%A2u%20178.jpg
+179,5,Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?,http://127.0.0.1:8081/C%C3%A2u%20179.jpg
+180,5,Xe nào được quyền đi trước trong trường hợp này?,http://127.0.0.1:8081/C%C3%A2u%20180.jpg
+181,5,Xe nào vi phạm quy tắc giao thông?,http://127.0.0.1:8081/C%C3%A2u%20181.jpg
+182,5,Các xe đi như thế nào là đúng quy tắc giao thông?,http://127.0.0.1:8081/C%C3%A2u%20182.jpg
+183,5,"Theo hướng mũi tên, xe nào được phép đi?",http://127.0.0.1:8081/C%C3%A2u%20183.jpg
+184,5,"Trong hình dưới đây, xe nào chấp hành đúng quy tắc giao thông?",http://127.0.0.1:8081/C%C3%A2u%20184.jpg
+185,5,"Theo hướng mũi tên, những hướng nào xe mô tô được phép đi?",http://127.0.0.1:8081/C%C3%A2u%20185.jpg
+186,5,"Trong trường hợp này, thứ tự xe đi như thế nào là đúng quy tắc giao thông?",http://127.0.0.1:8081/C%C3%A2u%20186.jpg
+187,5,"Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",http://127.0.0.1:8081/C%C3%A2u%20187.jpg
+188,5,"Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",http://127.0.0.1:8081/C%C3%A2u%20188.jpg
+189,5,Bạn có được phép vượt xe mô tô phía trước không?,http://127.0.0.1:8081/C%C3%A2u%20189.jpg
+190,5,"Theo tín hiệu đèn của xe cơ giới, xe nào vi phạm quy tắc giao thông?",http://127.0.0.1:8081/C%C3%A2u%20190.jpg
+191,5,"Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",http://127.0.0.1:8081/C%C3%A2u%20191.jpg
+192,5,"Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",http://127.0.0.1:8081/C%C3%A2u%20192.jpg
+193,5,"Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",http://127.0.0.1:8081/C%C3%A2u%20193.jpg
+194,5,"Các xe đi theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông?",http://127.0.0.1:8081/C%C3%A2u%20194.jpg
+195,5,Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?,http://127.0.0.1:8081/C%C3%A2u%20195.jpg
+196,5,Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?,http://127.0.0.1:8081/C%C3%A2u%20196.jpg
+197,5,Bạn xử lý như thế nào trong trường hợp này?,http://127.0.0.1:8081/C%C3%A2u%20197.jpg
+198,5,Xe nào dừng đúng theo quy tắc giao thông?,http://127.0.0.1:8081/C%C3%A2u%20198.jpg
+199,5,"Xe của bạn đang di chuyển gần đến khu vực giao cắt với đường sắt, khi rào chắn đang dịch chuyển, bạn điều khiển xe như thế nào là đúng quy tắc giao thông?",http://127.0.0.1:8081/C%C3%A2u%20199.jpg
+200,5,"Trong tình huống dưới đây, xe đầu kéo kéo rơ moóc (xe container) đang rẽ phải, xe con màu Xanh và xe máy phía Sau xe contain đi như thế nào để đảm bảo an toàn?",http://127.0.0.1:8081/C%C3%A2u%20200.jpg

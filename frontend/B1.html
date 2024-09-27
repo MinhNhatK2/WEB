@@ -9,13 +9,13 @@
       type="image/png"
     />
     <title>Trắc nghiệm | Trung tâm GDNN - Lái xe An Cư</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="A1.css" />
   </head>
   <body>
     <header class="banner">
       <div class="banner-content">
         <!-- Logo của trang web -->
-        <a href="https://laixeancu.vn" , target="_blank">
+        <a href="https://laixeancu.vn" target="_blank">
           <img
             src="https://laixeancu.vn/wp-content/uploads/2021/07/logo-120.png"
             alt="Logo"
@@ -31,7 +31,7 @@
     <!-- Thanh điều hướng -->
     <nav class="navbar">
       <ul>
-        <li><a href="homepage.html">Thi trắc nghiệm online</a></li>
+        <li><a href="../index.html">Thi trắc nghiệm online</a></li>
         <li><a href="contact.html">Liên hệ</a></li>
       </ul>
     </nav>
@@ -39,67 +39,36 @@
     <main class="quiz-container">
       <!-- Cột bên trái chứa danh sách câu hỏi -->
       <aside class="question-list">
+        <!-- Timer countdown -->
+        <div class="timer">
+          Thời gian còn lại: <span id="countdown">19:00</span>
+        </div>
         <h2>Danh sách câu hỏi</h2>
-        <ul>
-          <li><button class="question-btn">1</button></li>
-          <li><button class="question-btn">2</button></li>
-          <li><button class="question-btn">3</button></li>
-          <li><button class="question-btn">4</button></li>
-          <li><button class="question-btn">5</button></li>
-          <li><button class="question-btn">6</button></li>
-          <li><button class="question-btn">7</button></li>
-          <li><button class="question-btn">8</button></li>
-          <li><button class="question-btn">9</button></li>
-          <li><button class="question-btn">10</button></li>
-          <li><button class="question-btn">11</button></li>
-          <li><button class="question-btn">12</button></li>
-          <li><button class="question-btn">13</button></li>
-          <li><button class="question-btn">14</button></li>
-          <li><button class="question-btn">15</button></li>
-          <li><button class="question-btn">16</button></li>
-          <li><button class="question-btn">17</button></li>
-          <li><button class="question-btn">18</button></li>
-          <li><button class="question-btn">19</button></li>
-          <li><button class="question-btn">20</button></li>
-          <li><button class="question-btn">21</button></li>
-          <li><button class="question-btn">22</button></li>
-          <li><button class="question-btn">23</button></li>
-          <li><button class="question-btn">24</button></li>
-          <li><button class="question-btn">25</button></li>
-          <li><button class="question-btn">26</button></li>
-          <li><button class="question-btn">27</button></li>
-          <li><button class="question-btn">28</button></li>
-          <li><button class="question-btn">29</button></li>
-          <li><button class="question-btn">30</button></li>
-          <!-- Có thể thêm nhiều câu hỏi khác -->
+        <ul id="question-list">
+          <!-- Danh sách câu hỏi sẽ được thêm động -->
         </ul>
       </aside>
 
       <!-- Phần bên phải hiển thị chi tiết câu hỏi và đáp án -->
       <section class="quiz-content">
-        <!-- Đồng hồ đếm ngược -->
-        <div class="timer">
-          <p>Thời gian: <span id="countdown">20:00</span></p>
-        </div>
-
         <!-- Câu hỏi và đáp án -->
-        <div class="question">
-          <h2>Câu hỏi 1: Luật giao thông đường bộ</h2>
-          <form class="answer-options">
-            <label><input type="radio" name="answer" /> Biển số 1</label>
-            <label><input type="radio" name="answer" /> Biển số 2</label>
-            <label><input type="radio" name="answer" /> Biển số 3</label>
-            <label><input type="radio" name="answer" /> Biển số 4</label>
-          </form>
+        <div class="question-content">
+          <h3 id="question-text">Câu hỏi sẽ hiển thị tại đây</h3>
+          <img id="question-image" style="display: none" alt="Question Image" />
+          <ul id="answer-list"></ul>
         </div>
         <!-- Nút chuyển câu -->
         <div class="nav-buttons">
-          <button type="button" class="pre-button">Câu trước</button>
-          <button type="button" class="next-button">Câu sau</button>
+          <button type="button" class="pre-button" id="pre-button">
+            Câu trước
+          </button>
+          <button type="button" class="next-button" id="next-button">
+            Câu sau
+          </button>
         </div>
         <!-- Nút nộp bài -->
         <div class="submit-button">
-          <button type="submit">Nộp bài</button>
+          <button type="button" id="submit-quiz">Nộp bài</button>
         </div>
       </section>
     </main>
@@ -114,5 +83,6 @@
         </ul>
       </div>
     </footer>
+    <script src="quizB1.js"></script>
   </body>
 </html>

@@ -141,7 +141,7 @@
 }
 
 /* Responsive cho màn hình nhỏ hơn */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .quiz-list {
     grid-template-columns: 1fr; /* Với màn hình nhỏ, chỉ hiển thị 1 cột */
   }
@@ -150,7 +150,8 @@
 /* Container cho giao diện thi trắc nghiệm */
 .quiz-container {
   display: flex;
-  max-width: 1200px;
+  max-width: 1400px;
+  height: 1500px;
   margin: 20px auto;
   gap: 20px;
 }
