@@ -1,9 +1,10 @@
 {
   "development": {
-    "username": "root",
-    "password": "123456",
-    "database": "my_database",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "u423fbfqvaffxpmf",
+    "password": "MqYZYmbAv5MjhRhyynHZ",
+    "database": "bxeqgpqu1vzvjashgvw9",
+    "host": "bxeqgpqu1vzvjashgvw9-mysql.services.clever-cloud.com",
+    "dialect": "mysql",
+    "port": 3306
   }
 }
