@@ -23,7 +23,7 @@ db.connect((err) => {
 });
 
 // API để lấy câu hỏi từ database
-app.get("/A1_API", (req, res) => {
+app.get("https://tracnghiemonline-one.vercel.app/api/A1_API", (req, res) => {
   const sql = `
     SELECT q.*, ans.id as ans_id, ans.content as answer, ans.is_correct 
     FROM (
