@@ -4,7 +4,7 @@ let userAnswers = {}; // Lưu trữ lựa chọn đáp án của người dùng
 
 // Hàm gọi API để lấy danh sách câu hỏi từ server
 function loadQuestions() {
-  fetch("http://bxeqgpqu1vzvjashgvw9-mysql.services.clever-cloud.com/A1_API")
+  fetch("web-woad-seven.vercel.app/A1_API")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Network response was not ok");
