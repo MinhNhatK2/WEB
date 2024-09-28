@@ -4,7 +4,7 @@ let userAnswers = {}; // Lưu trữ lựa chọn đáp án của người dùng
 
 // Hàm gọi API để lấy danh sách câu hỏi từ server
 function loadQuestions() {
-  fetch("https://candid-moxie-d24104.netlify.app/A1_API")
+  fetch("https://tracnghiemonline-one.vercel/api/A1_API")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Network response was not ok");

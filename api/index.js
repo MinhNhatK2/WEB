@@ -12,6 +12,7 @@ const db = mysql.createConnection({
   password: "MqYZYmbAv5MjhRhyynHZ",
   database: "bxeqgpqu1vzvjashgvw9",
   port: 3306,
+  connectTimeout: 50000, // Thời gian timeout (10 giây)
 });
 
 db.connect((err) => {
