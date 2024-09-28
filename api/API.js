@@ -11,6 +11,7 @@ const db = mysql.createConnection({
   user: "u423fbfqvaffxpmf",
   password: "MqYZYmbAv5MjhRhyynHZ",
   database: "bxeqgpqu1vzvjashgvw9",
+  port: 3306,
 });
 
 db.connect((err) => {
@@ -390,7 +391,7 @@ UNION ALL
   });
 });
 // Chạy server
-const PORT = process.env.PORT || 3306;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server chạy trên cổng ${PORT}`);
 });
