@@ -7,14 +7,14 @@ app.use(cors());
 
 // Kết nối tới MySQL
 const db = mysql.createConnection({
-  host: process.env.DB_HOST, //"bxeqgpqu1vzvjashgvw9-mysql.services.clever-cloud.com",
-  user: process.env.DB_USERNAME, //"u423fbfqvaffxpmf",
-  password: process.env.DB_PASSWORD, //"MqYZYmbAv5MjhRhyynHZ",
-  database: process.env.DB_DBNAME,
+  host: "bxeqgpqu1vzvjashgvw9-mysql.services.clever-cloud.com",
+  user: "u423fbfqvaffxpmf",
+  password: "MqYZYmbAv5MjhRhyynHZ",
+  database: "bxeqgpqu1vzvjashgvw9",
   waitForConnections: true,
-  queueLimit: 0, //"bxeqgpqu1vzvjashgvw9",
-  //port: 3306,
-  //connectTimeout: 50000, // Thời gian timeout (10 giây)
+  queueLimit: 0, //,
+  port: 3306,
+  connectTimeout: 50000, // Thời gian timeout (10 giây)
 });
 
 db.connect((err) => {
