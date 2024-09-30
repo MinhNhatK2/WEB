@@ -344,8 +344,8 @@ id_que,content,is_correct
 104,"1- Xe cơ giới, xe máy chuyên dùng phải bật đèn; xe thô sơ phải bật đèn hoặc có vật phát sáng báo hiệu; chỉ được dừng xe, đỗ xe ở nơi quy định.",true
 104,"2- Xe cơ giới phải bật đèn ngay cả khi đường hầm sáng; phải cho xe chạy trên một làn đường và chỉ chuyển làn ở nơi được phép; được quay đầu xe, lùi xe khi cần thiết.",false
 104,"3- Xe máy chuyên dùng phải bật đèn ngay cả khi đường hầm sáng; phải cho xe chạy trên một làn đường và chỉ chuyển làn ở nơi được phép; được quay đầu xe, lùi xe khi cần thiết.",false
-105,"1- Phải được cơ quan quản lý đường bộ có thẩm quyền cấp phép và phải thực hiện các biển pháp bắt buộc để bảo vệ đường bộ, bảo đảm an toàn giao thông.",true
-105,2- Chủ phương tiện và lái xe chỉ cần thực hiện biển pháp để hạn chế việc gây hư hại đường bộ.,false
+105,"1- Phải được cơ quan quản lý đường bộ có thẩm quyền cấp phép và phải thực hiện các biện pháp bắt buộc để bảo vệ đường bộ, bảo đảm an toàn giao thông.",true
+105,2- Chủ phương tiện và lái xe chỉ cần thực hiện biện pháp để hạn chế việc gây hư hại đường bộ.,false
 105,3- Được tham gia giao thông trên đường rộng.,false
 105,4- Chỉ được tham gia giao thông vào ban đêm.,false
 106,1- Dùng dây cáp có độ dài 10 mét.,false
@@ -395,7 +395,7 @@ id_que,content,is_correct
 120,"1- Nếu đủ điều kiện an toàn, người lái xe phải giảm tốc độ, đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua, không được gây trở ngại đối với xe xin vượt.",true
 120,"2- Lái xe vào lề đường bên trái và giảm tốc độ để xe phía sau vượt qua, không được gây trở ngại đối với xe xin vượt.",false
 120,"3- Nếu đủ điều kiện an toàn, người lái xe phải tăng tốc độ, đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua.",false
-121,"1- Nhanh chóng đặt báo hiệu trên đường sắt cách tối thiểu 500 mét về hai phía để báo cho người điều khiển phương tiện đường sắt và tìm cách báo cho người quản lý đường sắt, nhà ga nơi gần nhất, đồng thời phải bằng mọi biển pháp nhanh chóng đưa ô tô hỏng ra khỏi phạm vi an toàn đường sắt.",true
+121,"1- Nhanh chóng đặt báo hiệu trên đường sắt cách tối thiểu 500 mét về hai phía để báo cho người điều khiển phương tiện đường sắt và tìm cách báo cho người quản lý đường sắt, nhà ga nơi gần nhất, đồng thời phải bằng mọi biện pháp nhanh chóng đưa ô tô hỏng ra khỏi phạm vi an toàn đường sắt.",true
 121,2- Nhanh chóng đặt biển cảnh báo nguy hiểm tại vị trí xe ô tô bị hỏng để đoàn tàu dừng lại.,false
 121,3- Liên hệ ngay với đơn vị cứu hộ để đưa ô tô hỏng ra khỏi phạm vi an toàn đường sắt.,false
 122,"1- Phải đội mũ bảo hiểm đạt chuẩn, có cài quai đúng quy cách, mặc quần áo gọn gàng; không sử dụng ô, điện thoại di động, thiết bị âm thanh (trừ thiết bị trợ thính).",true
@@ -632,7 +632,7 @@ id_que,content,is_correct
 195,3- Cả ý 1 và ý 2.,true
 196,1- Kiểm tra các điều kiện bảo đảm an toàn của xe sau khi khởi hành; có trách nhiệm lái xe thật nhanh khi chậm giờ của khách.,false
 196,"2- Kiểm tra các điều kiện bảo đảm an toàn của xe trước khi khởi hành; có thái độ văn minh, lịch sự, hướng dẫn hành khách ngồi đúng nơi quy định; kiểm tra việc sắp xếp, chằng buộc hành lý, bảo đảm an toàn.",false
-196,"3- Có biển pháp bảo vệ tính mạng, sức khỏe, tài sản của hành khách đi xe, giữ gìn trật tự, vệ sinh trong xe; đóng cửa lên xuống của xe trước và trong khi xe chạy.",false
+196,"3- Có biện pháp bảo vệ tính mạng, sức khỏe, tài sản của hành khách đi xe, giữ gìn trật tự, vệ sinh trong xe; đóng cửa lên xuống của xe trước và trong khi xe chạy.",false
 196,4- Cả ý 2 và ý 3.,true
 197,1- Là sự hiểu biết và chấp hành nghiêm chỉnh pháp luật về giao thông; là ý thức trách nhiệm với cộng đồng khi tham gia giao thông.,false
 197,"2- Là ứng xử có văn hóa, có tình yêu thương con người trong các tình huống không may xảy ra khi tham gia giao thông.",false
@@ -667,7 +667,7 @@ id_que,content,is_correct
 207,2- Nhanh chóng lái xe gây tai nạn hoặc đi nhờ xe khác ra khỏi hiện trường vụ tai nạn.,false
 207,3- Cả ý 1 và ý 2.,false
 208,"1- Đặt nạn nhân nằm ngửa, khai thông đường thở của nạn nhân.",false
-208,2- Thực hiện các biển pháp hô hấp nhân tạo.,false
+208,2- Thực hiện các biện pháp hô hấp nhân tạo.,false
 208,3- Cả ý 1 và ý 2.,true
 209,1- Không bị nghiêm cấm.,false
 209,2- Nghiêm cấm tùy từng trường hợp cụ thể.,false
@@ -1076,6 +1076,8 @@ id_que,content,is_correct
 336,4- Biển 1 và biển 2.,true
 337,1- Biển 1.,false
 337,2- Biển 2.,false
+337,3- Biển 3.,true
+337,4- Cả ba biển.,false
 338,1- Đường cấm súc vật vận tải hàng hóa.,false
 338,2- Đường cấm súc vật vận tải hành khách.,false
 338,3- Đường cấm súc vật vận tải hàng hóa hoặc hành khách dù kéo xe hay chở trên lưng đi qua.,true
@@ -1488,6 +1490,7 @@ id_que,content,is_correct
 473,3- Biển 3.,false
 474,1- Biển 1.,false
 474,2- Biển 2.,false
+474,3- Biển 3.,true
 475,1- Biển 1.,false
 475,2- Biển 2.,true
 475,3- Biển 3.,false

@@ -1,9 +1,9 @@
 const fs = require("fs");
 const csv = require("csv-parser");
-const { answer_moto } = require("../models"); // Đảm bảo rằng bạn đã cấu hình đúng mô hình Sequelize
+const { answer_oto } = require("../models"); // Đảm bảo rằng bạn đã cấu hình đúng mô hình Sequelize
 
 // Đường dẫn tới file CSV
-const csvFilePath = "./data/answers_moto.csv";
+const csvFilePath = "./data/answers_oto.csv";
 
 // Đọc file CSV và thêm dữ liệu vào cơ sở dữ liệu
 fs.createReadStream(csvFilePath)
@@ -11,7 +11,7 @@ fs.createReadStream(csvFilePath)
   .on("data", async (row) => {
     try {
       // Chèn từng dòng CSV vào CSDL thông qua Sequelize
-      await answer_moto.create({
+      await answer_oto.create({
         id_que: row.id_que,
         content: row.content,
         is_correct: row.is_correct,
