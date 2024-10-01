@@ -155,9 +155,11 @@ function gradeQuiz() {
 }
 
 function submitQuiz() {
+  closeConfirmPopup(); // Tắt popup xác nhận
+
   saveUserAnswer(currentQuestionIndex); // Lưu đáp án cuối cùng
 
-  const score = gradeQuiz(); // Chấm điểm
+  const { score, wrongType0 } = gradeQuiz(); // Chấm điểm
   const testResult = evaluateTestResult(); // Kiểm tra kết quả Đạt/Trượt
 
   // Lưu kết quả và danh sách câu hỏi vào sessionStorage để chuyển sang trang kết quả
@@ -175,8 +177,31 @@ function submitQuiz() {
     )
   );
   sessionStorage.setItem("questionsData", JSON.stringify(questions)); // Lưu danh sách câu hỏi
+  // Hiển thị hộp thoại thông báo kết quả
+  document.getElementById(
+    "result-message"
+  ).textContent = `Kết quả của bạn: ${score}/${questions.length} - ${testResult}`;
+  // Thay đổi hình ảnh dựa trên kết quả
+  const resultImage = document.getElementById("result-image");
+  if (testResult === "Đạt") {
+    resultImage.src = "https://cdn-icons-png.flaticon.com/512/8832/8832119.png"; // Đường dẫn đến hình ảnh dấu tích xanh
+  } else {
+    resultImage.src =
+      "https://freepngimg.com/thumb/red_cross_mark/5-2-red-cross-mark-download-png.png"; // Đường dẫn đến hình ảnh dấu "X" đỏ
+  }
+  resultImage.style.display = "block"; // Hiển thị hình ảnh
 
-  // Chuyển hướng sang trang kết quả
+  // Thêm lớp show để kích hoạt hiệu ứng
+  setTimeout(() => {
+    resultImage.classList.add("show");
+  }, 10); // Thêm độ trễ nhỏ để đảm bảo hiệu ứng chuyển đổi hoạt động
+  document.getElementById("result-popup").style.display = "flex"; // Hiển thị hộp thoại
+
+  // Ngăn chặn chuyển hướng ngay lập tức
+}
+
+// Chuyển hướng sang trang kết quả
+function goToResultPage() {
   window.location.href = "ketqua.html";
 }
 
@@ -198,13 +223,23 @@ document.getElementById("next-button").onclick = () => {
 
 // Gắn sự kiện vào nút "Nộp bài"
 document.getElementById("submit-quiz").onclick = () => {
-  submitQuiz();
+  showConfirmPopup(); // Hiển thị popup xác nhận
 };
+
+// Hiển thị popup xác nhận nộp bài
+function showConfirmPopup() {
+  document.getElementById("confirm-popup").style.display = "flex"; // Hiển thị popup
+}
+
+// Đóng popup xác nhận
+function closeConfirmPopup() {
+  document.getElementById("confirm-popup").style.display = "none"; // Ẩn popup
+}
 
 // Đồng hồ đếm ngược
 function startTimer() {
   const countdownElement = document.getElementById("countdown");
-  let timeRemaining = 19 * 60; // 19 phút
+  let timeRemaining = 20 * 60; // 19 phút
 
   const timer = setInterval(() => {
     if (timeRemaining <= 0) {

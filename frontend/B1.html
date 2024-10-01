@@ -13,14 +13,14 @@
       href="https://laixeancu.vn/wp-content/uploads/2021/07/logo-120.png"
       type="image/png"
     />
-    <title>Trắc nghiệm | Trung tâm GDNN - Lái xe An Cư</title>
+    <title>Lý thuyết B1 | Trung tâm GDNN - Lái xe An Cư</title>
     <link rel="stylesheet" href="style_quizz.css" />
   </head>
   <body>
     <header class="banner">
       <div class="banner-content">
         <!-- Logo của trang web -->
-        <a href="https://laixeancu.vn" target="_blank">
+        <a href="https://laixeancu.vn" , target="_blank">
           <img
             src="https://laixeancu.vn/wp-content/uploads/2021/07/logo-120.png"
             alt="Logo"
@@ -28,8 +28,34 @@
           />
         </a>
         <div class="banner-text">
-          <h2>Trung tâm GDNN - Lái Xe</h2>
-          <h1>An Cư</h1>
+          <h2>TRUNG TÂM GDNN - LÁI XE</h2>
+          <h1>AN CƯ</h1>
+        </div>
+      </div>
+      <!-- Thông tin liên hệ bên phải -->
+      <div class="contact-info">
+        <!-- Hotline với icon và số điện thoại -->
+        <div class="contact-item">
+          <img
+            src="https://img.icons8.com/ios-filled/50/0000ff/phone.png"
+            alt="Hotline"
+            class="icon"
+          />
+          <span>02743 888 889</span>
+        </div>
+
+        <!-- Chỉ icon Facebook, không cần text -->
+        <div class="contact-face">
+          <a
+            href="https://www.facebook.com/profile.php?id=100089683951517"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/ios-filled/50/0000ff/facebook-new.png"
+              alt="Facebook"
+              class="icon"
+            /> </a
+          ><span>Trung tâm GDNN - Lái xe An Cư</span>
         </div>
       </div>
     </header>
@@ -80,14 +106,83 @@
 
     <footer class="footer">
       <div class="footer-content">
-        <p>Trung tâm GDNN - Lái Xe An Cư.</p>
-        <ul class="footer-menu">
-          <li><a href="https://laixeancu.vn" target="_blank">Trang chủ</a></li>
-          <li><a href="#">Dịch vụ</a></li>
-          <li><a href="#">Liên hệ</a></li>
-        </ul>
+        <!-- Logo công ty bên trái -->
+        <div class="logo-container">
+          <a href="https://laixeancu.vn" target="_blank">
+            <img
+              src="https://laixeancu.vn/wp-content/uploads/2021/07/logo-120.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+          </a>
+        </div>
+
+        <!-- Thông tin liên hệ bên trái -->
+        <div class="contact-info">
+          <ul>
+            <li>
+              <a href="https://laixeancu.vn" target="_blank">Trang chủ</a>
+            </li>
+            <li>
+              <img
+                src="https://img.icons8.com/ios-filled/20/ffffff/home.png"
+                alt="Địa chỉ"
+              />
+              Địa chỉ: Số 36, ĐX 083, Khu phố 1, P. Định Hoà, TP. Thủ Dầu Một,
+              Bình Dương.
+            </li>
+            <li>
+              <img
+                src="https://img.icons8.com/ios-filled/20/ffffff/phone.png"
+                alt="Hotline"
+              />
+              <span>Hotline: 02743 888 889 (Đăng ký ghi danh)</span>
+            </li>
+            <li>Thời gian làm việc: 7:30 - 17:00</li>
+            <li>Từ: Thứ Hai - Chủ Nhật</li>
+          </ul>
+        </div>
+
+        <!-- Thêm bản đồ bên phải -->
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.352613033099!2d106.64616267512639!3d11.012148589151291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d1d0063a2de1%3A0x2e6209a4606f46b3!2zVHJ1bmcgVMOibSBHRE5OIEzDoWkgWGUgQW4gQ8aw!5e0!3m2!1svi!2s!4v1727770134347!5m2!1svi!2s"
+            width="300"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
       </div>
     </footer>
+    <!-- Popup Kết quả -->
+    <div id="result-popup" class="popup">
+      <div class="popup-content">
+        <h2>Kết quả của bạn</h2>
+        <div class="result-image-container">
+          <img
+            id="result-image"
+            src=""
+            alt=""
+            style="display: none; width: 50px; height: 50px"
+          />
+        </div>
+        <p id="result-message"></p>
+        <button onclick="goToResultPage()">XEM KẾT QUẢ</button>
+      </div>
+    </div>
+    <!-- Popup xác nhận nộp bài -->
+    <div id="confirm-popup" class="popup">
+      <div class="popup-content">
+        <h2>Xác nhận nộp bài</h2>
+        <p>Bạn có chắc chắn muốn nộp bài không?</p>
+        <button id="confirm-ok" onclick="submitQuiz()">OK</button>
+        <button id="confirm-cancel" onclick="closeConfirmPopup()">
+          Cancel
+        </button>
+      </div>
+    </div>
     <script src="../function/quizB1.js"></script>
   </body>
 </html>
