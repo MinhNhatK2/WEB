@@ -2,7 +2,7 @@ const fs = require("fs");
 const csv = require("csv-parser");
 const { question_oto } = require("../models");
 // Đường dẫn tới file CSV
-const csvFilePath = "./data/question_oto_final.csv";
+const csvFilePath = "./question_oto_final.csv";
 
 // Đọc file CSV và thêm dữ liệu vào cơ sở dữ liệu
 fs.createReadStream(csvFilePath)

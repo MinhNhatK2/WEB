@@ -3,7 +3,7 @@ const csv = require("csv-parser");
 const { answer_oto } = require("../models"); // Đảm bảo rằng bạn đã cấu hình đúng mô hình Sequelize
 
 // Đường dẫn tới file CSV
-const csvFilePath = "./data/answers_oto.csv";
+const csvFilePath = "./answers_oto.csv";
 
 // Đọc file CSV và thêm dữ liệu vào cơ sở dữ liệu
 fs.createReadStream(csvFilePath)
