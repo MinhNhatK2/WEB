@@ -442,3 +442,21 @@ button:hover {
 button:focus {
   outline: none; /* Ẩn viền khi nút được nhấn */
 }
+
+#confirm-ok {
+  background-color: #28a745; /* Màu xanh lá cho nút OK */
+}
+
+#confirm-ok:hover {
+  background-color: #218838; /* Màu xanh lá tối hơn khi hover */
+  font-weight: bold;
+}
+
+#confirm-cancel {
+  background-color: #dc3545; /* Màu đỏ cho nút Cancel */
+}
+
+#confirm-cancel:hover {
+  background-color: #c82333; /* Màu đỏ tối hơn khi hover */
+  font-weight: bold;
+}

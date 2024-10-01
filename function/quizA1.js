@@ -155,6 +155,8 @@ function gradeQuiz() {
 }
 
 function submitQuiz() {
+  closeConfirmPopup(); // Tắt popup xác nhận
+
   saveUserAnswer(currentQuestionIndex); // Lưu đáp án cuối cùng
 
   const { score, wrongType0 } = gradeQuiz(); // Chấm điểm
@@ -221,8 +223,18 @@ document.getElementById("next-button").onclick = () => {
 
 // Gắn sự kiện vào nút "Nộp bài"
 document.getElementById("submit-quiz").onclick = () => {
-  submitQuiz();
+  showConfirmPopup(); // Hiển thị popup xác nhận
 };
+
+// Hiển thị popup xác nhận nộp bài
+function showConfirmPopup() {
+  document.getElementById("confirm-popup").style.display = "flex"; // Hiển thị popup
+}
+
+// Đóng popup xác nhận
+function closeConfirmPopup() {
+  document.getElementById("confirm-popup").style.display = "none"; // Ẩn popup
+}
 
 // Đồng hồ đếm ngược
 function startTimer() {

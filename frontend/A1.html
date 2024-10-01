@@ -109,13 +109,15 @@
         <button onclick="goToResultPage()">XEM KẾT QUẢ</button>
       </div>
     </div>
-    <!-- Popup xác nhận -->
-    <div id="confirmation-popup" class="popup">
+    <!-- Popup xác nhận nộp bài -->
+    <div id="confirm-popup" class="popup">
       <div class="popup-content">
-        <h3>Xác nhận nộp bài</h3>
+        <h2>Xác nhận nộp bài</h2>
         <p>Bạn có chắc chắn muốn nộp bài không?</p>
-        <button id="confirm-submit">OK</button>
-        <button id="cancel-submit">Cancel</button>
+        <button id="confirm-ok" onclick="submitQuiz()">OK</button>
+        <button id="confirm-cancel" onclick="closeConfirmPopup()">
+          Cancel
+        </button>
       </div>
     </div>
   </body>
