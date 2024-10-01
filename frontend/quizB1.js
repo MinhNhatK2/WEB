@@ -1,6 +1,7 @@
 let currentQuestionIndex = 0;
 let questions = [];
 let userAnswers = {}; // Lưu trữ lựa chọn đáp án của người dùng
+let type0QuestionIndices = []; // Mảng để lưu index của câu hỏi type 0
 
 // Hàm gọi API để lấy danh sách câu hỏi từ server
 function loadQuestions() {
@@ -13,6 +14,14 @@ function loadQuestions() {
     })
     .then((data) => {
       questions = data;
+
+      // Lọc các câu hỏi type 0 và lưu index vào mảng
+      questions.forEach((question, index) => {
+        if (question.type === 0) {
+          type0QuestionIndices.push(index);
+        }
+      });
+
       displayQuestion(currentQuestionIndex);
       populateQuestionList();
     })
@@ -126,6 +135,7 @@ function highlightSelectedQuestion(index) {
 // Hàm chấm điểm sau khi nộp bài
 function gradeQuiz() {
   let score = 0;
+  let wrongType0 = false; // Biến đánh dấu nếu câu hỏi type 0 sai
 
   questions.forEach((question) => {
     const correctAnswer = question.answers.find((answer) => answer.is_correct); // Tìm đáp án đúng
@@ -134,9 +144,14 @@ function gradeQuiz() {
     if (userAnswer === correctAnswer.answer_id) {
       score++; // Tăng điểm nếu đáp án đúng
     }
+
+    // Kiểm tra nếu là câu hỏi type 0 và người dùng đã chọn sai
+    if (question.type === 0 && userAnswer !== correctAnswer.answer_id) {
+      wrongType0 = true; // Đánh dấu rằng có câu hỏi type 0 sai
+    }
   });
 
-  return score;
+  return { score, wrongType0 }; // Trả về đối tượng với điểm số và trạng thái câu hỏi type 0
 }
 
 function submitQuiz() {
@@ -209,14 +224,10 @@ function startTimer() {
 }
 
 function evaluateTestResult() {
-  const score = gradeQuiz();
+  const { score, wrongType0 } = gradeQuiz(); // Lấy điểm và trạng thái câu hỏi type 0
   const totalQuestions = questions.length;
 
-  const correctType0 = questions.filter((question) =>
-    question.answers.some((answer) => answer.is_correct && question.type === 0)
-  ).length;
-
-  if (score >= 27 && correctType0 === 1 && totalQuestions === 27) {
+  if (score >= 27 && !wrongType0) {
     return "Đạt"; // Thi đạt nếu đúng trên 21 câu và không sai câu type 0
   } else {
     return "Trượt"; // Thi trượt trong các trường hợp còn lại

@@ -157,7 +157,7 @@ function gradeQuiz() {
 function submitQuiz() {
   saveUserAnswer(currentQuestionIndex); // Lưu đáp án cuối cùng
 
-  const score = gradeQuiz(); // Chấm điểm
+  const { score, wrongType0 } = gradeQuiz(); // Chấm điểm
   const testResult = evaluateTestResult(); // Kiểm tra kết quả Đạt/Trượt
 
   // Lưu kết quả và danh sách câu hỏi vào sessionStorage để chuyển sang trang kết quả
