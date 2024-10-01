@@ -87,10 +87,27 @@
 
       // Hiển thị danh sách câu hỏi
       const questionList = document.getElementById("question-list");
+      // Hiển thị danh sách câu hỏi
       questions.forEach((q, index) => {
         const li = document.createElement("li");
         const button = document.createElement("button");
         button.textContent = `${index + 1}`;
+
+        // Kiểm tra xem câu trả lời đúng hay sai
+        const userAnswer = userAnswers[q.id];
+        const correctAnswer = correctAnswers.find(
+          (ans) => ans.questionId === q.id
+        ).correctAnswer;
+
+        // Nếu người dùng trả lời đúng thì nút câu hỏi sẽ được tô màu xanh
+        if (userAnswer === correctAnswer) {
+          button.style.backgroundColor = "green"; // Màu xanh cho câu đúng
+        }
+        // Nếu người dùng trả lời sai thì nút câu hỏi sẽ được tô màu đỏ
+        else {
+          button.style.backgroundColor = "red"; // Màu đỏ cho câu sai
+        }
+
         li.appendChild(button);
 
         // Khi nhấn vào câu hỏi, hiển thị chi tiết câu hỏi đó và highlight

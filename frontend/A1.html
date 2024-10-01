@@ -93,5 +93,30 @@
       </div>
     </footer>
     <script src="../function/quizA1.js"></script>
+    <!-- Popup Kết quả -->
+    <div id="result-popup" class="popup">
+      <div class="popup-content">
+        <h2>Kết quả của bạn</h2>
+        <div class="result-image-container">
+          <img
+            id="result-image"
+            src=""
+            alt=""
+            style="display: none; width: 50px; height: 50px"
+          />
+        </div>
+        <p id="result-message"></p>
+        <button onclick="goToResultPage()">XEM KẾT QUẢ</button>
+      </div>
+    </div>
+    <!-- Popup xác nhận -->
+    <div id="confirmation-popup" class="popup">
+      <div class="popup-content">
+        <h3>Xác nhận nộp bài</h3>
+        <p>Bạn có chắc chắn muốn nộp bài không?</p>
+        <button id="confirm-submit">OK</button>
+        <button id="cancel-submit">Cancel</button>
+      </div>
+    </div>
   </body>
 </html>

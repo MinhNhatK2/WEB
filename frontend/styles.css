@@ -190,6 +190,7 @@ main {
 
 .quiz-item p {
   color: #1b1919;
+  font-size: 1.21rem;
 }
 
 .quiz-item .btn {
@@ -205,6 +206,7 @@ main {
 
 .quiz-item .btn:hover {
   background-color: #005bb5;
+  transform: translateY(-3px);
 }
 
 /* Responsive cho màn hình nhỏ hơn */
