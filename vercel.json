@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/old-url.html",
+      "destination": "/new-url"
+    }
+  ]
+}
