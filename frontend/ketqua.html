@@ -86,8 +86,11 @@
         </div>
         <!-- Nút điều hướng "Câu trước" và "Câu sau" -->
         <div class="nav-buttons">
-          <button id="pre-button">Câu trước</button>
-          <button id="next-button">Câu sau</button>
+          <button id="pre-button">CÂU TRƯỚC</button>
+          <button id="next-button">CÂU SAU</button>
+        </div>
+        <div class="submit-button">
+          <button id="retry-quiz">LÀM LẠI</button>
         </div>
         <!-- Thêm phần hiển thị số điểm và kết quả đạt/trượt -->
         <div class="result-summary">
@@ -168,6 +171,20 @@
           highlightSelectedQuestion(currentQuestionIndex); // Cập nhật highlight
         }
       };
+      // Lấy thông tin bài thi từ sessionStorage
+      const currentExam = sessionStorage.getItem("currentExam");
+
+      // Gắn sự kiện cho nút "Làm lại bài thi"
+      document.getElementById("retry-quiz").onclick = () => {
+        if (currentExam) {
+          // Chuyển hướng về trang bài thi hiện tại
+          window.location.href = `${currentExam}.html`; // Ví dụ: A1.html, B1.html, B2.html, C.html
+        } else {
+          // Nếu không có thông tin, có thể quay về trang chủ hoặc thông báo lỗi
+          alert("Không thể xác định bài thi.");
+        }
+      };
+
       // Lấy dữ liệu từ sessionStorage
       const score = sessionStorage.getItem("quizScore");
       const totalQuestions = sessionStorage.getItem("quizTotalQuestions");

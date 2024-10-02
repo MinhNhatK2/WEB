@@ -272,6 +272,8 @@ function evaluateTestResult() {
 }
 
 window.onload = () => {
+  // Lưu loại bài thi vào sessionStorage khi bắt đầu thi
+  sessionStorage.setItem("currentExam", "A1");
   loadQuestions(); // Tải câu hỏi từ API
   startTimer(); // Bắt đầu đếm ngược thời gian
 
