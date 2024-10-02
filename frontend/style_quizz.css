@@ -787,7 +787,7 @@ button:focus {
     display: flex;
     flex-direction: column; /* Sắp xếp các phần tử trong footer theo chiều dọc */
     align-items: center;
-    width: 97%;
+    width: 95%;
   }
 
   .footer-content {
