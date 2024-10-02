@@ -364,24 +364,28 @@
   color: rgb(218, 204, 204);
 }
 
-/* Đồng hồ đếm ngược trong danh sách câu hỏi */
-.question-list .timer {
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 1.2rem;
-  color: #ffffff;
-  padding: 10px;
-  background-color: #061e6e;
-  border-radius: 5px;
-}
-
 /* Đồng hồ đếm ngược ở góc trên bên phải */
 .timer {
   position: absolute;
-  top: 280px;
-  right: 68px;
-  font-size: 1em;
-  color: #333;
+  top: 290px;
+  right: 70px;
+  background-color: #061e6e;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  z-index: 1000; /* Đảm bảo đồng hồ nằm trên các thành phần khác */
+  display: block; /* Luôn hiển thị trên mọi thiết bị */
+}
+/* Đối với màn hình nhỏ (điện thoại) */
+@media (max-width: 768px) {
+  .timer {
+    display: block;
+    top: 175px; /* Đưa đồng hồ xuống một chút để hiển thị hợp lý trên điện thoại */
+    right: 15px;
+    font-size: 1.2rem; /* Giảm kích thước chữ trên màn hình nhỏ */
+    padding: 8px 12px; /* Giảm kích thước padding */
+  }
 }
 
 /* Cố định kích thước phần hiển thị câu hỏi */
@@ -551,7 +555,7 @@ button[style*="red"] {
   }
 
   .quiz-content {
-    width: 100%; /* Chiếm toàn bộ chiều rộng trên màn hình nhỏ */
+    width: 96%; /* Chiếm toàn bộ chiều rộng trên màn hình nhỏ */
     height: auto; /* Chiều cao tự động điều chỉnh */
   }
 
@@ -571,6 +575,12 @@ button[style*="red"] {
 
   .submit-button button {
     width: 100%; /* Nút nộp bài chiếm toàn bộ chiều rộng */
+  }
+  .question-content h3 {
+    font-size: 1.1rem;
+  }
+  .question-content ul {
+    font-size: 1rem;
   }
 }
 
