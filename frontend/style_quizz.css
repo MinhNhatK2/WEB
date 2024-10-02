@@ -677,7 +677,7 @@ button:focus {
   padding: 20px 0;
   text-align: left;
   position: relative; /* Đảm bảo footer không bị đè lên */
-  width: 100%; /* Đảm bảo footer chiếm toàn bộ chiều rộng */
+  width: 97%; /* Đảm bảo footer chiếm toàn bộ chiều rộng */
 }
 
 .footer-content {

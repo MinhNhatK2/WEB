@@ -537,7 +537,7 @@ main {
     display: flex;
     flex-direction: column; /* Sắp xếp các phần tử trong footer theo chiều dọc */
     align-items: center;
-    width: 100%;
+    width: 97%;
   }
 
   .footer-content {
