@@ -39,7 +39,7 @@
   border-radius: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .navbar {
     background: linear-gradient(
       45deg,
@@ -191,7 +191,7 @@
   transition: transform 0.3s ease;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   /* Thiết kế cho banner */
   .banner {
     background-image: url("https://gcs.tripi.vn/public-tripi/tripi-feed/img/474075gqP/mau-background-banner-trang_014245841.jpg"); /* Thay thế bằng URL ảnh của bạn */
@@ -330,7 +330,7 @@ main {
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .quiz-section {
     background-color: white;
     padding: 5px;
@@ -392,7 +392,7 @@ main {
 }
 
 /* Responsive cho màn hình nhỏ hơn */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .quiz-list {
     grid-template-columns: 1fr; /* Với màn hình nhỏ, chỉ hiển thị 1 cột */
   }
@@ -518,7 +518,7 @@ main {
   text-decoration: underline; /* Thêm gạch chân khi hover để làm nổi bật */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .footer {
     background-image: url("https://t3.ftcdn.net/jpg/04/42/06/34/360_F_442063430_OjLo5sHK0twuUk2hCGWpjLphEHiLcamL.jpg"); /* Đường dẫn đến hình ảnh */
     background-size: cover; /* Đảm bảo hình ảnh phủ toàn bộ footer */
