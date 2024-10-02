@@ -197,14 +197,14 @@
     background-image: url("https://gcs.tripi.vn/public-tripi/tripi-feed/img/474075gqP/mau-background-banner-trang_014245841.jpg"); /* Thay thế bằng URL ảnh của bạn */
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     position: relative;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .banner::before {
@@ -228,35 +228,35 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 80%; /* Giới hạn chiều rộng của nội dung banner */
+    width: 70%; /* Giới hạn chiều rộng của nội dung banner */
     z-index: 1;
     position: relative;
   }
 
   /* Thiết kế logo bên trái */
   .logo-left {
-    max-width: 80px; /* Kích thước logo */
-    margin-right: 20px; /* Khoảng cách giữa logo và nội dung */
+    max-width: 60px; /* Kích thước logo */
+    margin-right: 10px; /* Khoảng cách giữa logo và nội dung */
   }
 
   /* Phần nội dung văn bản trong banner */
   .banner-text {
-    max-width: 800px; /* Giới hạn chiều rộng nội dung để gọn hơn */
+    max-width: 500px; /* Giới hạn chiều rộng nội dung để gọn hơn */
     left: 0px;
   }
 
   .banner h1 {
-    font-size: 2em;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    font-size: 1.5em;
+    margin-bottom: 2px;
+    margin-top: 2px;
     text-transform: none;
     color: red;
   }
 
   .banner h2 {
-    font-size: 1.5em;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    font-size: 1em;
+    margin-bottom: 2px;
+    margin-top: 2px;
     color: rgb(40, 96, 201);
   }
 
@@ -265,7 +265,7 @@
     z-index: 2;
     display: flex; /* Căn các icon và text theo chiều ngang */
     align-items: right;
-    gap: 10px; /* Khoảng cách giữa các mục liên hệ */
+    gap: 2px; /* Khoảng cách giữa các mục liên hệ */
   }
 
   .contact-item {
@@ -274,12 +274,12 @@
   }
 
   .contact-item img.icon {
-    width: 20px; /* Kích thước icon */
-    height: 20px;
+    width: 15px; /* Kích thước icon */
+    height: 15px;
   }
 
   .contact-item span {
-    font-size: 15px; /* Kích thước chữ cho số điện thoại */
+    font-size: 10px; /* Kích thước chữ cho số điện thoại */
     color: #d61c16; /* Màu trắng cho số điện thoại */
   }
 
@@ -293,13 +293,13 @@
   }
 
   .contact-face span {
-    font-size: 15px;
+    font-size: 10px;
     color: #d61c16;
   }
 
   .contact-face a img.icon {
-    width: 20px; /* Kích thước icon */
-    height: 20px;
+    width: 15px; /* Kích thước icon */
+    height: 15px;
   }
 
   .contact-info img.icon:hover {
