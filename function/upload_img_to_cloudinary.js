@@ -49,5 +49,5 @@ const uploadFolder = (folderPath) => {
 };
 
 // Gọi hàm uploadFolder với đường dẫn tới thư mục của bạn
-const folderPath = path.join(__dirname, "./data_img"); // Thay 'path_to_your_folder' bằng đường dẫn thực tế
+const folderPath = path.join(__dirname, "../data_img"); // Thay 'path_to_your_folder' bằng đường dẫn thực tế
 uploadFolder(folderPath);
