@@ -39,6 +39,48 @@
   border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    background: linear-gradient(
+      45deg,
+      #484980,
+      #071bd3
+    ); /* Gradient màu xanh lá cây khi được chọn */
+    padding: 15px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 20px;
+  }
+
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+
+  .navbar ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar ul li a:hover {
+    background-color: #083ac4;
+    border-radius: 5px;
+  }
+}
+
 /* Thiết kế cho banner */
 .banner {
   background-image: url("https://gcs.tripi.vn/public-tripi/tripi-feed/img/474075gqP/mau-background-banner-trang_014245841.jpg"); /* Thay thế bằng URL ảnh của bạn */
@@ -149,6 +191,122 @@
   transition: transform 0.3s ease;
 }
 
+@media (max-width: 768px) {
+  /* Thiết kế cho banner */
+  .banner {
+    background-image: url("https://gcs.tripi.vn/public-tripi/tripi-feed/img/474075gqP/mau-background-banner-trang_014245841.jpg"); /* Thay thế bằng URL ảnh của bạn */
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(
+      180,
+      180,
+      180,
+      0.3
+    ); /* Lớp phủ màu trắng với độ mờ */
+    z-index: 1;
+  }
+
+  /* Nội dung banner sử dụng flexbox */
+  .banner-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 80%; /* Giới hạn chiều rộng của nội dung banner */
+    z-index: 1;
+    position: relative;
+  }
+
+  /* Thiết kế logo bên trái */
+  .logo-left {
+    max-width: 80px; /* Kích thước logo */
+    margin-right: 20px; /* Khoảng cách giữa logo và nội dung */
+  }
+
+  /* Phần nội dung văn bản trong banner */
+  .banner-text {
+    max-width: 800px; /* Giới hạn chiều rộng nội dung để gọn hơn */
+    left: 0px;
+  }
+
+  .banner h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-transform: none;
+    color: red;
+  }
+
+  .banner h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: rgb(40, 96, 201);
+  }
+
+  /* Căn chỉnh icon liên hệ và số điện thoại */
+  .contact-info {
+    z-index: 2;
+    display: flex; /* Căn các icon và text theo chiều ngang */
+    align-items: right;
+    gap: 10px; /* Khoảng cách giữa các mục liên hệ */
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-item img.icon {
+    width: 20px; /* Kích thước icon */
+    height: 20px;
+  }
+
+  .contact-item span {
+    font-size: 15px; /* Kích thước chữ cho số điện thoại */
+    color: #d61c16; /* Màu trắng cho số điện thoại */
+  }
+
+  .contact-face {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-face a {
+    text-decoration: none; /* Loại bỏ gạch chân cho liên kết */
+  }
+
+  .contact-face span {
+    font-size: 15px;
+    color: #d61c16;
+  }
+
+  .contact-face a img.icon {
+    width: 20px; /* Kích thước icon */
+    height: 20px;
+  }
+
+  .contact-info img.icon:hover {
+    transform: scale(1.1); /* Tăng kích thước icon khi hover */
+    transition: transform 0.3s ease;
+  }
+}
 /* Định dạng phần chính */
 main {
   padding: 20px;
@@ -300,4 +458,76 @@ main {
 .footer a:hover {
   color: #00bfff; /* Màu chữ khi hover (có thể thay đổi tùy ý) */
   text-decoration: underline; /* Thêm gạch chân khi hover để làm nổi bật */
+}
+
+@media (max-width: 768px) {
+  .footer {
+    background-image: url("https://t3.ftcdn.net/jpg/04/42/06/34/360_F_442063430_OjLo5sHK0twuUk2hCGWpjLphEHiLcamL.jpg"); /* Đường dẫn đến hình ảnh */
+    background-size: cover; /* Đảm bảo hình ảnh phủ toàn bộ footer */
+    background-position: center; /* Căn giữa hình ảnh */
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+    flex-direction: column;
+    position: relative; /* Đảm bảo footer không bị đè lên */
+    width: 100%; /* Đảm bảo footer chiếm toàn bộ chiều rộng */
+  }
+
+  .footer-content {
+    display: flex; /* Căn chỉnh nội dung trong footer */
+    align-items: flex-start; /* Căn đầu trên cho logo và thông tin */
+    width: 100%; /* Đảm bảo sử dụng toàn bộ chiều rộng */
+  }
+
+  .logo-container {
+    margin-right: 20px; /* Khoảng cách bên phải logo */
+    margin-left: 20px;
+  }
+
+  .footer-logo {
+    width: 100px; /* Kích thước logo */
+  }
+
+  .contact-info {
+    display: flex; /* Căn chỉnh thông tin liên hệ theo chiều dọc */
+    flex-direction: column; /* Sắp xếp các mục theo chiều dọc */
+  }
+
+  .contact-info ul {
+    list-style-type: none; /* Loại bỏ dấu đầu dòng */
+    padding: 0; /* Xóa padding mặc định */
+  }
+
+  .contact-info li {
+    display: flex; /* Sắp xếp icon và text nằm ngang */
+    align-items: center; /* Căn giữa */
+    margin-bottom: 15px; /* Khoảng cách giữa các mục */
+  }
+
+  .contact-info img {
+    margin-right: 10px; /* Khoảng cách giữa icon và text */
+  }
+
+  .map-container {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+  }
+
+  .map-container iframe {
+    width: 100%; /* Để bản đồ chiếm toàn bộ chiều rộng */
+    max-width: 300px; /* Giới hạn chiều rộng tối đa */
+    height: 200px; /* Chiều cao của bản đồ */
+    border: none; /* Ẩn viền của iframe */
+  }
+
+  .footer a {
+    color: white; /* Đặt màu chữ cho liên kết */
+    text-decoration: none; /* Loại bỏ gạch chân */
+  }
+
+  .footer a:hover {
+    color: #00bfff; /* Màu chữ khi hover (có thể thay đổi tùy ý) */
+    text-decoration: underline; /* Thêm gạch chân khi hover để làm nổi bật */
+  }
 }
