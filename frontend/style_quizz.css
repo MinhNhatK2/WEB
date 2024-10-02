@@ -390,7 +390,7 @@
   width: 70%; /* Chiếm 70% chiều rộng */
   height: 750px; /* Chiều cao cố định */
   margin: 0 auto; /* Canh giữa */
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #636060;
   overflow-y: auto; /* Thêm thanh cuộn nếu nội dung quá dài */
   background-color: #b0e0f3;
