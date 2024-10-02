@@ -330,6 +330,22 @@ main {
   margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .quiz-section {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+    margin-bottom: 5px;
+  }
+  .quiz-section h2 {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+}
+
 /* Custom danh sách các bài thi */
 .quiz-list {
   display: grid;
@@ -379,6 +395,48 @@ main {
 @media (max-width: 768px) {
   .quiz-list {
     grid-template-columns: 1fr; /* Với màn hình nhỏ, chỉ hiển thị 1 cột */
+  }
+  .quiz-item {
+    background-color: #d4c3c3;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(15, 15, 15, 0.5);
+    transition: transform 0.2s;
+  }
+
+  .quiz-item:hover {
+    transform: translateY(-2px);
+  }
+
+  .quiz-item h3 {
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .quiz-item p {
+    color: #1b1919;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .quiz-item .btn {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #0073e6;
+    color: white;
+    font-size: 1rem;
+    text-decoration: solid;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+
+  .quiz-item .btn:hover {
+    background-color: #005bb5;
+    transform: translateY(-2px);
   }
 }
 
@@ -466,68 +524,76 @@ main {
     background-size: cover; /* Đảm bảo hình ảnh phủ toàn bộ footer */
     background-position: center; /* Căn giữa hình ảnh */
     color: white;
-    padding: 20px 0;
-    text-align: left;
-    flex-direction: column;
-    position: relative; /* Đảm bảo footer không bị đè lên */
-    width: 100%; /* Đảm bảo footer chiếm toàn bộ chiều rộng */
+    padding: 20px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử trong footer theo chiều dọc */
+    align-items: center;
+    width: 100%;
   }
 
   .footer-content {
-    display: flex; /* Căn chỉnh nội dung trong footer */
-    align-items: flex-start; /* Căn đầu trên cho logo và thông tin */
-    width: 100%; /* Đảm bảo sử dụng toàn bộ chiều rộng */
+    display: flex;
+    flex-direction: column; /* Sắp xếp các mục trong footer theo chiều dọc */
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
   }
 
   .logo-container {
-    margin-right: 20px; /* Khoảng cách bên phải logo */
-    margin-left: 20px;
+    margin-bottom: 10px; /* Thêm khoảng cách giữa logo và thông tin */
   }
 
   .footer-logo {
-    width: 100px; /* Kích thước logo */
+    width: 70px; /* Giảm kích thước logo cho thiết bị di động */
   }
 
   .contact-info {
-    display: flex; /* Căn chỉnh thông tin liên hệ theo chiều dọc */
-    flex-direction: column; /* Sắp xếp các mục theo chiều dọc */
+    display: flex;
+    flex-direction: column; /* Sắp xếp thông tin liên hệ theo chiều dọc */
+    align-items: center;
   }
 
   .contact-info ul {
     list-style-type: none; /* Loại bỏ dấu đầu dòng */
-    padding: 0; /* Xóa padding mặc định */
+    padding: 0;
+    margin: 5px;
+    font-size: 0.9rem;
+    text-align: center;
   }
 
   .contact-info li {
-    display: flex; /* Sắp xếp icon và text nằm ngang */
-    align-items: center; /* Căn giữa */
-    margin-bottom: 15px; /* Khoảng cách giữa các mục */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
   }
 
   .contact-info img {
-    margin-right: 10px; /* Khoảng cách giữa icon và text */
+    margin-right: 5px; /* Khoảng cách giữa icon và text */
   }
 
   .map-container {
     width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: center; /* Căn giữa bản đồ */
+    margin-top: 20px;
   }
 
   .map-container iframe {
     width: 100%; /* Để bản đồ chiếm toàn bộ chiều rộng */
     max-width: 300px; /* Giới hạn chiều rộng tối đa */
     height: 200px; /* Chiều cao của bản đồ */
-    border: none; /* Ẩn viền của iframe */
+    border: none;
   }
 
   .footer a {
-    color: white; /* Đặt màu chữ cho liên kết */
-    text-decoration: none; /* Loại bỏ gạch chân */
+    color: white;
+    text-decoration: none;
   }
 
   .footer a:hover {
-    color: #00bfff; /* Màu chữ khi hover (có thể thay đổi tùy ý) */
-    text-decoration: underline; /* Thêm gạch chân khi hover để làm nổi bật */
+    color: #00bfff;
+    text-decoration: underline;
   }
 }
