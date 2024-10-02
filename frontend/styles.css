@@ -46,12 +46,12 @@
       #484980,
       #071bd3
     ); /* Gradient màu xanh lá cây khi được chọn */
-    padding: 15px;
+    padding: 4px;
     text-align: left;
     position: sticky;
     top: 0;
     z-index: 1000;
-    height: 20px;
+    height: 12px;
   }
 
   .navbar ul {
@@ -64,20 +64,20 @@
   .navbar ul li {
     display: inline-block;
     position: relative;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   .navbar ul li a {
     text-decoration: none;
     color: white;
-    font-size: 1.2em;
-    padding: 10px 20px;
+    font-size: 0.8em;
+    padding: 6px 12px;
     transition: background-color 0.3s ease;
   }
 
   .navbar ul li a:hover {
     background-color: #083ac4;
-    border-radius: 5px;
+    border-radius: 2px;
   }
 }
 
@@ -203,8 +203,8 @@
     align-items: center;
     text-align: center;
     position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .banner::before {
@@ -229,24 +229,24 @@
     justify-content: left;
     align-items: center;
     width: 70%; /* Giới hạn chiều rộng của nội dung banner */
-    z-index: 1;
+    z-index: 2;
     position: relative;
   }
 
   /* Thiết kế logo bên trái */
   .logo-left {
-    max-width: 60px; /* Kích thước logo */
+    max-width: 50px; /* Kích thước logo */
     margin-right: 10px; /* Khoảng cách giữa logo và nội dung */
   }
 
   /* Phần nội dung văn bản trong banner */
   .banner-text {
-    max-width: 500px; /* Giới hạn chiều rộng nội dung để gọn hơn */
+    max-width: 600px; /* Giới hạn chiều rộng nội dung để gọn hơn */
     left: 0px;
   }
 
   .banner h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 2px;
     margin-top: 2px;
     text-transform: none;
@@ -254,7 +254,7 @@
   }
 
   .banner h2 {
-    font-size: 1em;
+    font-size: 0.8em;
     margin-bottom: 2px;
     margin-top: 2px;
     color: rgb(40, 96, 201);
@@ -270,7 +270,7 @@
 
   .contact-item {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
   }
 
   .contact-item img.icon {
@@ -285,7 +285,7 @@
 
   .contact-face {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
   }
 
   .contact-face a {
