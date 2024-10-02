@@ -84,10 +84,15 @@
           <img id="question-image" style="display: none" alt="Question Image" />
           <ul id="answer-list"></ul>
         </div>
+        <!-- Nút điều hướng "Câu trước" và "Câu sau" -->
+        <div class="nav-buttons">
+          <button id="pre-button">Câu trước</button>
+          <button id="next-button">Câu sau</button>
+        </div>
         <!-- Thêm phần hiển thị số điểm và kết quả đạt/trượt -->
         <div class="result-summary">
-          <h3>Số điểm của bạn: <span id="score"></span></h3>
-          <h3>Kết quả: <span id="result-status"></span></h3>
+          <h3>ĐIỂM CỦA BẠN: <span id="score"></span></h3>
+          <h3>KẾT QUẢ: <span id="result-status"></span></h3>
         </div>
       </section>
     </main>
@@ -146,6 +151,23 @@
     </footer>
 
     <script>
+      // Hàm xử lý nút "Câu trước"
+      document.getElementById("pre-button").onclick = () => {
+        if (currentQuestionIndex > 0) {
+          currentQuestionIndex--;
+          displayQuestion(currentQuestionIndex);
+          highlightSelectedQuestion(currentQuestionIndex); // Cập nhật highlight
+        }
+      };
+
+      // Hàm xử lý nút "Câu sau"
+      document.getElementById("next-button").onclick = () => {
+        if (currentQuestionIndex < questions.length - 1) {
+          currentQuestionIndex++;
+          displayQuestion(currentQuestionIndex);
+          highlightSelectedQuestion(currentQuestionIndex); // Cập nhật highlight
+        }
+      };
       // Lấy dữ liệu từ sessionStorage
       const score = sessionStorage.getItem("quizScore");
       const totalQuestions = sessionStorage.getItem("quizTotalQuestions");
@@ -259,11 +281,20 @@
       window.onload = () => {
         displayQuestion(currentQuestionIndex);
         highlightSelectedQuestion(currentQuestionIndex); // Highlight câu đầu tiên
-        // Hiển thị số điểm và kết quả
+
+        // Hiển thị số điểm
         document.getElementById(
           "score"
         ).textContent = `${score}/${totalQuestions}`;
-        document.getElementById("result-status").textContent = testResult;
+
+        // Kiểm tra kết quả đạt/trượt và cập nhật màu sắc
+        const resultStatus = document.getElementById("result-status");
+        resultStatus.textContent = testResult;
+        if (testResult === "Đạt") {
+          resultStatus.classList.add("pass"); // Thêm lớp pass cho kết quả Đạt
+        } else {
+          resultStatus.classList.add("fail"); // Thêm lớp fail cho kết quả Trượt
+        }
       };
     </script>
   </body>

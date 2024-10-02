@@ -39,6 +39,48 @@
   border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    background: linear-gradient(
+      45deg,
+      #484980,
+      #071bd3
+    ); /* Gradient màu xanh lá cây khi được chọn */
+    padding: 4px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 20px;
+  }
+
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+
+  .navbar ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    padding: 6px 12px;
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar ul li a:hover {
+    background-color: #083ac4;
+    border-radius: 2px;
+  }
+}
+
 /* Thiết kế cho banner */
 .banner {
   background-image: url("https://gcs.tripi.vn/public-tripi/tripi-feed/img/474075gqP/mau-background-banner-trang_014245841.jpg"); /* Thay thế bằng URL ảnh của bạn */
@@ -149,10 +191,120 @@
   transition: transform 0.3s ease;
 }
 
-/* Responsive cho màn hình nhỏ hơn */
-@media (max-width: 900px) {
-  .quiz-list {
-    grid-template-columns: 1fr; /* Với màn hình nhỏ, chỉ hiển thị 1 cột */
+@media (max-width: 768px) {
+  /* Thiết kế cho banner */
+  .banner {
+    background-image: url("https://gcs.tripi.vn/public-tripi/tripi-feed/img/474075gqP/mau-background-banner-trang_014245841.jpg"); /* Thay thế bằng URL ảnh của bạn */
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(
+      180,
+      180,
+      180,
+      0.3
+    ); /* Lớp phủ màu trắng với độ mờ */
+    z-index: 1;
+  }
+
+  /* Nội dung banner sử dụng flexbox */
+  .banner-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 70%; /* Giới hạn chiều rộng của nội dung banner */
+    z-index: 2;
+    position: relative;
+  }
+
+  /* Thiết kế logo bên trái */
+  .logo-left {
+    max-width: 50px; /* Kích thước logo */
+    margin-right: 10px; /* Khoảng cách giữa logo và nội dung */
+  }
+
+  /* Phần nội dung văn bản trong banner */
+  .banner-text {
+    max-width: 600px; /* Giới hạn chiều rộng nội dung để gọn hơn */
+    left: 0px;
+  }
+
+  .banner h1 {
+    font-size: 1.2em;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-transform: none;
+    color: red;
+  }
+
+  .banner h2 {
+    font-size: 0.8em;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: rgb(40, 96, 201);
+  }
+
+  /* Căn chỉnh icon liên hệ và số điện thoại */
+  .contact-info {
+    z-index: 2;
+    display: flex; /* Căn các icon và text theo chiều ngang */
+    align-items: right;
+    gap: 2px; /* Khoảng cách giữa các mục liên hệ */
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .contact-item img.icon {
+    width: 15px; /* Kích thước icon */
+    height: 15px;
+  }
+
+  .contact-item span {
+    font-size: 10px; /* Kích thước chữ cho số điện thoại */
+    color: #d61c16; /* Màu trắng cho số điện thoại */
+  }
+
+  .contact-face {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .contact-face a {
+    text-decoration: none; /* Loại bỏ gạch chân cho liên kết */
+  }
+
+  .contact-face span {
+    font-size: 10px;
+    color: #d61c16;
+  }
+
+  .contact-face a img.icon {
+    width: 15px; /* Kích thước icon */
+    height: 15px;
+  }
+
+  .contact-info img.icon:hover {
+    transform: scale(1.1); /* Tăng kích thước icon khi hover */
+    transition: transform 0.3s ease;
   }
 }
 
@@ -387,6 +539,41 @@ button[style*="red"] {
   font-weight: bold; /* In đậm câu sai */
 }
 
+/* Responsive cho màn hình nhỏ (điện thoại) */
+@media (max-width: 768px) {
+  .quiz-container {
+    flex-direction: column; /* Bố cục thành cột trên màn hình nhỏ */
+    height: auto;
+  }
+
+  .question-list {
+    display: none; /* Ẩn danh sách câu hỏi trên điện thoại */
+  }
+
+  .quiz-content {
+    width: 100%; /* Chiếm toàn bộ chiều rộng trên màn hình nhỏ */
+    height: auto; /* Chiều cao tự động điều chỉnh */
+  }
+
+  /* Điều chỉnh kích thước và bố cục cho các nút */
+  .nav-buttons {
+    margin-top: 10px;
+  }
+
+  .nav-buttons button {
+    width: 100%; /* Nút chiếm toàn bộ chiều rộng */
+    margin-bottom: 10px; /* Thêm khoảng cách giữa các nút */
+  }
+
+  .submit-button {
+    margin-top: 10px;
+  }
+
+  .submit-button button {
+    width: 100%; /* Nút nộp bài chiếm toàn bộ chiều rộng */
+  }
+}
+
 .popup {
   display: none; /* Ẩn hộp thoại mặc định */
   position: fixed;
@@ -533,4 +720,106 @@ button:focus {
 .footer a:hover {
   color: #00bfff; /* Màu chữ khi hover (có thể thay đổi tùy ý) */
   text-decoration: underline; /* Thêm gạch chân khi hover để làm nổi bật */
+}
+
+@media (max-width: 768px) {
+  .footer {
+    background-image: url("https://t3.ftcdn.net/jpg/04/42/06/34/360_F_442063430_OjLo5sHK0twuUk2hCGWpjLphEHiLcamL.jpg"); /* Đường dẫn đến hình ảnh */
+    background-size: cover; /* Đảm bảo hình ảnh phủ toàn bộ footer */
+    background-position: center; /* Căn giữa hình ảnh */
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử trong footer theo chiều dọc */
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các mục trong footer theo chiều dọc */
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .logo-container {
+    margin-bottom: 10px; /* Thêm khoảng cách giữa logo và thông tin */
+  }
+
+  .footer-logo {
+    width: 70px; /* Giảm kích thước logo cho thiết bị di động */
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column; /* Sắp xếp thông tin liên hệ theo chiều dọc */
+    align-items: center;
+  }
+
+  .contact-info ul {
+    list-style-type: none; /* Loại bỏ dấu đầu dòng */
+    padding: 0;
+    margin: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .contact-info li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .contact-info img {
+    margin-right: 5px; /* Khoảng cách giữa icon và text */
+  }
+
+  .map-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Căn giữa bản đồ */
+    margin-top: 20px;
+  }
+
+  .map-container iframe {
+    width: 100%; /* Để bản đồ chiếm toàn bộ chiều rộng */
+    max-width: 300px; /* Giới hạn chiều rộng tối đa */
+    height: 200px; /* Chiều cao của bản đồ */
+    border: none;
+  }
+
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    color: #00bfff;
+    text-decoration: underline;
+  }
+}
+
+/* Căn giữa phần hiển thị điểm số và kết quả */
+.result-summary {
+  text-align: center; /* Căn giữa nội dung */
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.result-summary h3 {
+  font-size: 1.5em;
+}
+
+/* Màu cho kết quả đạt (xanh) và trượt (đỏ) */
+.result-summary .pass {
+  color: #28a745; /* Màu xanh cho Đạt */
+  font-weight: bold;
+}
+
+.result-summary .fail {
+  color: #dc3545; /* Màu đỏ cho Trượt */
+  font-weight: bold;
 }
