@@ -261,8 +261,15 @@ function startTimer() {
   const timer = setInterval(() => {
     if (timeRemaining <= 0) {
       clearInterval(timer);
-      alert("Hết giờ! Nộp bài ngay!");
-      submitQuiz();
+
+      // Hiển thị một thông báo dạng popup thay vì dùng alert
+      document.getElementById("timeout-popup").style.display = "block"; // Hiển thị popup
+
+      // Gọi hàm nộp bài sau khi hiện popup
+      setTimeout(() => {
+        submitQuiz(); // Tự động nộp bài sau 3 giây
+      }, 3000);
+
       return;
     }
 

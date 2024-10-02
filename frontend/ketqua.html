@@ -92,11 +92,6 @@
         <div class="submit-button">
           <button id="retry-quiz">LÀM LẠI</button>
         </div>
-        <!-- Thêm phần hiển thị số điểm và kết quả đạt/trượt -->
-        <div class="result-summary">
-          <h3>ĐIỂM CỦA BẠN: <span id="score"></span></h3>
-          <h3>KẾT QUẢ: <span id="result-status"></span></h3>
-        </div>
       </section>
     </main>
 
@@ -305,20 +300,6 @@
       window.onload = () => {
         displayQuestion(currentQuestionIndex);
         highlightSelectedQuestion(currentQuestionIndex); // Highlight câu đầu tiên
-
-        // Hiển thị số điểm
-        document.getElementById(
-          "score"
-        ).textContent = `${score}/${totalQuestions}`;
-
-        // Kiểm tra kết quả đạt/trượt và cập nhật màu sắc
-        const resultStatus = document.getElementById("result-status");
-        resultStatus.textContent = testResult;
-        if (testResult === "Đạt") {
-          resultStatus.classList.add("pass"); // Thêm lớp pass cho kết quả Đạt
-        } else {
-          resultStatus.classList.add("fail"); // Thêm lớp fail cho kết quả Trượt
-        }
       };
     </script>
   </body>

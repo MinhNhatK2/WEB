@@ -433,6 +433,14 @@
   margin-bottom: 20px;
 }
 
+/* Điều chỉnh kích thước hình ảnh trong question-content */
+.question-content img {
+  max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng phần tử chứa */
+  height: auto; /* Giữ tỷ lệ hình ảnh */
+  display: block; /* Loại bỏ khoảng cách thừa phía dưới hình ảnh */
+  margin: 0 auto; /* Canh giữa hình ảnh trong question-content */
+}
+
 /* Điều chỉnh nút "Câu trước", "Câu sau" và căn chỉnh */
 .nav-buttons {
   display: flex;
@@ -571,7 +579,7 @@ button[style*="red"] {
   }
 
   .nav-buttons button {
-    width: 100%; /* Nút chiếm toàn bộ chiều rộng */
+    width: 90%; /* Nút chiếm toàn bộ chiều rộng */
     margin-bottom: 10px; /* Thêm khoảng cách giữa các nút */
   }
 
@@ -580,7 +588,7 @@ button[style*="red"] {
   }
 
   .submit-button button {
-    width: 100%; /* Nút nộp bài chiếm toàn bộ chiều rộng */
+    width: 50%; /* Nút nộp bài chiếm toàn bộ chiều rộng */
   }
   .question-content h3 {
     font-size: 1.1rem;
@@ -666,6 +674,36 @@ button:focus {
 #confirm-cancel:hover {
   background-color: #c82333; /* Màu đỏ tối hơn khi hover */
   font-weight: bold;
+}
+
+/* Popup hết giờ */
+#timeout-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#timeout-popup h2 {
+  color: #ff0000; /* Màu đỏ cho tiêu đề */
+  margin-bottom: 10px;
+}
+
+#timeout-popup img {
+  width: 100px; /* Kích thước hình ảnh đồng hồ */
+  height: 100px;
+  margin-top: 10px;
+}
+
+#timeout-popup p {
+  font-size: 1.2rem;
+  color: #333;
 }
 
 /* Chân trang */
@@ -816,28 +854,6 @@ button:focus {
     color: #00bfff;
     text-decoration: underline;
   }
-}
-
-/* Căn giữa phần hiển thị điểm số và kết quả */
-.result-summary {
-  text-align: center; /* Căn giữa nội dung */
-  margin-top: 20px;
-  padding: 10px;
-}
-
-.result-summary h3 {
-  font-size: 1.5em;
-}
-
-/* Màu cho kết quả đạt (xanh) và trượt (đỏ) */
-.result-summary .pass {
-  color: #28a745; /* Màu xanh cho Đạt */
-  font-weight: bold;
-}
-
-.result-summary .fail {
-  color: #dc3545; /* Màu đỏ cho Trượt */
-  font-weight: bold;
 }
 
 /* Phần Copyright và Design by */
