@@ -3,29 +3,43 @@ let questions = [];
 let userAnswers = {}; // Lưu trữ lựa chọn đáp án của người dùng
 let type0QuestionIndices = []; // Mảng để lưu index của câu hỏi type 0
 
+// Lưu loại bài thi vào sessionStorage khi bắt đầu thi
+sessionStorage.setItem("currentExam", "A1");
+const currentExam = sessionStorage.getItem("currentExam");
+
 // Hàm gọi API để lấy danh sách câu hỏi từ server
 function loadQuestions() {
-  fetch("https://query-api.vercel.app/A1_API")
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-      return response.json();
-    })
-    .then((data) => {
-      questions = data;
+  // Kiểm tra xem đã có câu hỏi được lưu trong sessionStorage chưa
+  const savedQuestions = sessionStorage.getItem(`questions_${currentExam}`);
 
-      // Lọc các câu hỏi type 0 và lưu index vào mảng
-      questions.forEach((question, index) => {
-        if (question.type === 0) {
-          type0QuestionIndices.push(index);
+  if (savedQuestions) {
+    // Nếu đã có, sử dụng câu hỏi từ sessionStorage
+    questions = JSON.parse(savedQuestions);
+    displayQuestion(currentQuestionIndex);
+    populateQuestionList();
+  } else {
+    // Nếu chưa có, gọi API để lấy câu hỏi mới
+    fetch(`https://query-api.vercel.app/${currentExam}_API`)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
         }
-      });
+        return response.json();
+      })
+      .then((data) => {
+        questions = data;
 
-      displayQuestion(currentQuestionIndex);
-      populateQuestionList();
-    })
-    .catch((error) => console.error("Lỗi khi lấy dữ liệu:", error));
+        // Lưu câu hỏi vào sessionStorage
+        sessionStorage.setItem(
+          `questions_${currentExam}`,
+          JSON.stringify(questions)
+        );
+
+        displayQuestion(currentQuestionIndex);
+        populateQuestionList();
+      })
+      .catch((error) => console.error("Lỗi khi lấy dữ liệu:", error));
+  }
 }
 
 // Hiển thị câu hỏi và đáp án
@@ -158,7 +172,8 @@ function submitQuiz() {
   closeConfirmPopup(); // Tắt popup xác nhận
 
   saveUserAnswer(currentQuestionIndex); // Lưu đáp án cuối cùng
-
+  // Xóa dữ liệu câu hỏi trong sessionStorage sau khi nộp bài
+  sessionStorage.removeItem(`questions_${currentExam}`);
   const { score, wrongType0 } = gradeQuiz(); // Chấm điểm
   const testResult = evaluateTestResult(); // Kiểm tra kết quả Đạt/Trượt
 
@@ -272,11 +287,8 @@ function evaluateTestResult() {
 }
 
 window.onload = () => {
-  // Lưu loại bài thi vào sessionStorage khi bắt đầu thi
-  sessionStorage.setItem("currentExam", "A1");
   loadQuestions(); // Tải câu hỏi từ API
   startTimer(); // Bắt đầu đếm ngược thời gian
-
   // Sau khi tải câu hỏi, kiểm tra và đánh dấu các câu hỏi đã trả lời
   populateQuestionList();
 };
