@@ -677,7 +677,7 @@ button:focus {
   padding: 20px 0;
   text-align: left;
   position: relative; /* Đảm bảo footer không bị đè lên */
-  width: 97%; /* Đảm bảo footer chiếm toàn bộ chiều rộng */
+  width: 100%; /* Đảm bảo footer chiếm toàn bộ chiều rộng */
 }
 
 .footer-content {
@@ -749,7 +749,7 @@ button:focus {
     display: flex;
     flex-direction: column; /* Sắp xếp các phần tử trong footer theo chiều dọc */
     align-items: center;
-    width: 100%;
+    width: 97%;
   }
 
   .footer-content {
@@ -838,4 +838,53 @@ button:focus {
 .result-summary .fail {
   color: #dc3545; /* Màu đỏ cho Trượt */
   font-weight: bold;
+}
+
+/* Phần Copyright và Design by */
+.copyright {
+  display: flex;
+  justify-content: space-between; /* Căn đều giữa trái và phải */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  padding: 2px 0; /* Khoảng cách trên dưới */
+  background-color: #034ea2; /* Màu nền */
+  color: white; /* Màu chữ */
+  font-size: 0.9em; /* Kích thước chữ nhỏ */
+}
+
+.copyright .left {
+  margin-left: 20px; /* Thêm khoảng cách cho phần bên trái */
+}
+
+.copyright .right {
+  margin-right: 20px; /* Thêm khoảng cách cho phần bên phải */
+}
+
+.copyright p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.copyright a {
+  color: #ffffff; /* Màu chữ của liên kết */
+  font-weight: bold;
+  text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+}
+
+.copyright a:hover {
+  color: red; /* Thay đổi màu khi hover */
+}
+
+/* Đối với màn hình nhỏ */
+@media (max-width: 768px) {
+  .copyright {
+    width: 99.7%;
+    flex-direction: column; /* Căn dọc khi ở màn hình nhỏ */
+    text-align: center; /* Căn giữa nội dung */
+  }
+
+  .copyright .left,
+  .copyright .right {
+    margin: 5px 0; /* Khoảng cách trên dưới khi căn dọc */
+  }
 }
