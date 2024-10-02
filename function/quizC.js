@@ -207,6 +207,7 @@ function goToResultPage() {
 
 // Gắn sự kiện cho nút "Câu trước"
 document.getElementById("pre-button").onclick = () => {
+  saveUserAnswer(currentQuestionIndex);
   if (currentQuestionIndex > 0) {
     currentQuestionIndex--;
     displayQuestion(currentQuestionIndex);
@@ -215,6 +216,7 @@ document.getElementById("pre-button").onclick = () => {
 
 // Gắn sự kiện cho nút "Câu sau"
 document.getElementById("next-button").onclick = () => {
+  saveUserAnswer(currentQuestionIndex);
   if (currentQuestionIndex < questions.length - 1) {
     currentQuestionIndex++;
     displayQuestion(currentQuestionIndex);
