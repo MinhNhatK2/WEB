@@ -2,6 +2,7 @@ let currentQuestionIndex = 0;
 let questions = [];
 let userAnswers = {}; // Lưu trữ lựa chọn đáp án của người dùng
 let type0QuestionIndices = []; // Mảng để lưu index của câu hỏi type 0
+let timer; // Biến lưu trữ timer
 
 // Lưu loại bài thi vào sessionStorage khi bắt đầu thi
 sessionStorage.setItem("currentExam", "A1");
@@ -11,10 +12,14 @@ const currentExam = sessionStorage.getItem("currentExam");
 function loadQuestions() {
   // Kiểm tra xem đã có câu hỏi được lưu trong sessionStorage chưa
   const savedQuestions = sessionStorage.getItem(`questions_${currentExam}`);
+  const savedUserAnswers = sessionStorage.getItem(`userAnswers_${currentExam}`);
 
   if (savedQuestions) {
     // Nếu đã có, sử dụng câu hỏi từ sessionStorage
     questions = JSON.parse(savedQuestions);
+    if (savedUserAnswers) {
+      userAnswers = JSON.parse(savedUserAnswers);
+    }
     displayQuestion(currentQuestionIndex);
     populateQuestionList();
   } else {
@@ -33,6 +38,10 @@ function loadQuestions() {
         sessionStorage.setItem(
           `questions_${currentExam}`,
           JSON.stringify(questions)
+        );
+        sessionStorage.setItem(
+          `userAnswers_${currentExam}`,
+          JSON.stringify(userAnswers)
         );
 
         displayQuestion(currentQuestionIndex);
@@ -82,7 +91,6 @@ function displayQuestion(index) {
   });
 
   highlightSelectedQuestion(index); // Highlight câu hỏi hiện tại
-  saveUserAnswer(index); // Lưu đáp án khi hiển thị câu hỏi và đánh dấu câu hỏi đã làm
 }
 
 // Lưu đáp án của người dùng
@@ -92,8 +100,18 @@ function saveUserAnswer(index) {
 
   if (selectedOption) {
     userAnswers[question.id] = parseInt(selectedOption.value);
-    markQuestionAsAnswered(index); // Đánh dấu câu hỏi đã làm
+  } else {
+    delete userAnswers[question.id]; // Xóa nếu không có lựa chọn
   }
+
+  // Lưu userAnswers vào sessionStorage
+  sessionStorage.setItem(
+    `userAnswers_${currentExam}`,
+    JSON.stringify(userAnswers)
+  );
+
+  // Đánh dấu câu hỏi đã trả lời và đổi màu ngay lập tức
+  markQuestionAsAnswered(index);
 }
 
 // Đánh dấu câu hỏi đã làm và đổi màu
@@ -174,6 +192,7 @@ function submitQuiz() {
   saveUserAnswer(currentQuestionIndex); // Lưu đáp án cuối cùng
   // Xóa dữ liệu câu hỏi trong sessionStorage sau khi nộp bài
   sessionStorage.removeItem(`questions_${currentExam}`);
+
   const { score, wrongType0 } = gradeQuiz(); // Chấm điểm
   const testResult = evaluateTestResult(); // Kiểm tra kết quả Đạt/Trượt
 
@@ -192,10 +211,12 @@ function submitQuiz() {
     )
   );
   sessionStorage.setItem("questionsData", JSON.stringify(questions)); // Lưu danh sách câu hỏi
+
   // Hiển thị hộp thoại thông báo kết quả
   document.getElementById(
     "result-message"
   ).textContent = `Kết quả của bạn: ${score}/${questions.length} - ${testResult}`;
+
   // Thay đổi hình ảnh dựa trên kết quả
   const resultImage = document.getElementById("result-image");
   if (testResult === "Đạt") {
@@ -204,15 +225,15 @@ function submitQuiz() {
     resultImage.src =
       "https://freepngimg.com/thumb/red_cross_mark/5-2-red-cross-mark-download-png.png"; // Đường dẫn đến hình ảnh dấu "X" đỏ
   }
+
   resultImage.style.display = "block"; // Hiển thị hình ảnh
 
   // Thêm lớp show để kích hoạt hiệu ứng
   setTimeout(() => {
     resultImage.classList.add("show");
   }, 10); // Thêm độ trễ nhỏ để đảm bảo hiệu ứng chuyển đổi hoạt động
-  document.getElementById("result-popup").style.display = "flex"; // Hiển thị hộp thoại
 
-  // Ngăn chặn chuyển hướng ngay lập tức
+  document.getElementById("result-popup").style.display = "flex"; // Hiển thị hộp thoại
 }
 
 // Chuyển hướng sang trang kết quả
@@ -258,18 +279,10 @@ function startTimer() {
   const countdownElement = document.getElementById("countdown");
   let timeRemaining = 19 * 60; // 19 phút
 
-  const timer = setInterval(() => {
+  timer = setInterval(() => {
     if (timeRemaining <= 0) {
       clearInterval(timer);
-
-      // Hiển thị một thông báo dạng popup thay vì dùng alert
-      document.getElementById("timeout-popup").style.display = "block"; // Hiển thị popup
-
-      // Gọi hàm nộp bài sau khi hiện popup
-      setTimeout(() => {
-        submitQuiz(); // Tự động nộp bài sau 3 giây
-      }, 3000);
-
+      submitQuiz(); // Tự động nộp bài khi hết giờ
       return;
     }
 
@@ -282,6 +295,7 @@ function startTimer() {
   }, 1000);
 }
 
+// Đánh giá kết quả bài thi
 function evaluateTestResult() {
   const { score, wrongType0 } = gradeQuiz(); // Lấy điểm và trạng thái câu hỏi type 0
   const totalQuestions = questions.length;
@@ -294,7 +308,7 @@ function evaluateTestResult() {
 }
 
 window.onload = () => {
-  loadQuestions(); // Tải câu hỏi từ API
+  loadQuestions(); // Tải câu hỏi từ API hoặc sessionStorage
   startTimer(); // Bắt đầu đếm ngược thời gian
   // Sau khi tải câu hỏi, kiểm tra và đánh dấu các câu hỏi đã trả lời
   populateQuestionList();

@@ -178,8 +178,17 @@
 
       // Gắn sự kiện cho nút "Làm lại bài thi"
       document.getElementById("retry-quiz").onclick = () => {
+        // Xóa tất cả dữ liệu liên quan đến bài thi trước đó
+        sessionStorage.removeItem(`questions_${currentExam}`);
+        sessionStorage.removeItem(`userAnswers_${currentExam}`);
+        sessionStorage.removeItem("quizScore");
+        sessionStorage.removeItem("quizTotalQuestions");
+        sessionStorage.removeItem("quizResult");
+        sessionStorage.removeItem("correctAnswers");
+        sessionStorage.removeItem("questionsData");
+
+        // Chuyển hướng về trang bài thi hiện tại
         if (currentExam) {
-          // Chuyển hướng về trang bài thi hiện tại
           window.location.href = `${currentExam}.html`; // Ví dụ: A1.html, B1.html, B2.html, C.html
         } else {
           // Nếu không có thông tin, có thể quay về trang chủ hoặc thông báo lỗi
