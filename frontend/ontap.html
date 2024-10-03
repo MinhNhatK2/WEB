@@ -2,6 +2,19 @@
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="google-site-verification"
+      content="gy3dSKVBTpsrb3-JBevb8QRQx5gOCpJeRiFh4Y1HvuM"
+    />
+    <meta
+      name="description"
+      content="Trang web chính thức của Trung tâm GDNN - Lái xe An Cư, nơi cung cấp các bài thi lý thuyết trực tuyến."
+    />
+    <meta
+      name="keywords"
+      content="thi trắc nghiệm, ôn tập, thi thử, luyện đề, lái xe, Trung tâm GDNN An Cư, lý thuyết A1, A2, B1, B2, C thi lái xe trực tuyến"
+    />
+    <meta name="robots" content="index, follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
       body {
@@ -13,8 +26,8 @@
       href="https://laixeancu.vn/wp-content/uploads/2021/07/logo-120.png"
       type="image/png"
     />
-    <title>Lý thuyết B1 | Trung tâm GDNN - Lái xe An Cư</title>
-    <link rel="stylesheet" href="style_quizz.css" />
+    <title>Trắc nghiệm | Trung tâm GDNN - Lái xe An Cư</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="banner">
@@ -63,43 +76,96 @@
     <nav class="navbar">
       <ul>
         <li><a href="../index.html">THI TRẮC NGHIỆM</a></li>
-        <li><a href="./ontap.html">ÔN TẬP</a></li>
-        <li><a href="https://laixeancu.vn/">LIÊN HỆ</a></li>
+        <li><a href="ontap.html">ÔN TẬP</a></li>
+        <li><a href="https://laixeancu.vn/" target="_blank">LIÊN HỆ</a></li>
       </ul>
     </nav>
-    <!-- Timer countdown -->
-    <div class="timer">
-      Thời gian còn lại: <span id="countdown">19:00</span>
-    </div>
-    <main class="quiz-container">
-      <!-- Cột bên trái chứa danh sách câu hỏi -->
-      <aside class="question-list">
-        <h2>Danh sách câu hỏi</h2>
-        <ul id="question-list">
-          <!-- Danh sách câu hỏi sẽ được thêm động -->
-        </ul>
-      </aside>
 
-      <!-- Phần bên phải hiển thị chi tiết câu hỏi và đáp án -->
-      <section class="quiz-content">
-        <!-- Câu hỏi và đáp án -->
-        <div class="question-content">
-          <h3 id="question-text">Câu hỏi sẽ hiển thị tại đây</h3>
-          <img id="question-image" style="display: none" alt="Question Image" />
-          <ul id="answer-list"></ul>
-        </div>
-        <!-- Nút chuyển câu -->
-        <div class="nav-buttons">
-          <button type="button" class="pre-button" id="pre-button">
-            Câu trước
-          </button>
-          <button type="button" class="next-button" id="next-button">
-            Câu sau
-          </button>
-        </div>
-        <!-- Nút nộp bài -->
-        <div class="submit-button">
-          <button type="button" id="submit-quiz">Nộp bài</button>
+    <main>
+      <section id="tnlx" class="quiz-section">
+        <h2>Tài liệu ôn tập</h2>
+        <div class="pdf-list">
+          <article class="pdf-item">
+            <h3>1. Câu 1 - 16. Các khái niệm về giao thông đường bộ</h3>
+            <a
+              href="https://drive.google.com/file/d/1WBclbHrbCdRt0vaKeb6xPbl6duSgxDx5/view?usp=sharing"
+              target="_blank"
+              class="btn"
+              >Xem Tài Liệu</a
+            >
+          </article>
+          <article class="pdf-item">
+            <h3>2. Câu 17 - 123. Quy tắc giao thông đường bộ</h3>
+            <a
+              href="https://drive.google.com/file/d/1U5WMilvh_KnDih0O77TsSg7bQgNp8aPY/view?usp=drive_link"
+              target="_blank"
+              class="btn"
+              >Xem Tài Liệu</a
+            >
+          </article>
+          <article class="pdf-item">
+            <h3>3. Câu 124 - 166. Quy định về tốc độ và khoảng cách</h3>
+            <a
+              href="https://drive.google.com/file/d/1Ivsp3XeVPJReMnppo3rREVkfH0H0XWcw/view?usp=drive_link"
+              target="_blank"
+              class="btn"
+              >Xem Tài Liệu</a
+            >
+          </article>
+          <article class="pdf-item">
+            <h3>Câu 167 - 192. Nghiệp vụ vận tải.</h3>
+            <a
+              href="https://drive.google.com/file/d/1AhlnZxUoyoWZq_4Cw9szNxMIYDB8VtIB/view?usp=drive_link"
+              target="_blank"
+              class="btn"
+              >Xem Tài Liệu</a
+            >
+          </article>
+          <article class="pdf-item">
+            <h3>4. Câu 193 - 213. Đạo đức người lái xe.</h3>
+            <a
+              href="https://drive.google.com/file/d/1TkYT2jTdD2Ker5HbkyOgZ44Q-AaAsI0w/view?usp=drive_link"
+              target="_blank"
+              class="btn"
+              >Xem Tài Liệu</a
+            >
+          </article>
+          <article class="pdf-item">
+            <h3>5. Câu 214 - 269. Kỹ thuật lái xe.</h3>
+            <a
+              href="https://drive.google.com/file/d/1H15IivR6UxuMFotR4Dhues7vXs-MFSVv/view?usp=drive_link"
+              target="_blank"
+              class="btn"
+              >Xem Tài Liệu</a
+            >
+          </article>
+          <article class="pdf-item">
+            <h3>6. Câu 270 - 304. Cấu tạo và sửa chữa xe.</h3>
+            <a
+              href="https://drive.google.com/file/d/1v7KrtB6JNSeyeLHHDxwZ_1f_zDZo6HEq/view?usp=drive_link"
+              target="_blank"
+              class="btn"
+              >Xem Tài Liệu</a
+            >
+          </article>
+          <article class="pdf-item">
+            <h3>7. Câu 305 - 486. Biển báo hiệu đường bộ.</h3>
+            <a
+              href="https://drive.google.com/file/d/1TrdUuzfKWkpaiGjj4gO8iQyPQCmuQ121/view?usp=drive_link"
+              target="_blank"
+              class="btn"
+              >Xem Tài Liệu</a
+            >
+          </article>
+          <article class="pdf-item">
+            <h3>8. Câu 487 - 600. Sa hình và xử lý tình huống giao thông.</h3>
+            <a
+              href="https://drive.google.com/file/d/1iHYJqwUYFw_tfAUvubixD0V0kTgbL1j6/view?usp=drive_link"
+              target="_blank"
+              class="btn"
+              >Xem Tài Liệu</a
+            >
+          </article>
         </div>
       </section>
     </main>
@@ -156,33 +222,6 @@
         </div>
       </div>
     </footer>
-    <!-- Popup Kết quả -->
-    <div id="result-popup" class="popup">
-      <div class="popup-content">
-        <h2>Kết quả của bạn</h2>
-        <div class="result-image-container">
-          <img
-            id="result-image"
-            src=""
-            alt=""
-            style="display: none; width: 50px; height: 50px"
-          />
-        </div>
-        <p id="result-message"></p>
-        <button onclick="goToResultPage()">XEM KẾT QUẢ</button>
-      </div>
-    </div>
-    <!-- Popup xác nhận nộp bài -->
-    <div id="confirm-popup" class="popup">
-      <div class="popup-content">
-        <h2>Xác nhận nộp bài</h2>
-        <p>Bạn có chắc chắn muốn nộp bài không?</p>
-        <button id="confirm-ok" onclick="submitQuiz()">OK</button>
-        <button id="confirm-cancel" onclick="closeConfirmPopup()">
-          Cancel
-        </button>
-      </div>
-    </div>
     <!-- Thêm phần Copyright và Design by -->
     <div class="copyright">
       <p>&copy; 2024 Trung tâm GDNN - Lái Xe An Cư. All rights reserved.</p>
@@ -191,6 +230,5 @@
         <a href="https://github.com/MinhNhatK2" target="_blank">Minh Nhật K2</a>
       </p>
     </div>
-    <script src="../function/quizB1.js"></script>
   </body>
 </html>
