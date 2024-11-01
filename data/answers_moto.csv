@@ -114,7 +114,7 @@ id_que,content,is_correct
 35,2- 18 tuổi.,true
 35,3- 17 tuổi.,false
 36,1- Xe mô tô 2 bánh có dung tích xi-lanh từ 50cm3 trở lên.,false
-36,2- Xe gắn máy có dung tích xi-lanh dưới 50 cm3.,true
+36,2- Xe gắn máy có dung tích xi-lanh dưới 50cm3.,true
 36,3- Xe ô tô tải dưới 3.500 kg; xe chở người đến 9 chỗ ngồi.,false
 36,4- Tất cả các ý nêu trên.,false
 37,1- Xe mô tô có dung tích xi-lanh 125 cm3.,false

@@ -1,5 +1,5 @@
 id,type,content,URL
-1,1,Phân của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?,
+1,1,Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?,
 2,1,“Làn đường” là gì?,
 3,1,Khái niệm “khổ giới hạn của đường bộ” được hiểu như thế nào là đúng?,
 4,1,"Trong các khái niệm dưới đây, “dải phân cách” được hiểu như thế nào là đúng?",
@@ -108,7 +108,7 @@ id,type,content,URL
 107,2,Xe kéo rơ moóc khi tham gia giao thông phải tuân thủ điều kiện nào ghi ở dưới đây?,
 108,2,Xe ô tô kéo xe khác thế nào là đúng quy tắc giao thông?,
 109,0," Người ngồi trên xe mô tô 2 bánh, xe gắn máy phải đội mũ bảo hiểm có cài quai đúng quy cách khi nào?",
-110,2,"Người điều khiển xe mô tô hai bánh, xe gắn máy được phép chở tôi đa 2 người trong những trường hợp nào?",
+110,2,"Người điều khiển xe mô tô hai bánh, xe gắn máy được phép chở tối đa 2 người trong những trường hợp nào?",
 111,2,"Người điều khiển xe mô tô hai bánh, xe gắn máy không được thực hiện những hành vi nào dưới đây?",
 112,0," Người điều khiển xe mô tô hai bánh, xe gắn máy có được đi xe dàn hàng ngang; đi xe vào phần đường dành cho người đi bộ và phương tiện khác; sử dụng ô, điện thoại di động, thiết bị âm thanh (trừ thiết bị trợ thính) hay không?",
 113,2,Người lái xe phải giảm tốc độ thấp hơn tốc độ tối đa cho phép (có thể dừng lại một cách an toàn) trong trường hợp nào dưới đây?,
@@ -540,7 +540,7 @@ id,type,content,URL
 539,9,"Theo hướng mũi tên, những hướng nào xe mô tô được phép đi?",https://res.cloudinary.com/dm2nj7sub/image/upload/v1727680745/img_oto/539.webp
 540,9,"Trong trường hợp này, thứ tự xe đi như thế nào là đúng quy tắc giao thông?",https://res.cloudinary.com/dm2nj7sub/image/upload/v1727680745/img_oto/540.webp
 541,9,Xe nào phải nhường đường là đúng quy tắc giao thông?,https://res.cloudinary.com/dm2nj7sub/image/upload/v1727680745/img_oto/541.webp
-542,9,Xe con quay đầu đi ngược lại như hình vẽ dưới có vi phạm quy tặc giao thông không?,https://res.cloudinary.com/dm2nj7sub/image/upload/v1727680745/img_oto/542.webp
+542,9,Xe con quay đầu đi ngược lại như hình vẽ dưới có vi phạm quy tắc giao thông không?,https://res.cloudinary.com/dm2nj7sub/image/upload/v1727680745/img_oto/542.webp
 543,9,"Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",https://res.cloudinary.com/dm2nj7sub/image/upload/v1727680745/img_oto/543.webp
 544,9,"Đề điều khiển cho xe đi thẳng, người lái xe phải làm gì là đúng quy tắc giao thông?",https://res.cloudinary.com/dm2nj7sub/image/upload/v1727680745/img_oto/544.webp
 545,9,Người lái xe điều khiển xe chạy theo hướng nào là đúng quy tắc giao thông?,https://res.cloudinary.com/dm2nj7sub/image/upload/v1727680745/img_oto/545.webp

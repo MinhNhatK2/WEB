@@ -90,7 +90,7 @@ id_que,content,is_correct
 29,1- Đi ở làn bên phải trong cùng.,true
 29,2- Đi ở làn phía bên trái.,false
 29,3- Đi ở làn giữa.,false
-29,4- Đi ở bất cứ làn nào nhưng phải bám đèn cảnh báo nguy hiểm để báo hiệu cho các phương tiện khác.,false
+29,4- Đi ở bất cứ làn nào nhưng phải bấm đèn cảnh báo nguy hiểm để báo hiệu cho các phương tiện khác.,false
 30,1- Không bị nghiêm cấm.,false
 30,2- Không bị nghiêm cấm khi rất vội.,false
 30,3- Bị nghiêm cấm.,true
@@ -130,7 +130,7 @@ id_que,content,is_correct
 40,3- Cả ý 1 và ý 2.,false
 41,1- Đi tiếp đến điểm giao cắt gần nhất hoặc nơi có biển báo cho phép quay đầu xe.,true
 41,2- Bấm đèn khẩn cấp và quay đầu xe từ từ bảo đảm an toàn.,false
-41,3- Bám còi liên tục khi quay đầu để cảnh báo các xe khác.,false
+41,3- Bấm còi liên tục khi quay đầu để cảnh báo các xe khác.,false
 41,4- Nhờ một người ra hiệu giao thông trên đường chậm lại trước khi quay đâu.,false
 42,1- Ở khu vực cho phép đỗ xe.,false
 42,2- Ở khu vực cấm dừng và trên phần đường dành cho người đi bộ qua đường.,false
@@ -447,10 +447,10 @@ id_que,content,is_correct
 136,"3- Ô tô kéo rơ moóc, ô tô kéo xe khác, ô tô trộn vữa, ô tô trộn bê tông, ô tô xi téc.",true
 137,1- 35m.,false
 137,2- 55m.,true
-137,3- 70 m.,false
-138,1- 35 m.,false
+137,3- 70m.,false
+138,1- 35m.,false
 138,2- 55m.,false
-138,3- 70 m.,true
+138,3- 70m.,true
 139,1- 55m.,false
 139,2- 70m.,false
 139,3- 100 m.,true
@@ -895,8 +895,8 @@ id_que,content,is_correct
 284,1- 5 năm.,false
 284,2- 20 năm.,true
 284,3- 25 năm.,false
-285,"1- Khi làm việc, nhiệt năng được biển đổi thành cơ năng làm trục khuỷu động cơ quay, truyền lực đến các bánh xe chủ động tạo ra chuyển động tịnh tiến cho xe ô tô.",true
-285,"2- Khi làm việc, cơ năng được biển đổi thành nhiệt năng và truyền đến các bánh xe chủ động tạo ra chuyển động tịnh tiến cho xe ô tô.",false
+285,"1- Khi làm việc, nhiệt năng được biến đổi thành cơ năng làm trục khuỷu động cơ quay, truyền lực đến các bánh xe chủ động tạo ra chuyển động tịnh tiến cho xe ô tô.",true
+285,"2- Khi làm việc, cơ năng được biến đổi thành nhiệt năng và truyền đến các bánh xe chủ động tạo ra chuyển động tịnh tiến cho xe ô tô.",false
 285,3- Cả ý 1 và ý 2.,false
 286,1- Dùng để truyền mô men quay từ động cơ tới các bánh xe chủ động của xe ô tô.,true
 286,2- Dùng để thay đổi hướng chuyển động hoặc giữ cho xe ô tô chuyển động ổn định theo hướng xác định.,false
@@ -1115,7 +1115,7 @@ id_que,content,is_correct
 350,3- Hướng trái và phải không cấm xe cơ giới.,false
 351,1- Báo khoảng cách đến nơi cấm bóp còi.,false
 351,2- Chiều dài đoạn đường cấm bóp còi từ nơi đặt biển.,true
-351,3- Báo cấm dùng còi có độ vang xa 500 m.,false
+351,3- Báo cấm dùng còi có độ vang xa 500m.,false
 352,1- Được phép.,false
 352,2- Không được phép.,true
 353,1- Biển 1 và 2.,false
