@@ -165,6 +165,7 @@
 .contact-item span {
   font-size: 15px; /* Kích thước chữ cho số điện thoại */
   color: #d61c16; /* Màu trắng cho số điện thoại */
+  width: 100pt;
 }
 
 .contact-face {

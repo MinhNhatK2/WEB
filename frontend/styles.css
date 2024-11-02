@@ -148,32 +148,29 @@
 .contact-info {
   z-index: 2;
   display: flex; /* Căn các icon và text theo chiều ngang */
-  align-items: right;
+  align-items: center;
   gap: 10px; /* Khoảng cách giữa các mục liên hệ */
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  margin-bottom: 5px;
 }
 
 .contact-item img.icon {
   width: 25px; /* Kích thước icon */
   height: 25px;
-  margin-bottom: 5px;
 }
 
 .contact-item span {
   font-size: 15px; /* Kích thước chữ cho số điện thoại */
   color: #d61c16; /* Màu trắng cho số điện thoại */
-  margin-bottom: 5px;
+  width: 100pt;
 }
 
 .contact-face {
   display: flex;
   align-items: center;
-  margin-top: 5px;
 }
 
 .contact-face a {
@@ -183,13 +180,11 @@
 .contact-face span {
   font-size: 15px;
   color: #d61c16;
-  margin-top: 5px;
 }
 
 .contact-face a img.icon {
   width: 25px; /* Kích thước icon */
   height: 25px;
-  margin-top: 5px;
 }
 
 .contact-info img.icon:hover {
