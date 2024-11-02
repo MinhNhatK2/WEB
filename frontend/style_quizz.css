@@ -272,25 +272,23 @@
   .contact-item {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
   }
 
   .contact-item img.icon {
     width: 15px; /* Kích thước icon */
     height: 15px;
-    margin-bottom: 5px;
   }
 
   .contact-item span {
     font-size: 10px; /* Kích thước chữ cho số điện thoại */
     color: #d61c16; /* Màu trắng cho số điện thoại */
-    margin-bottom: 5px;
+    width: 55pt;
   }
 
   .contact-face {
     display: flex;
     align-items: flex-end;
-    margin-top: 5px;
   }
 
   .contact-face a {
@@ -298,15 +296,14 @@
   }
 
   .contact-face span {
+    display: none;
     font-size: 10px;
     color: #d61c16;
-    margin-top: 5px;
   }
 
   .contact-face a img.icon {
     width: 15px; /* Kích thước icon */
     height: 15px;
-    margin-top: 5px;
   }
 
   .contact-info img.icon:hover {

@@ -272,6 +272,7 @@
   .contact-item {
     display: flex;
     align-items: flex-end;
+    margin-bottom: 3px;
   }
 
   .contact-item img.icon {
@@ -282,6 +283,7 @@
   .contact-item span {
     font-size: 10px; /* Kích thước chữ cho số điện thoại */
     color: #d61c16; /* Màu trắng cho số điện thoại */
+    width: 55pt;
   }
 
   .contact-face {
@@ -294,6 +296,7 @@
   }
 
   .contact-face span {
+    display: none;
     font-size: 10px;
     color: #d61c16;
   }
